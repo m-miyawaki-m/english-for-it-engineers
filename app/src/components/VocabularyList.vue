@@ -12,9 +12,7 @@ const props = defineProps({
 const filteredItems = computed(() => {
   return props.items.filter(item => {
     const matchesSearch = !props.searchQuery ||
-      item.term.toLowerCase().includes(props.searchQuery.toLowerCase()) ||
-      item.meaning.includes(props.searchQuery) ||
-      item.example.toLowerCase().includes(props.searchQuery.toLowerCase())
+      item.term.toLowerCase().includes(props.searchQuery.toLowerCase())
 
     const matchesCategory = props.selectedCategory === 'all' ||
       item.category === props.selectedCategory

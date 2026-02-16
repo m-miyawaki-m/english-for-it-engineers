@@ -12,18 +12,27 @@
 
 ## リファレンス蓄積（必須）
 
-解説後、学んだ語彙・表現を `docs/references/` に蓄積すること。
+解説後、学んだ語彙・表現を `docs/references/vocabulary.json` に蓄積すること。
 
 手順:
-1. 対象テキストのカテゴリを判定（github / official-docs / claude-llm / technical-docs）
-2. 対応するファイル `docs/references/<category>-patterns.md` を確認
-   - 存在すれば読み込んで追記
-   - 存在しなければ新規作成
-3. 以下の形式で語彙・表現を追加（既出のものはスキップ）:
+1. `docs/references/vocabulary.json` を読み込む
+2. 対象テキストのカテゴリを判定（official-docs / github / claude-llm / technical-docs）
+3. 新しい語彙を `vocabulary` 配列に、表現パターンを `patterns` 配列に追加
+4. 重複チェック: 既存の `term` と同じものはスキップ
+5. id は `<termのケバブケース>-<連番>` で生成
+6. JSON を書き戻す
 
-```
-### <単語・表現>
-- **意味**: 日本語での意味
-- **用例**: 実際の使用例（英文）
-- **出典**: どのテキストで学んだか（簡潔に）
+各エントリの形式:
+```json
+{
+  "id": "<kebab-case-term>-<number>",
+  "term": "単語または表現",
+  "type": "word または pattern",
+  "meaning": "日本語での意味",
+  "example": "実際の使用例（英文）",
+  "source": "出典（簡潔に）",
+  "category": "official-docs",
+  "session": セッション番号,
+  "createdAt": "YYYY-MM-DD"
+}
 ```

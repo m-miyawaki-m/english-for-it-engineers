@@ -20,11 +20,19 @@ const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props
   <div class="card">
     <div class="card-header">
       <span class="term">{{ item.term }}</span>
-      <span class="badge" :class="item.type">{{ item.type }}</span>
+      <div class="badges">
+        <span class="badge" :class="item.type">{{ item.type }}</span>
+        <span v-if="item.partOfSpeech" class="badge pos">{{ item.partOfSpeech }}</span>
+        <span v-if="item.domain" class="badge domain">{{ item.domain }}</span>
+      </div>
     </div>
     <p class="meaning">{{ item.meaning }}</p>
     <p class="example" v-html="renderedExample"></p>
     <p v-if="renderedExampleJa" class="example-ja" v-html="renderedExampleJa"></p>
+    <div v-if="item.structure || item.grammar" class="grammar-info">
+      <span v-if="item.structure" class="grammar-tag">{{ item.structure }}</span>
+      <span v-if="item.grammar" class="grammar-label">{{ item.grammar }}</span>
+    </div>
     <div class="card-footer">
       <span class="source">{{ item.source }}</span>
       <span class="session">Session {{ item.session }}</span>
@@ -46,6 +54,7 @@ const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;
+  gap: 8px;
 }
 
 .term {
@@ -53,11 +62,18 @@ const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props
   font-weight: 700;
 }
 
+.badges {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
 .badge {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   padding: 2px 8px;
   border-radius: 12px;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .badge.word {
@@ -68,6 +84,16 @@ const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props
 .badge.pattern {
   background: #f3e5f5;
   color: #7b1fa2;
+}
+
+.badge.pos {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge.domain {
+  background: #fff3e0;
+  color: #e65100;
 }
 
 .meaning {
@@ -85,6 +111,27 @@ const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props
   color: #888;
   font-size: 0.9rem;
   margin: 2px 0 4px 0;
+}
+
+.grammar-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.grammar-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.grammar-label {
+  font-size: 0.8rem;
+  color: #777;
 }
 
 .card-footer {

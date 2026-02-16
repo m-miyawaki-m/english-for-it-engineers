@@ -1,0 +1,105 @@
+{
+  "vocabulary": [
+    {
+      "id": "lightweight-1",
+      "term": "lightweight",
+      "type": "word",
+      "meaning": "軽量な（少ないリソースで動作する）",
+      "example": "JavaScript (JS) is a **lightweight** interpreted programming language.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "interpreted-1",
+      "term": "interpreted",
+      "type": "word",
+      "meaning": "インタプリタ型の（コードを1行ずつ実行する方式）",
+      "example": "JavaScript is a lightweight **interpreted** (or just-in-time compiled) programming language.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "just-in-time-compiled-1",
+      "term": "just-in-time compiled",
+      "type": "word",
+      "meaning": "JITコンパイルされる（実行時にコンパイルする方式）",
+      "example": "JavaScript is a lightweight interpreted (or **just-in-time compiled**) programming language.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "first-class-functions-1",
+      "term": "first-class functions",
+      "type": "word",
+      "meaning": "第一級関数（関数を変数に代入したり引数に渡したりできること）",
+      "example": "...a programming language with **first-class functions**.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "well-known-1",
+      "term": "well-known",
+      "type": "word",
+      "meaning": "よく知られた",
+      "example": "It is most **well-known** as the scripting language for Web pages.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "non-browser-environments-1",
+      "term": "non-browser environments",
+      "type": "word",
+      "meaning": "ブラウザ以外の環境（\"non-\" は否定の接頭辞）",
+      "example": "Many **non-browser environments** also use it.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    }
+  ],
+  "patterns": [
+    {
+      "id": "x-is-a-with-1",
+      "term": "X is a ... with ...",
+      "type": "pattern",
+      "meaning": "「Xは〜を備えた...である」技術の定義パターン",
+      "example": "JavaScript is a lightweight interpreted programming language **with** first-class functions.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "while-also-1",
+      "term": "While ..., ... also ...",
+      "type": "pattern",
+      "meaning": "「〜として知られているが、〜でもある」対比表現",
+      "example": "**While** it is most well-known as the scripting language, many non-browser environments **also** use it.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    },
+    {
+      "id": "such-as-a-b-and-c-1",
+      "term": "such as A, B and C",
+      "type": "pattern",
+      "meaning": "「例えばA、B、Cなど」具体例の列挙",
+      "example": "...many non-browser environments also use it, **such as** Node.js, Apache CouchDB **and** Adobe Acrobat.",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "session": 1,
+      "createdAt": "2026-02-17"
+    }
+  ]
+}

@@ -1,8 +1,13 @@
 <script setup>
 import { ref, computed } from 'vue'
+import Sidebar from './components/Sidebar.vue'
 import SearchFilter from './components/SearchFilter.vue'
 import VocabularyList from './components/VocabularyList.vue'
+import GrammarGuide from './components/GrammarGuide.vue'
+import PartsOfSpeechGuide from './components/PartsOfSpeechGuide.vue'
 import data from '@data/vocabulary.json'
+
+const currentPage = ref('vocabulary')
 
 const searchQuery = ref('')
 const selectedCategory = ref('all')
@@ -12,26 +17,31 @@ const allItems = computed(() => [...data.vocabulary, ...data.patterns])
 </script>
 
 <template>
-  <div class="container">
-    <h1>IT Engineer English Vocabulary</h1>
-    <SearchFilter
-      v-model:searchQuery="searchQuery"
-      v-model:selectedCategory="selectedCategory"
-      v-model:selectedType="selectedType"
-    />
-    <VocabularyList
-      :items="allItems"
-      :searchQuery="searchQuery"
-      :selectedCategory="selectedCategory"
-      :selectedType="selectedType"
-    />
+  <Sidebar :currentPage="currentPage" @navigate="currentPage = $event" />
+  <div class="main-content">
+    <template v-if="currentPage === 'vocabulary'">
+      <h1>IT Engineer English Vocabulary</h1>
+      <SearchFilter
+        v-model:searchQuery="searchQuery"
+        v-model:selectedCategory="selectedCategory"
+        v-model:selectedType="selectedType"
+      />
+      <VocabularyList
+        :items="allItems"
+        :searchQuery="searchQuery"
+        :selectedCategory="selectedCategory"
+        :selectedType="selectedType"
+      />
+    </template>
+    <GrammarGuide v-else-if="currentPage === 'grammar'" />
+    <PartsOfSpeechGuide v-else-if="currentPage === 'parts-of-speech'" />
   </div>
 </template>
 
 <style scoped>
-.container {
+.main-content {
+  margin-left: 200px;
   max-width: 720px;
-  margin: 0 auto;
   padding: 32px 16px;
 }
 

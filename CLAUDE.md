@@ -48,7 +48,7 @@ ITエンジニア向け英語学習プロジェクト。
 ### ファイル命名規則
 | ディレクトリ | 命名規則 | 例 |
 |-------------|---------|-----|
-| `docs/plans/` | `YYYY-MM-DD-<topic>-design.md` | `2026-02-17-customization-design.md` |
+| `docs/plans/` | `YYYY-MM-DD-<topic>-<type>.md` | `2026-02-17-customization-design.md` |
 | `docs/curriculum/` | `phase<N>-<topic>.md` | `phase1-official-docs-reading.md` |
 | `docs/references/` | `vocabulary.json`（単一ファイル） | `vocabulary.json` |
 | `docs/exercises/` | `<category>-<topic>.md` | `github-reading-issue-discussion.md` |

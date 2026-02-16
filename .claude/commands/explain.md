@@ -30,6 +30,7 @@
   "type": "word または pattern",
   "meaning": "日本語での意味",
   "example": "実際の使用例（英文）",
+  "exampleJa": "用例の和訳",
   "source": "出典（簡潔に）",
   "category": "official-docs",
   "session": セッション番号,

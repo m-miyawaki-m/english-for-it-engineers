@@ -13,6 +13,7 @@ function renderBold(text) {
 }
 
 const renderedExample = computed(() => renderBold(props.item.example))
+const renderedExampleJa = computed(() => props.item.exampleJa ? renderBold(props.item.exampleJa) : '')
 </script>
 
 <template>
@@ -23,6 +24,7 @@ const renderedExample = computed(() => renderBold(props.item.example))
     </div>
     <p class="meaning">{{ item.meaning }}</p>
     <p class="example" v-html="renderedExample"></p>
+    <p v-if="renderedExampleJa" class="example-ja" v-html="renderedExampleJa"></p>
     <div class="card-footer">
       <span class="source">{{ item.source }}</span>
       <span class="session">Session {{ item.session }}</span>
@@ -77,6 +79,12 @@ const renderedExample = computed(() => renderBold(props.item.example))
   color: #666;
   font-style: italic;
   margin: 4px 0;
+}
+
+.example-ja {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 2px 0 4px 0;
 }
 
 .card-footer {

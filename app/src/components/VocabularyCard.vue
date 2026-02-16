@@ -1,10 +1,18 @@
 <script setup>
-defineProps({
+import { computed } from 'vue'
+
+const props = defineProps({
   item: {
     type: Object,
     required: true
   }
 })
+
+function renderBold(text) {
+  return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+}
+
+const renderedExample = computed(() => renderBold(props.item.example))
 </script>
 
 <template>
@@ -14,7 +22,7 @@ defineProps({
       <span class="badge" :class="item.type">{{ item.type }}</span>
     </div>
     <p class="meaning">{{ item.meaning }}</p>
-    <p class="example">{{ item.example }}</p>
+    <p class="example" v-html="renderedExample"></p>
     <div class="card-footer">
       <span class="source">{{ item.source }}</span>
       <span class="session">Session {{ item.session }}</span>

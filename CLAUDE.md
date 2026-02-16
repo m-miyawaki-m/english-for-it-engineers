@@ -33,14 +33,16 @@ ITエンジニア向け英語学習プロジェクト。
 | 技術文書英語 | B2 Reading+Writing | ADR/RFCを読み、簡潔な技術文書を英語で書ける |
 
 ## プロジェクト方針
-- コーディングプロジェクトではなく、学習教材・メソッド設計プロジェクト
-- ドキュメント中心（Markdown）
+- 学習教材・メソッド設計プロジェクト
+- ドキュメント中心（Markdown + JSON）
 - 実際のOSSリポジトリや公式ドキュメントを教材として活用
+- Vue 3 + Vite による語彙ビューア（`app/`）
 
 ## Directory Structure
+- `app/` - 語彙ビューア（Vue 3 + Vite）
 - `docs/plans/` - 設計書・学習プラン
 - `docs/curriculum/` - カリキュラム・学習教材
-- `docs/references/` - 頻出パターン・表現集
+- `docs/references/` - 語彙データ（vocabulary.json）
 - `docs/exercises/` - 練習問題・演習
 
 ### ファイル命名規則
@@ -48,7 +50,7 @@ ITエンジニア向け英語学習プロジェクト。
 |-------------|---------|-----|
 | `docs/plans/` | `YYYY-MM-DD-<topic>-design.md` | `2026-02-17-customization-design.md` |
 | `docs/curriculum/` | `phase<N>-<topic>.md` | `phase1-official-docs-reading.md` |
-| `docs/references/` | `<category>-patterns.md` | `github-patterns.md` |
+| `docs/references/` | `vocabulary.json`（単一ファイル） | `vocabulary.json` |
 | `docs/exercises/` | `<category>-<topic>.md` | `github-reading-issue-discussion.md` |
 
 ## Workflow

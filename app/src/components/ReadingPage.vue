@@ -3,18 +3,67 @@ import { ref, computed } from 'vue'
 import data from '@data/readings.json'
 
 const readings = data.readings
+const searchQuery = ref('')
+const selectedCategory = ref('all')
 const selectedId = ref(readings.length > 0 ? readings[0].id : '')
 const activeAnnotation = ref(null)
 const showStructure = ref(true)
+const showVocabulary = ref(true)
+const showGrammar = ref(true)
+const showIdiom = ref(true)
+const showJa = ref(true)
+const showEn = ref(true)
+
+const categoryLabels = {
+  'official-docs': '公式ドキュメント',
+  'github': 'GitHub',
+  'claude-llm': 'Claude/LLM',
+  'technical-docs': '技術文書'
+}
+
+const categories = computed(() => {
+  const cats = [...new Set(readings.map(r => r.category))]
+  return cats.sort()
+})
+
+const filteredReadings = computed(() => {
+  return readings.filter(r => {
+    const matchCategory = selectedCategory.value === 'all' || r.category === selectedCategory.value
+    const query = searchQuery.value.toLowerCase()
+    const matchSearch = !query ||
+      r.title.toLowerCase().includes(query) ||
+      r.source.toLowerCase().includes(query) ||
+      r.paragraphs.some(p =>
+        p.en.toLowerCase().includes(query) ||
+        p.ja.includes(searchQuery.value)
+      )
+    return matchCategory && matchSearch
+  })
+})
 
 const currentReading = computed(() =>
   readings.find(r => r.id === selectedId.value) || null
 )
 
+function selectReading(id) {
+  selectedId.value = id
+}
+
+const visibleTypes = computed(() => {
+  const types = []
+  if (showVocabulary.value) types.push('vocabulary')
+  if (showGrammar.value) types.push('grammar')
+  if (showIdiom.value) types.push('idiom')
+  return types
+})
+
 function annotateText(text, annotations) {
   if (!annotations || annotations.length === 0) return text
 
-  const sorted = [...annotations].sort((a, b) => {
+  const filtered = annotations.filter(a => visibleTypes.value.includes(a.type))
+  if (filtered.length === 0) return text
+
+  const sorted = [...filtered].sort((a, b) => {
     const idxA = text.toLowerCase().indexOf(a.text.toLowerCase())
     const idxB = text.toLowerCase().indexOf(b.text.toLowerCase())
     return idxB - idxA
@@ -78,29 +127,73 @@ function getRoleColor(role) {
     <h1>長文読解</h1>
     <p class="intro">技術文書の原文と日本語訳を左右対比で表示します。色付きの語句をクリックすると解説を確認できます。</p>
 
-    <div class="controls">
-      <div class="legend">
-        <span class="legend-item"><span class="legend-dot dot-vocabulary"></span>語彙</span>
-        <span class="legend-item"><span class="legend-dot dot-grammar"></span>文法</span>
-        <span class="legend-item"><span class="legend-dot dot-idiom"></span>熟語・表現</span>
+    <div class="filter-bar">
+      <input
+        type="text"
+        v-model="searchQuery"
+        placeholder="教材を検索..."
+        class="search-input"
+      />
+      <select v-model="selectedCategory" class="category-select">
+        <option value="all">すべてのカテゴリ</option>
+        <option v-for="cat in categories" :key="cat" :value="cat">
+          {{ categoryLabels[cat] || cat }}
+        </option>
+      </select>
+    </div>
+
+    <div class="reading-list">
+      <div
+        v-for="r in filteredReadings"
+        :key="r.id"
+        class="reading-list-item"
+        :class="{ selected: r.id === selectedId }"
+        @click="selectReading(r.id)"
+      >
+        <div class="reading-list-title">{{ r.title }}</div>
+        <div class="reading-list-meta">
+          <span class="reading-list-category">{{ categoryLabels[r.category] || r.category }}</span>
+          <span class="reading-list-level">{{ r.level }}</span>
+          <span class="reading-list-count">{{ r.paragraphs.length }}段落</span>
+        </div>
       </div>
-      <label class="toggle">
+      <div v-if="filteredReadings.length === 0" class="no-results">
+        該当する教材がありません。
+      </div>
+    </div>
+
+    <div v-if="currentReading" class="display-toggles">
+      <span class="toggles-label">表示切替:</span>
+      <label class="toggle" :class="{ 'toggle-active': showVocabulary }">
+        <input type="checkbox" v-model="showVocabulary" />
+        <span class="toggle-dot dot-vocabulary"></span>語彙
+      </label>
+      <label class="toggle" :class="{ 'toggle-active': showGrammar }">
+        <input type="checkbox" v-model="showGrammar" />
+        <span class="toggle-dot dot-grammar"></span>文法
+      </label>
+      <label class="toggle" :class="{ 'toggle-active': showIdiom }">
+        <input type="checkbox" v-model="showIdiom" />
+        <span class="toggle-dot dot-idiom"></span>熟語
+      </label>
+      <label class="toggle" :class="{ 'toggle-active': showStructure }">
         <input type="checkbox" v-model="showStructure" />
-        文構造を表示
+        <span class="toggle-dot dot-structure"></span>文構造
+      </label>
+      <label class="toggle" :class="{ 'toggle-active': showEn }">
+        <input type="checkbox" v-model="showEn" />
+        <span class="toggle-dot dot-en"></span>英文
+      </label>
+      <label class="toggle" :class="{ 'toggle-active': showJa }">
+        <input type="checkbox" v-model="showJa" />
+        <span class="toggle-dot dot-ja"></span>和訳
       </label>
     </div>
 
-    <div v-if="showStructure" class="structure-legend">
+    <div v-if="currentReading && showStructure" class="structure-legend">
       <span v-for="(color, role) in roleColors" :key="role" class="structure-legend-item">
         <span class="structure-legend-dot" :style="{ background: color }"></span>{{ role }}
       </span>
-    </div>
-
-    <div v-if="readings.length > 1" class="selector">
-      <label for="reading-select">教材: </label>
-      <select id="reading-select" v-model="selectedId">
-        <option v-for="r in readings" :key="r.id" :value="r.id">{{ r.title }}</option>
-      </select>
     </div>
 
     <div v-if="currentReading" class="reading-container">
@@ -113,9 +206,10 @@ function getRoleColor(role) {
         v-for="(para, idx) in currentReading.paragraphs"
         :key="idx"
         class="paragraph-row"
+        :class="{ 'single-column': !showJa || (!showEn && !showStructure) }"
       >
-        <div class="paragraph-en-wrapper">
-          <div class="paragraph-en" @click="handleAnnotationClick" v-html="annotateText(para.en, para.annotations)"></div>
+        <div class="paragraph-en-wrapper" :class="{ 'no-border-right': !showJa }" v-if="showEn || showStructure">
+          <div v-if="showEn" class="paragraph-en" @click="handleAnnotationClick" v-html="annotateText(para.en, para.annotations)"></div>
           <div v-if="showStructure && para.structures" class="structure-bar">
             <span
               v-for="(s, si) in para.structures"
@@ -129,7 +223,7 @@ function getRoleColor(role) {
             </span>
           </div>
         </div>
-        <div class="paragraph-ja">{{ para.ja }}</div>
+        <div v-if="showJa" class="paragraph-ja" :class="{ 'no-border-left': !showEn }">{{ para.ja }}</div>
       </div>
     </div>
 
@@ -163,50 +257,155 @@ h1 {
   margin-bottom: 16px;
 }
 
-.controls {
+.filter-bar {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.search-input:focus {
+  border-color: #1565c0;
+}
+
+.category-select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+}
+
+.reading-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.reading-list-item {
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.reading-list-item:hover {
+  background: #f5f5f5;
+}
+
+.reading-list-item.selected {
+  border-color: #1565c0;
+  background: #e3f2fd;
+}
+
+.reading-list-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.reading-list-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.reading-list-category {
+  background: #f0f0f0;
+  padding: 1px 8px;
+  border-radius: 10px;
+}
+
+.reading-list-item.selected .reading-list-category {
+  background: #bbdefb;
+  color: #1565c0;
+}
+
+.reading-list-level,
+.reading-list-count {
+  color: #aaa;
+}
+
+.no-results {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.display-toggles {
+  display: flex;
   align-items: center;
-  margin-bottom: 12px;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  flex-wrap: wrap;
 }
 
-.legend {
-  display: flex;
-  gap: 16px;
-  font-size: 0.85rem;
-  color: #666;
+.toggles-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #999;
+  margin-right: 4px;
 }
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.legend-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 3px;
-  display: inline-block;
-}
-
-.dot-vocabulary { background: #e3f2fd; border-bottom: 2px solid #1565c0; }
-.dot-grammar { background: #fff3e0; }
-.dot-idiom { background: #e8f5e9; border-bottom: 2px solid #2e7d32; }
 
 .toggle {
   font-size: 0.85rem;
-  color: #666;
+  color: #888;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   user-select: none;
+  padding: 3px 10px;
+  border-radius: 14px;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+}
+
+.toggle:hover {
+  background: #f0f0f0;
+}
+
+.toggle-active {
+  background: #fff;
+  border-color: #ddd;
+  color: #333;
 }
 
 .toggle input {
-  cursor: pointer;
+  display: none;
 }
+
+.toggle-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.dot-vocabulary { background: #1565c0; }
+.dot-grammar { background: #e65100; }
+.dot-idiom { background: #2e7d32; }
+.dot-structure { background: #78909c; }
+.dot-en { background: #37474f; }
+.dot-ja { background: #8d6e63; }
 
 .structure-legend {
   display: flex;
@@ -228,23 +427,6 @@ h1 {
   height: 10px;
   border-radius: 2px;
   display: inline-block;
-}
-
-.selector {
-  margin-bottom: 20px;
-}
-
-.selector label {
-  font-size: 0.9rem;
-  color: #555;
-  font-weight: 600;
-}
-
-.selector select {
-  padding: 6px 10px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 0.9rem;
 }
 
 .reading-container {
@@ -280,8 +462,16 @@ h1 {
   border-bottom: none;
 }
 
+.paragraph-row.single-column {
+  grid-template-columns: 1fr;
+}
+
 .paragraph-en-wrapper {
   border-right: 1px solid #f0f0f0;
+}
+
+.paragraph-en-wrapper.no-border-right {
+  border-right: none;
 }
 
 .paragraph-en {
@@ -454,9 +644,7 @@ h1 {
     border-bottom: 1px solid #f0f0f0;
   }
 
-  .controls {
-    flex-direction: column;
-    align-items: flex-start;
+  .display-toggles {
     gap: 8px;
   }
 }

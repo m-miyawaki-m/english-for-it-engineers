@@ -80,6 +80,195 @@
               "note": "例示句 - 「〜のような」「例えば」。具体例を列挙する最も一般的な表現"
             }
           ]
+        },
+        {
+          "en": "JavaScript is a prototype-based, garbage-collected, dynamic language, supporting multiple paradigms such as imperative, functional, and object-oriented.",
+          "ja": "JavaScriptはプロトタイプベースで、ガベージコレクション機能を持つ動的言語であり、命令型・関数型・オブジェクト指向など複数のプログラミングパラダイムをサポートしている。",
+          "structures": [
+            { "text": "JavaScript", "role": "S", "label": "主語" },
+            { "text": "is", "role": "V", "label": "動詞" },
+            { "text": "a prototype-based, garbage-collected, dynamic language", "role": "C", "label": "補語" },
+            { "text": ", supporting multiple paradigms", "role": "M", "label": "分詞構文" },
+            { "text": "such as imperative, functional, and object-oriented", "role": "M", "label": "例示句" }
+          ],
+          "annotations": [
+            {
+              "text": "prototype-based",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "プロトタイプベースの - クラスではなくプロトタイプチェーンで継承を実現する方式"
+            },
+            {
+              "text": "garbage-collected",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "ガベージコレクション付きの - 不要なメモリを自動回収する仕組み。GCと略される"
+            },
+            {
+              "text": "dynamic",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "動的な - 型が実行時に決まる言語の特性。⇔ static（静的）"
+            },
+            {
+              "text": ", supporting",
+              "type": "grammar",
+              "color": "orange",
+              "note": "分詞構文（, -ing）- 「〜であり、さらに〜する」と情報を追加するパターン。= and it supports"
+            },
+            {
+              "text": "paradigms",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "パラダイム - プログラミングの考え方・手法。/ˈpærədaɪm/ と発音"
+            },
+            {
+              "text": "such as imperative, functional, and object-oriented",
+              "type": "idiom",
+              "color": "green",
+              "note": "such as A, B, and C - 具体例を列挙する定型表現。最後の and の前のカンマはオックスフォードカンマ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude-code-vscode-extension",
+      "title": "Claude Code - VS Code Extension",
+      "source": "Anthropic Docs - Claude Code VS Code",
+      "category": "claude-llm",
+      "level": "A2-B1",
+      "createdAt": "2026-02-18",
+      "paragraphs": [
+        {
+          "en": "Install and configure the Claude Code extension for VS Code. Get AI coding assistance with inline diffs, @-mentions, plan review, and keyboard shortcuts.",
+          "ja": "VS Code用のClaude Code拡張機能をインストールして設定する。インライン差分、@メンション、プランレビュー、キーボードショートカット付きのAIコーディング支援を得る。",
+          "structures": [
+            { "text": "Install and configure", "role": "V", "label": "動詞（命令文）" },
+            { "text": "the Claude Code extension", "role": "O", "label": "目的語" },
+            { "text": "for VS Code", "role": "M", "label": "修飾句" }
+          ],
+          "annotations": [
+            {
+              "text": "Install and configure",
+              "type": "grammar",
+              "color": "orange",
+              "note": "命令文の並列 - 2つの動詞を and でつないだ命令文。README や Getting Started で頻出"
+            },
+            {
+              "text": "extension",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "拡張機能 - エディタやブラウザに追加する機能のこと"
+            },
+            {
+              "text": "with inline diffs, @-mentions, plan review, and keyboard shortcuts",
+              "type": "idiom",
+              "color": "green",
+              "note": "with による特徴列挙 - 「〜付きで」「〜を備えた」と機能を列挙するパターン"
+            }
+          ]
+        },
+        {
+          "en": "The VS Code extension provides a native graphical interface for Claude Code, integrated directly into your IDE.",
+          "ja": "VS Code拡張機能は、IDEに直接統合されたClaude Codeのネイティブなグラフィカルインターフェースを提供する。",
+          "structures": [
+            { "text": "The VS Code extension", "role": "S", "label": "主語" },
+            { "text": "provides", "role": "V", "label": "動詞" },
+            { "text": "a native graphical interface", "role": "O", "label": "目的語" },
+            { "text": "for Claude Code", "role": "M", "label": "修飾句" },
+            { "text": ", integrated directly into your IDE", "role": "M", "label": "後置修飾（過去分詞）" }
+          ],
+          "annotations": [
+            {
+              "text": "native",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "ネイティブの - 外部ツールでなく直接組み込まれていることを意味する"
+            },
+            {
+              "text": ", integrated directly into your IDE",
+              "type": "grammar",
+              "color": "orange",
+              "note": "過去分詞による後置修飾 - which is integrated の省略形。カンマ+過去分詞で補足説明を追加"
+            }
+          ]
+        },
+        {
+          "en": "This is the recommended way to use Claude Code in VS Code.",
+          "ja": "これはVS CodeでClaude Codeを使う推奨される方法である。",
+          "structures": [
+            { "text": "This", "role": "S", "label": "主語" },
+            { "text": "is", "role": "V", "label": "動詞" },
+            { "text": "the recommended way", "role": "C", "label": "補語" },
+            { "text": "to use Claude Code in VS Code", "role": "M", "label": "不定詞（修飾）" }
+          ],
+          "annotations": [
+            {
+              "text": "the recommended way to",
+              "type": "idiom",
+              "color": "green",
+              "note": "「〜するための推奨される方法」- ベストプラクティスを示す定番表現"
+            },
+            {
+              "text": "recommended",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "推奨される - recommend（推奨する）の過去分詞が形容詞として使われている"
+            }
+          ]
+        },
+        {
+          "en": "With the extension, you can review and edit Claude's plans before accepting them, auto-accept edits as they're made, @-mention files with specific line ranges from your selection, access conversation history, and open multiple conversations in separate tabs or windows.",
+          "ja": "この拡張機能を使えば、Claudeのプランを受け入れる前にレビュー・編集したり、編集内容を自動で受け入れたり、選択範囲から特定の行範囲でファイルを@メンションしたり、会話履歴にアクセスしたり、別々のタブやウィンドウで複数の会話を開いたりできる。",
+          "structures": [
+            { "text": "With the extension", "role": "M", "label": "修飾句（前提条件）" },
+            { "text": "you", "role": "S", "label": "主語" },
+            { "text": "can", "role": "V", "label": "助動詞" },
+            { "text": "review and edit Claude's plans before accepting them", "role": "O", "label": "①プランをレビュー・編集" },
+            { "text": "auto-accept edits as they're made", "role": "O", "label": "②編集を自動受け入れ" },
+            { "text": "@-mention files with specific line ranges from your selection", "role": "O", "label": "③ファイルを@メンション" },
+            { "text": "access conversation history", "role": "O", "label": "④会話履歴にアクセス" },
+            { "text": "and open multiple conversations in separate tabs or windows", "role": "O", "label": "⑤複数会話を別タブで開く" }
+          ],
+          "annotations": [
+            {
+              "text": "before accepting them",
+              "type": "grammar",
+              "color": "orange",
+              "note": "前置詞 before + 動名詞 - 「〜する前に」。前置詞の後は必ず動名詞（-ing）になる"
+            },
+            {
+              "text": "auto-accept",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "自動で受け入れる - auto- は「自動の」を意味する接頭辞。auto-save, auto-complete なども同パターン"
+            },
+            {
+              "text": "as they're made",
+              "type": "grammar",
+              "color": "orange",
+              "note": "as + 受動態 - 「〜されるのに合わせて」。as は「〜と同時に」の意味の接続詞"
+            },
+            {
+              "text": "specific line ranges",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "特定の行範囲 - specific は「特定の」、line range は「行の範囲」"
+            },
+            {
+              "text": "conversation history",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "会話履歴 - チャットやAIとのやり取りの記録"
+            },
+            {
+              "text": "in separate tabs or windows",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "別々のタブやウィンドウで - separate は「別々の、独立した」"
+            }
+          ]
         }
       ]
     }

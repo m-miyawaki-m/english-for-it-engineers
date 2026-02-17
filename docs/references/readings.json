@@ -11,6 +11,12 @@
         {
           "en": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.",
           "ja": "JavaScript（JS）は、第一級関数を備えた軽量なインタプリタ型（またはJITコンパイル型）プログラミング言語である。",
+          "structures": [
+            { "text": "JavaScript (JS)", "role": "S", "label": "主語" },
+            { "text": "is", "role": "V", "label": "動詞" },
+            { "text": "a lightweight interpreted (or just-in-time compiled) programming language", "role": "C", "label": "補語" },
+            { "text": "with first-class functions", "role": "M", "label": "修飾句" }
+          ],
           "annotations": [
             {
               "text": "lightweight",
@@ -41,6 +47,13 @@
         {
           "en": "While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.",
           "ja": "Webページのスクリプト言語として最もよく知られているが、Node.js、Apache CouchDB、Adobe Acrobatなど、ブラウザ以外の多くの環境でも使われている。",
+          "structures": [
+            { "text": "While it is most well-known as the scripting language for Web pages", "role": "従属節", "label": "従属節（対比）" },
+            { "text": "many non-browser environments", "role": "S", "label": "主語" },
+            { "text": "also use", "role": "V", "label": "動詞" },
+            { "text": "it", "role": "O", "label": "目的語" },
+            { "text": "such as Node.js, Apache CouchDB and Adobe Acrobat", "role": "M", "label": "例示句" }
+          ],
           "annotations": [
             {
               "text": "While",

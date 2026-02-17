@@ -5,6 +5,7 @@ import data from '@data/readings.json'
 const readings = data.readings
 const selectedId = ref(readings.length > 0 ? readings[0].id : '')
 const activeAnnotation = ref(null)
+const showStructure = ref(true)
 
 const currentReading = computed(() =>
   readings.find(r => r.id === selectedId.value) || null
@@ -57,6 +58,19 @@ const typeLabels = {
   grammar: '文法',
   idiom: '熟語・表現'
 }
+
+const roleColors = {
+  S: '#1565c0',
+  V: '#c62828',
+  O: '#2e7d32',
+  C: '#6a1b9a',
+  M: '#ef6c00',
+  '従属節': '#78909c'
+}
+
+function getRoleColor(role) {
+  return roleColors[role] || '#757575'
+}
 </script>
 
 <template>
@@ -64,10 +78,22 @@ const typeLabels = {
     <h1>長文読解</h1>
     <p class="intro">技術文書の原文と日本語訳を左右対比で表示します。色付きの語句をクリックすると解説を確認できます。</p>
 
-    <div class="legend">
-      <span class="legend-item"><span class="legend-dot dot-vocabulary"></span>語彙</span>
-      <span class="legend-item"><span class="legend-dot dot-grammar"></span>文法</span>
-      <span class="legend-item"><span class="legend-dot dot-idiom"></span>熟語・表現</span>
+    <div class="controls">
+      <div class="legend">
+        <span class="legend-item"><span class="legend-dot dot-vocabulary"></span>語彙</span>
+        <span class="legend-item"><span class="legend-dot dot-grammar"></span>文法</span>
+        <span class="legend-item"><span class="legend-dot dot-idiom"></span>熟語・表現</span>
+      </div>
+      <label class="toggle">
+        <input type="checkbox" v-model="showStructure" />
+        文構造を表示
+      </label>
+    </div>
+
+    <div v-if="showStructure" class="structure-legend">
+      <span v-for="(color, role) in roleColors" :key="role" class="structure-legend-item">
+        <span class="structure-legend-dot" :style="{ background: color }"></span>{{ role }}
+      </span>
     </div>
 
     <div v-if="readings.length > 1" class="selector">
@@ -88,7 +114,21 @@ const typeLabels = {
         :key="idx"
         class="paragraph-row"
       >
-        <div class="paragraph-en" @click="handleAnnotationClick" v-html="annotateText(para.en, para.annotations)"></div>
+        <div class="paragraph-en-wrapper">
+          <div class="paragraph-en" @click="handleAnnotationClick" v-html="annotateText(para.en, para.annotations)"></div>
+          <div v-if="showStructure && para.structures" class="structure-bar">
+            <span
+              v-for="(s, si) in para.structures"
+              :key="si"
+              class="structure-chunk"
+              :style="{ borderColor: getRoleColor(s.role) }"
+            >
+              <span class="structure-text">{{ s.text }}</span>
+              <span class="structure-role" :style="{ background: getRoleColor(s.role) }">{{ s.role }}</span>
+              <span class="structure-label">{{ s.label }}</span>
+            </span>
+          </div>
+        </div>
         <div class="paragraph-ja">{{ para.ja }}</div>
       </div>
     </div>
@@ -123,10 +163,16 @@ h1 {
   margin-bottom: 16px;
 }
 
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
 .legend {
   display: flex;
   gap: 16px;
-  margin-bottom: 20px;
   font-size: 0.85rem;
   color: #666;
 }
@@ -147,6 +193,42 @@ h1 {
 .dot-vocabulary { background: #e3f2fd; border-bottom: 2px solid #1565c0; }
 .dot-grammar { background: #fff3e0; }
 .dot-idiom { background: #e8f5e9; border-bottom: 2px solid #2e7d32; }
+
+.toggle {
+  font-size: 0.85rem;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  user-select: none;
+}
+
+.toggle input {
+  cursor: pointer;
+}
+
+.structure-legend {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  font-size: 0.8rem;
+  color: #666;
+  flex-wrap: wrap;
+}
+
+.structure-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.structure-legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
 
 .selector {
   margin-bottom: 20px;
@@ -198,11 +280,14 @@ h1 {
   border-bottom: none;
 }
 
+.paragraph-en-wrapper {
+  border-right: 1px solid #f0f0f0;
+}
+
 .paragraph-en {
-  padding: 16px;
+  padding: 16px 16px 8px;
   line-height: 1.8;
   color: #333;
-  border-right: 1px solid #f0f0f0;
   font-size: 0.95rem;
 }
 
@@ -211,6 +296,46 @@ h1 {
   line-height: 1.8;
   color: #555;
   font-size: 0.95rem;
+}
+
+.structure-bar {
+  padding: 4px 16px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.structure-chunk {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-top: 3px solid;
+  padding: 4px 8px 2px;
+  border-radius: 0 0 4px 4px;
+  background: #fafafa;
+}
+
+.structure-text {
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.structure-role {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-top: 2px;
+  letter-spacing: 0.05em;
+}
+
+.structure-label {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 1px;
 }
 
 .paragraph-en :deep(.ann) {
@@ -324,9 +449,15 @@ h1 {
     grid-template-columns: 1fr;
   }
 
-  .paragraph-en {
+  .paragraph-en-wrapper {
     border-right: none;
     border-bottom: 1px solid #f0f0f0;
+  }
+
+  .controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
 </style>

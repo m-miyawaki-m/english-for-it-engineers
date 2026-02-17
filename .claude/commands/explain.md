@@ -41,3 +41,45 @@
   "createdAt": "YYYY-MM-DD"
 }
 ```
+
+## 長文読解データ蓄積（必須）
+
+解説後、長文読解ページ用のデータを `docs/references/readings.json` にも蓄積すること。
+
+手順:
+1. `docs/references/readings.json` を読み込む
+2. 対象テキストのタイトル（出典名）で重複チェック。既存なら paragraphs に段落を追記
+3. 新規の場合は `readings` 配列に新しいエントリを追加
+4. 段落ごとに英文・日本語訳・注釈（annotations）を生成
+5. JSON を書き戻す
+
+各 reading エントリの形式:
+```json
+{
+  "id": "<kebab-case-title>",
+  "title": "教材タイトル",
+  "source": "出典（簡潔に）",
+  "category": "official-docs / github / claude-llm / technical-docs",
+  "level": "A2-B1",
+  "createdAt": "YYYY-MM-DD",
+  "paragraphs": [
+    {
+      "en": "英文（原文のまま）",
+      "ja": "日本語訳",
+      "annotations": [
+        {
+          "text": "注釈対象テキスト（英文中の語句）",
+          "type": "vocabulary / grammar / idiom",
+          "color": "blue / orange / green",
+          "note": "日本語の解説"
+        }
+      ]
+    }
+  ]
+}
+```
+
+注釈タイプの使い分け:
+- `vocabulary`（blue）: 重要単語 - 覚えるべき語彙
+- `grammar`（orange）: 文法ポイント - 時制、受動態、関係代名詞など構文に関する注目点
+- `idiom`（green）: 熟語・定型表現 - such as, in order to などのフレーズ

@@ -1,0 +1,74 @@
+{
+  "readings": [
+    {
+      "id": "mdn-javascript-intro",
+      "title": "MDN - What is JavaScript?",
+      "source": "MDN JavaScript トップページ",
+      "category": "official-docs",
+      "level": "A2-B1",
+      "createdAt": "2026-02-18",
+      "paragraphs": [
+        {
+          "en": "JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.",
+          "ja": "JavaScript（JS）は、第一級関数を備えた軽量なインタプリタ型（またはJITコンパイル型）プログラミング言語である。",
+          "annotations": [
+            {
+              "text": "lightweight",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "軽量な - 少ないリソースで動作することを意味する形容詞"
+            },
+            {
+              "text": "interpreted",
+              "type": "grammar",
+              "color": "orange",
+              "note": "過去分詞の形容詞用法 - 「インタプリタ型の」。動詞 interpret の過去分詞が形容詞として名詞を修飾"
+            },
+            {
+              "text": "or just-in-time compiled",
+              "type": "grammar",
+              "color": "orange",
+              "note": "挿入句（カッコによる補足）- 別の表現や追加情報をカッコ内で示す技術文書の定番パターン"
+            },
+            {
+              "text": "with first-class functions",
+              "type": "idiom",
+              "color": "green",
+              "note": "前置詞句（with）による後置修飾 - 「第一級関数を備えた」。with + 名詞で特徴を追加するパターン"
+            }
+          ]
+        },
+        {
+          "en": "While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.",
+          "ja": "Webページのスクリプト言語として最もよく知られているが、Node.js、Apache CouchDB、Adobe Acrobatなど、ブラウザ以外の多くの環境でも使われている。",
+          "annotations": [
+            {
+              "text": "While",
+              "type": "grammar",
+              "color": "orange",
+              "note": "従属接続詞 - 「〜だが」「〜である一方で」。対比を表す。Although と似た意味"
+            },
+            {
+              "text": "most well-known",
+              "type": "grammar",
+              "color": "orange",
+              "note": "最上級（most + 形容詞）- 「最もよく知られた」。well-known は複合形容詞"
+            },
+            {
+              "text": "non-browser environments",
+              "type": "vocabulary",
+              "color": "blue",
+              "note": "ブラウザ以外の環境 - non- は否定の接頭辞。技術英語で非常に多い（non-null, non-blocking 等）"
+            },
+            {
+              "text": "such as",
+              "type": "idiom",
+              "color": "green",
+              "note": "例示句 - 「〜のような」「例えば」。具体例を列挙する最も一般的な表現"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

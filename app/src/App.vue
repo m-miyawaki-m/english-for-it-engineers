@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import SearchFilter from './components/SearchFilter.vue'
 import VocabularyList from './components/VocabularyList.vue'
+import ReadingPage from './components/ReadingPage.vue'
 import EnglishGrammarGuide from './components/EnglishGrammarGuide.vue'
 import GrammarGuide from './components/GrammarGuide.vue'
 import PartsOfSpeechGuide from './components/PartsOfSpeechGuide.vue'
@@ -34,6 +35,7 @@ const allItems = computed(() => [...data.vocabulary, ...data.patterns])
         :selectedType="selectedType"
       />
     </template>
+    <ReadingPage v-else-if="currentPage === 'reading'" />
     <EnglishGrammarGuide v-else-if="currentPage === 'english-grammar'" />
     <GrammarGuide v-else-if="currentPage === 'grammar'" />
     <PartsOfSpeechGuide v-else-if="currentPage === 'parts-of-speech'" />
@@ -43,7 +45,7 @@ const allItems = computed(() => [...data.vocabulary, ...data.patterns])
 <style scoped>
 .main-content {
   margin-left: 200px;
-  max-width: 720px;
+  max-width: 900px;
   padding: 32px 16px;
 }
 

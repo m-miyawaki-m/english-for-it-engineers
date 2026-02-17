@@ -3,6 +3,7 @@ import { ref, computed } from 'vue'
 import Sidebar from './components/Sidebar.vue'
 import SearchFilter from './components/SearchFilter.vue'
 import VocabularyList from './components/VocabularyList.vue'
+import EnglishGrammarGuide from './components/EnglishGrammarGuide.vue'
 import GrammarGuide from './components/GrammarGuide.vue'
 import PartsOfSpeechGuide from './components/PartsOfSpeechGuide.vue'
 import data from '@data/vocabulary.json'
@@ -33,6 +34,7 @@ const allItems = computed(() => [...data.vocabulary, ...data.patterns])
         :selectedType="selectedType"
       />
     </template>
+    <EnglishGrammarGuide v-else-if="currentPage === 'english-grammar'" />
     <GrammarGuide v-else-if="currentPage === 'grammar'" />
     <PartsOfSpeechGuide v-else-if="currentPage === 'parts-of-speech'" />
   </div>

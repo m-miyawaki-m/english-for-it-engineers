@@ -7,7 +7,8 @@ const emit = defineEmits(['navigate'])
 
 const pages = [
   { id: 'vocabulary', label: '語彙一覧' },
-  { id: 'grammar', label: '文法解説' },
+  { id: 'english-grammar', label: '英文法ガイド' },
+  { id: 'grammar', label: '文法解説（技術英語）' },
   { id: 'parts-of-speech', label: '品詞解説' }
 ]
 </script>

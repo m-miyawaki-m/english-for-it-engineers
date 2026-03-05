@@ -7,6 +7,7 @@ import ReadingPage from './components/ReadingPage.vue'
 import EnglishGrammarGuide from './components/EnglishGrammarGuide.vue'
 import GrammarGuide from './components/GrammarGuide.vue'
 import PartsOfSpeechGuide from './components/PartsOfSpeechGuide.vue'
+import NgslChecklist from './components/NgslChecklist.vue'
 import data from '@data/vocabulary.json'
 
 const currentPage = ref('vocabulary')
@@ -35,6 +36,7 @@ const allItems = computed(() => [...data.vocabulary, ...data.patterns])
         :selectedType="selectedType"
       />
     </template>
+    <NgslChecklist v-else-if="currentPage === 'ngsl-checklist'" />
     <ReadingPage v-else-if="currentPage === 'reading'" />
     <EnglishGrammarGuide v-else-if="currentPage === 'english-grammar'" />
     <GrammarGuide v-else-if="currentPage === 'grammar'" />

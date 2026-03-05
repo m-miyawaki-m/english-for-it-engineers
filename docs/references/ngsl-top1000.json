@@ -1,0 +1,10009 @@
+{
+  "source": "New General Service List 1.2 (2023)",
+  "url": "https://www.newgeneralservicelist.com/new-general-service-list",
+  "description": "NGSL上位1,000語。高校英語の98%をカバーする基礎語彙リスト。",
+  "totalWords": 1000,
+  "usage": "known フィールドで自己チェック: null=未チェック, true=知ってる, false=要学習",
+  "words": [
+    {
+      "rank": 1,
+      "word": "the",
+      "frequency": 60910,
+      "meanings": {
+        "general": "その、あの（定冠詞）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 2,
+      "word": "be",
+      "frequency": 48575,
+      "meanings": {
+        "general": "〜である、いる、存在する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 3,
+      "word": "and",
+      "frequency": 30789,
+      "meanings": {
+        "general": "そして、〜と",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 4,
+      "word": "of",
+      "frequency": 30126,
+      "meanings": {
+        "general": "〜の、〜について",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 5,
+      "word": "to",
+      "frequency": 29272,
+      "meanings": {
+        "general": "〜へ、〜に、〜するために",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 6,
+      "word": "a",
+      "frequency": 27872,
+      "meanings": {
+        "general": "一つの（不定冠詞）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 7,
+      "word": "in",
+      "frequency": 21142,
+      "meanings": {
+        "general": "〜の中に、〜で",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 8,
+      "word": "have",
+      "frequency": 14210,
+      "meanings": {
+        "general": "持つ、〜がある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 9,
+      "word": "it",
+      "frequency": 13772,
+      "meanings": {
+        "general": "それ（代名詞）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 10,
+      "word": "you",
+      "frequency": 12810,
+      "meanings": {
+        "general": "あなた、あなたたち",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 11,
+      "word": "he",
+      "frequency": 11017,
+      "meanings": {
+        "general": "彼は",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 12,
+      "word": "for",
+      "frequency": 10025,
+      "meanings": {
+        "general": "〜のために、〜の間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 13,
+      "word": "they",
+      "frequency": 9764,
+      "meanings": {
+        "general": "彼ら、それら",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 14,
+      "word": "not",
+      "frequency": 9494,
+      "meanings": {
+        "general": "〜ではない（否定）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 15,
+      "word": "that",
+      "frequency": 8653,
+      "meanings": {
+        "general": "あの、〜ということ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 16,
+      "word": "we",
+      "frequency": 8401,
+      "meanings": {
+        "general": "私たちは",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 17,
+      "word": "on",
+      "frequency": 7763,
+      "meanings": {
+        "general": "〜の上に、〜について",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 18,
+      "word": "with",
+      "frequency": 7381,
+      "meanings": {
+        "general": "〜と一緒に、〜を使って",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 19,
+      "word": "this",
+      "frequency": 7003,
+      "meanings": {
+        "general": "これ、この",
+        "it": "現在のオブジェクトを参照するキーワード（this.value）"
+      },
+      "known": null
+    },
+    {
+      "rank": 20,
+      "word": "I",
+      "frequency": 6820,
+      "meanings": {
+        "general": "私は",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 21,
+      "word": "do",
+      "frequency": 6802,
+      "meanings": {
+        "general": "する、行う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 22,
+      "word": "as",
+      "frequency": 6747,
+      "meanings": {
+        "general": "〜として、〜のように",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 23,
+      "word": "at",
+      "frequency": 5570,
+      "meanings": {
+        "general": "〜で、〜に（場所・時間）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 24,
+      "word": "she",
+      "frequency": 5195,
+      "meanings": {
+        "general": "彼女は",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 25,
+      "word": "but",
+      "frequency": 5087,
+      "meanings": {
+        "general": "しかし、〜以外",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 26,
+      "word": "from",
+      "frequency": 4598,
+      "meanings": {
+        "general": "〜から",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 27,
+      "word": "by",
+      "frequency": 4323,
+      "meanings": {
+        "general": "〜によって、〜のそばに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 28,
+      "word": "will",
+      "frequency": 4195,
+      "meanings": {
+        "general": "〜するだろう（未来）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 29,
+      "word": "or",
+      "frequency": 4060,
+      "meanings": {
+        "general": "または、〜か",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 30,
+      "word": "say",
+      "frequency": 3425,
+      "meanings": {
+        "general": "言う、述べる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 31,
+      "word": "go",
+      "frequency": 3260,
+      "meanings": {
+        "general": "行く、進む",
+        "it": "Go言語の名称として使われる（Go language）"
+      },
+      "known": null
+    },
+    {
+      "rank": 32,
+      "word": "so",
+      "frequency": 3227,
+      "meanings": {
+        "general": "だから、とても",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 33,
+      "word": "all",
+      "frequency": 3175,
+      "meanings": {
+        "general": "すべての、全部",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 34,
+      "word": "if",
+      "frequency": 3009,
+      "meanings": {
+        "general": "もし〜なら",
+        "it": "条件分岐のキーワード（if statement）"
+      },
+      "known": null
+    },
+    {
+      "rank": 35,
+      "word": "one",
+      "frequency": 2997,
+      "meanings": {
+        "general": "1つの、ある人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 36,
+      "word": "would",
+      "frequency": 2997,
+      "meanings": {
+        "general": "〜するだろう、〜したい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 37,
+      "word": "about",
+      "frequency": 2967,
+      "meanings": {
+        "general": "〜について、約",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 38,
+      "word": "can",
+      "frequency": 2890,
+      "meanings": {
+        "general": "〜できる、〜してよい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 39,
+      "word": "which",
+      "frequency": 2886,
+      "meanings": {
+        "general": "どちらの、〜するところの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 40,
+      "word": "there",
+      "frequency": 2820,
+      "meanings": {
+        "general": "そこに、〜がある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 41,
+      "word": "know",
+      "frequency": 2634,
+      "meanings": {
+        "general": "知る、分かる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 42,
+      "word": "more",
+      "frequency": 2631,
+      "meanings": {
+        "general": "もっと多くの、さらに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 43,
+      "word": "get",
+      "frequency": 2573,
+      "meanings": {
+        "general": "得る、〜になる",
+        "it": "データを取得する（GET request）"
+      },
+      "known": null
+    },
+    {
+      "rank": 44,
+      "word": "who",
+      "frequency": 2534,
+      "meanings": {
+        "general": "誰、〜する人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 45,
+      "word": "like",
+      "frequency": 2465,
+      "meanings": {
+        "general": "〜のような、好む",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 46,
+      "word": "when",
+      "frequency": 2435,
+      "meanings": {
+        "general": "〜のとき、いつ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 47,
+      "word": "think",
+      "frequency": 2433,
+      "meanings": {
+        "general": "考える、思う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 48,
+      "word": "make",
+      "frequency": 2359,
+      "meanings": {
+        "general": "作る、〜にする",
+        "it": "ビルドツール（Makefile, make command）"
+      },
+      "known": null
+    },
+    {
+      "rank": 49,
+      "word": "time",
+      "frequency": 2302,
+      "meanings": {
+        "general": "時間、時刻、回",
+        "it": "時刻・タイムスタンプ（timestamp, timeout）"
+      },
+      "known": null
+    },
+    {
+      "rank": 50,
+      "word": "see",
+      "frequency": 2226,
+      "meanings": {
+        "general": "見る、分かる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 51,
+      "word": "what",
+      "frequency": 2204,
+      "meanings": {
+        "general": "何、どんな",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 52,
+      "word": "up",
+      "frequency": 2150,
+      "meanings": {
+        "general": "上へ、起きて",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 53,
+      "word": "some",
+      "frequency": 2130,
+      "meanings": {
+        "general": "いくつかの、いくらかの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 54,
+      "word": "other",
+      "frequency": 2100,
+      "meanings": {
+        "general": "他の、別の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 55,
+      "word": "out",
+      "frequency": 2064,
+      "meanings": {
+        "general": "外へ、出て",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 56,
+      "word": "good",
+      "frequency": 2038,
+      "meanings": {
+        "general": "良い、上手な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 57,
+      "word": "people",
+      "frequency": 2019,
+      "meanings": {
+        "general": "人々、人間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 58,
+      "word": "year",
+      "frequency": 1949,
+      "meanings": {
+        "general": "年、年間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 59,
+      "word": "take",
+      "frequency": 1873,
+      "meanings": {
+        "general": "取る、持っていく、かかる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 60,
+      "word": "no",
+      "frequency": 1854,
+      "meanings": {
+        "general": "いいえ、〜ない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 61,
+      "word": "well",
+      "frequency": 1835,
+      "meanings": {
+        "general": "よく、上手に、えーと",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 62,
+      "word": "because",
+      "frequency": 1824,
+      "meanings": {
+        "general": "なぜなら、〜だから",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 63,
+      "word": "very",
+      "frequency": 1792,
+      "meanings": {
+        "general": "とても、非常に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 64,
+      "word": "just",
+      "frequency": 1751,
+      "meanings": {
+        "general": "ちょうど、ただ〜だけ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 65,
+      "word": "come",
+      "frequency": 1694,
+      "meanings": {
+        "general": "来る、やって来る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 66,
+      "word": "could",
+      "frequency": 1688,
+      "meanings": {
+        "general": "〜できた、〜かもしれない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 67,
+      "word": "work",
+      "frequency": 1674,
+      "meanings": {
+        "general": "働く、機能する、仕事",
+        "it": "動作する、機能する（it works / doesn't work）"
+      },
+      "known": null
+    },
+    {
+      "rank": 68,
+      "word": "use",
+      "frequency": 1657,
+      "meanings": {
+        "general": "使う、使用する",
+        "it": "利用する（use a library）、React Hook の接頭辞（useState）"
+      },
+      "known": null
+    },
+    {
+      "rank": 69,
+      "word": "than",
+      "frequency": 1591,
+      "meanings": {
+        "general": "〜よりも（比較）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 70,
+      "word": "now",
+      "frequency": 1563,
+      "meanings": {
+        "general": "今、現在",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 71,
+      "word": "then",
+      "frequency": 1554,
+      "meanings": {
+        "general": "それから、その時",
+        "it": "Promiseチェーンのメソッド（.then()）"
+      },
+      "known": null
+    },
+    {
+      "rank": 72,
+      "word": "also",
+      "frequency": 1552,
+      "meanings": {
+        "general": "〜もまた、さらに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 73,
+      "word": "into",
+      "frequency": 1477,
+      "meanings": {
+        "general": "〜の中へ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 74,
+      "word": "only",
+      "frequency": 1475,
+      "meanings": {
+        "general": "〜だけ、唯一の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 75,
+      "word": "look",
+      "frequency": 1370,
+      "meanings": {
+        "general": "見る、〜に見える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 76,
+      "word": "want",
+      "frequency": 1354,
+      "meanings": {
+        "general": "〜したい、欲しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 77,
+      "word": "give",
+      "frequency": 1332,
+      "meanings": {
+        "general": "与える、渡す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 78,
+      "word": "first",
+      "frequency": 1321,
+      "meanings": {
+        "general": "最初の、1番目の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 79,
+      "word": "new",
+      "frequency": 1290,
+      "meanings": {
+        "general": "新しい",
+        "it": "インスタンスを生成するキーワード（new Object()）"
+      },
+      "known": null
+    },
+    {
+      "rank": 80,
+      "word": "way",
+      "frequency": 1279,
+      "meanings": {
+        "general": "方法、道、やり方",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 81,
+      "word": "find",
+      "frequency": 1236,
+      "meanings": {
+        "general": "見つける、発見する",
+        "it": "検索する（find command, Array.find()）"
+      },
+      "known": null
+    },
+    {
+      "rank": 82,
+      "word": "over",
+      "frequency": 1235,
+      "meanings": {
+        "general": "〜の上に、終わって",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 83,
+      "word": "any",
+      "frequency": 1224,
+      "meanings": {
+        "general": "どんな〜でも、いくらかの",
+        "it": "任意の型（any type in TypeScript）"
+      },
+      "known": null
+    },
+    {
+      "rank": 84,
+      "word": "after",
+      "frequency": 1210,
+      "meanings": {
+        "general": "〜の後に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 85,
+      "word": "day",
+      "frequency": 1187,
+      "meanings": {
+        "general": "日、1日",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 86,
+      "word": "where",
+      "frequency": 1187,
+      "meanings": {
+        "general": "どこに、〜する場所",
+        "it": "SQLの条件句（WHERE clause）"
+      },
+      "known": null
+    },
+    {
+      "rank": 87,
+      "word": "thing",
+      "frequency": 1161,
+      "meanings": {
+        "general": "もの、こと",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 88,
+      "word": "most",
+      "frequency": 1146,
+      "meanings": {
+        "general": "最も、ほとんどの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 89,
+      "word": "should",
+      "frequency": 1132,
+      "meanings": {
+        "general": "〜すべきだ、〜のはずだ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 90,
+      "word": "need",
+      "frequency": 1129,
+      "meanings": {
+        "general": "必要とする、〜する必要がある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 91,
+      "word": "much",
+      "frequency": 1125,
+      "meanings": {
+        "general": "多くの、とても",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 92,
+      "word": "right",
+      "frequency": 1113,
+      "meanings": {
+        "general": "正しい、右の、権利",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 93,
+      "word": "how",
+      "frequency": 1093,
+      "meanings": {
+        "general": "どのように、どれくらい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 94,
+      "word": "back",
+      "frequency": 1051,
+      "meanings": {
+        "general": "戻る、後ろ、背中",
+        "it": "バックエンド（backend, back-end）"
+      },
+      "known": null
+    },
+    {
+      "rank": 95,
+      "word": "mean",
+      "frequency": 1021,
+      "meanings": {
+        "general": "意味する、〜のつもりである",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 96,
+      "word": "even",
+      "frequency": 988,
+      "meanings": {
+        "general": "〜でさえ、均等な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 97,
+      "word": "may",
+      "frequency": 959,
+      "meanings": {
+        "general": "〜かもしれない、〜してよい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 98,
+      "word": "here",
+      "frequency": 947,
+      "meanings": {
+        "general": "ここに、ここで",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 99,
+      "word": "many",
+      "frequency": 945,
+      "meanings": {
+        "general": "多くの（数えられるもの）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 100,
+      "word": "such",
+      "frequency": 936,
+      "meanings": {
+        "general": "そのような、とても",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 101,
+      "word": "last",
+      "frequency": 917,
+      "meanings": {
+        "general": "最後の、前回の、続く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 102,
+      "word": "child",
+      "frequency": 910,
+      "meanings": {
+        "general": "子ども",
+        "it": "子要素、子プロセス（child element, child process）"
+      },
+      "known": null
+    },
+    {
+      "rank": 103,
+      "word": "tell",
+      "frequency": 901,
+      "meanings": {
+        "general": "伝える、教える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 104,
+      "word": "really",
+      "frequency": 870,
+      "meanings": {
+        "general": "本当に、実際に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 105,
+      "word": "call",
+      "frequency": 869,
+      "meanings": {
+        "general": "呼ぶ、電話する",
+        "it": "関数を呼び出す（function call, API call）"
+      },
+      "known": null
+    },
+    {
+      "rank": 106,
+      "word": "before",
+      "frequency": 849,
+      "meanings": {
+        "general": "〜の前に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 107,
+      "word": "company",
+      "frequency": 842,
+      "meanings": {
+        "general": "会社、企業",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 108,
+      "word": "through",
+      "frequency": 838,
+      "meanings": {
+        "general": "〜を通して、〜の間ずっと",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 109,
+      "word": "down",
+      "frequency": 833,
+      "meanings": {
+        "general": "下へ、下がって",
+        "it": "ダウンしている（server is down）"
+      },
+      "known": null
+    },
+    {
+      "rank": 110,
+      "word": "show",
+      "frequency": 827,
+      "meanings": {
+        "general": "見せる、示す、表示する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 111,
+      "word": "life",
+      "frequency": 812,
+      "meanings": {
+        "general": "人生、生活、命",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 112,
+      "word": "man",
+      "frequency": 807,
+      "meanings": {
+        "general": "男性、人間",
+        "it": "マニュアルコマンド（man page）"
+      },
+      "known": null
+    },
+    {
+      "rank": 113,
+      "word": "change",
+      "frequency": 799,
+      "meanings": {
+        "general": "変える、変わる、変化",
+        "it": "変更（code change, change log）"
+      },
+      "known": null
+    },
+    {
+      "rank": 114,
+      "word": "place",
+      "frequency": 795,
+      "meanings": {
+        "general": "場所、置く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 115,
+      "word": "long",
+      "frequency": 791,
+      "meanings": {
+        "general": "長い、長く",
+        "it": "長整数型（long integer）"
+      },
+      "known": null
+    },
+    {
+      "rank": 116,
+      "word": "between",
+      "frequency": 784,
+      "meanings": {
+        "general": "〜の間に（2つ）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 117,
+      "word": "feel",
+      "frequency": 780,
+      "meanings": {
+        "general": "感じる、〜な気がする",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 118,
+      "word": "too",
+      "frequency": 763,
+      "meanings": {
+        "general": "〜もまた、〜すぎる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 119,
+      "word": "still",
+      "frequency": 752,
+      "meanings": {
+        "general": "まだ、それでも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 120,
+      "word": "problem",
+      "frequency": 733,
+      "meanings": {
+        "general": "問題、課題",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 121,
+      "word": "write",
+      "frequency": 732,
+      "meanings": {
+        "general": "書く",
+        "it": "書き込む（write to file, write permission）"
+      },
+      "known": null
+    },
+    {
+      "rank": 122,
+      "word": "same",
+      "frequency": 721,
+      "meanings": {
+        "general": "同じ、同一の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 123,
+      "word": "lot",
+      "frequency": 715,
+      "meanings": {
+        "general": "たくさん、多く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 124,
+      "word": "great",
+      "frequency": 710,
+      "meanings": {
+        "general": "素晴らしい、大きい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 125,
+      "word": "try",
+      "frequency": 699,
+      "meanings": {
+        "general": "試す、やってみる",
+        "it": "例外処理のキーワード（try-catch）"
+      },
+      "known": null
+    },
+    {
+      "rank": 126,
+      "word": "leave",
+      "frequency": 699,
+      "meanings": {
+        "general": "去る、残す、休暇",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 127,
+      "word": "number",
+      "frequency": 698,
+      "meanings": {
+        "general": "数、番号",
+        "it": "数値型（Number type）"
+      },
+      "known": null
+    },
+    {
+      "rank": 128,
+      "word": "both",
+      "frequency": 695,
+      "meanings": {
+        "general": "両方の、両方とも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 129,
+      "word": "own",
+      "frequency": 693,
+      "meanings": {
+        "general": "自分自身の、所有する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 130,
+      "word": "part",
+      "frequency": 692,
+      "meanings": {
+        "general": "部分、一部、役割",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 131,
+      "word": "point",
+      "frequency": 684,
+      "meanings": {
+        "general": "点、要点、指す",
+        "it": "ポインタ（pointer）、浮動小数点（floating point）"
+      },
+      "known": null
+    },
+    {
+      "rank": 132,
+      "word": "little",
+      "frequency": 681,
+      "meanings": {
+        "general": "小さい、少しの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 133,
+      "word": "help",
+      "frequency": 680,
+      "meanings": {
+        "general": "助ける、手伝う、助け",
+        "it": "ヘルプ（help command, --help flag）"
+      },
+      "known": null
+    },
+    {
+      "rank": 134,
+      "word": "ask",
+      "frequency": 675,
+      "meanings": {
+        "general": "尋ねる、頼む",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 135,
+      "word": "meet",
+      "frequency": 671,
+      "meanings": {
+        "general": "会う、満たす",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 136,
+      "word": "start",
+      "frequency": 669,
+      "meanings": {
+        "general": "始める、開始する",
+        "it": "起動する（start a server, npm start）"
+      },
+      "known": null
+    },
+    {
+      "rank": 137,
+      "word": "talk",
+      "frequency": 665,
+      "meanings": {
+        "general": "話す、会話",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 138,
+      "word": "something",
+      "frequency": 665,
+      "meanings": {
+        "general": "何か、あるもの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 139,
+      "word": "put",
+      "frequency": 655,
+      "meanings": {
+        "general": "置く、入れる",
+        "it": "HTTPメソッド（PUT request）"
+      },
+      "known": null
+    },
+    {
+      "rank": 140,
+      "word": "another",
+      "frequency": 655,
+      "meanings": {
+        "general": "もう一つの、別の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 141,
+      "word": "become",
+      "frequency": 654,
+      "meanings": {
+        "general": "〜になる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 142,
+      "word": "interest",
+      "frequency": 653,
+      "meanings": {
+        "general": "興味、関心、利子",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 143,
+      "word": "country",
+      "frequency": 653,
+      "meanings": {
+        "general": "国、田舎",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 144,
+      "word": "old",
+      "frequency": 647,
+      "meanings": {
+        "general": "古い、〜歳の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 145,
+      "word": "each",
+      "frequency": 646,
+      "meanings": {
+        "general": "それぞれの、各",
+        "it": "繰り返し処理（forEach, each loop）"
+      },
+      "known": null
+    },
+    {
+      "rank": 146,
+      "word": "school",
+      "frequency": 638,
+      "meanings": {
+        "general": "学校",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 147,
+      "word": "late",
+      "frequency": 638,
+      "meanings": {
+        "general": "遅い、遅れた",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 148,
+      "word": "high",
+      "frequency": 637,
+      "meanings": {
+        "general": "高い、高度な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 149,
+      "word": "different",
+      "frequency": 636,
+      "meanings": {
+        "general": "異なる、違う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 150,
+      "word": "off",
+      "frequency": 630,
+      "meanings": {
+        "general": "離れて、オフの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 151,
+      "word": "next",
+      "frequency": 620,
+      "meanings": {
+        "general": "次の、隣の",
+        "it": "Next.jsフレームワークの名称（Next.js）"
+      },
+      "known": null
+    },
+    {
+      "rank": 152,
+      "word": "end",
+      "frequency": 619,
+      "meanings": {
+        "general": "終わり、終える、端",
+        "it": "終端（end of file, backend/frontend）"
+      },
+      "known": null
+    },
+    {
+      "rank": 153,
+      "word": "live",
+      "frequency": 608,
+      "meanings": {
+        "general": "住む、生きる、ライブの",
+        "it": "本番環境（live server, go live）"
+      },
+      "known": null
+    },
+    {
+      "rank": 154,
+      "word": "why",
+      "frequency": 607,
+      "meanings": {
+        "general": "なぜ、どうして",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 155,
+      "word": "while",
+      "frequency": 598,
+      "meanings": {
+        "general": "〜の間、〜する一方",
+        "it": "繰り返しのキーワード（while loop）"
+      },
+      "known": null
+    },
+    {
+      "rank": 156,
+      "word": "world",
+      "frequency": 597,
+      "meanings": {
+        "general": "世界、世の中",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 157,
+      "word": "week",
+      "frequency": 596,
+      "meanings": {
+        "general": "週、1週間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 158,
+      "word": "play",
+      "frequency": 593,
+      "meanings": {
+        "general": "遊ぶ、演奏する、再生する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 159,
+      "word": "might",
+      "frequency": 587,
+      "meanings": {
+        "general": "〜かもしれない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 160,
+      "word": "must",
+      "frequency": 586,
+      "meanings": {
+        "general": "〜しなければならない、〜に違いない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 161,
+      "word": "home",
+      "frequency": 585,
+      "meanings": {
+        "general": "家、故郷",
+        "it": "ホームディレクトリ（home directory, ~）"
+      },
+      "known": null
+    },
+    {
+      "rank": 162,
+      "word": "never",
+      "frequency": 580,
+      "meanings": {
+        "general": "一度も〜ない、決して〜ない",
+        "it": "TypeScriptのnever型（never type）"
+      },
+      "known": null
+    },
+    {
+      "rank": 163,
+      "word": "include",
+      "frequency": 575,
+      "meanings": {
+        "general": "含む、含める",
+        "it": "ファイルを読み込む（#include, include path）"
+      },
+      "known": null
+    },
+    {
+      "rank": 164,
+      "word": "course",
+      "frequency": 575,
+      "meanings": {
+        "general": "コース、課程、もちろん",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 165,
+      "word": "house",
+      "frequency": 572,
+      "meanings": {
+        "general": "家、住宅",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 166,
+      "word": "report",
+      "frequency": 570,
+      "meanings": {
+        "general": "報告する、報告書",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 167,
+      "word": "group",
+      "frequency": 569,
+      "meanings": {
+        "general": "グループ、集団",
+        "it": "グループ化する（group by, user group）"
+      },
+      "known": null
+    },
+    {
+      "rank": 168,
+      "word": "case",
+      "frequency": 569,
+      "meanings": {
+        "general": "場合、事例、箱",
+        "it": "条件分岐のキーワード（switch-case）、ケース記法（camelCase）"
+      },
+      "known": null
+    },
+    {
+      "rank": 169,
+      "word": "woman",
+      "frequency": 568,
+      "meanings": {
+        "general": "女性",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 170,
+      "word": "around",
+      "frequency": 568,
+      "meanings": {
+        "general": "〜の周りに、約",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 171,
+      "word": "book",
+      "frequency": 566,
+      "meanings": {
+        "general": "本、予約する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 172,
+      "word": "family",
+      "frequency": 565,
+      "meanings": {
+        "general": "家族",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 173,
+      "word": "seem",
+      "frequency": 562,
+      "meanings": {
+        "general": "〜のように見える、〜らしい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 174,
+      "word": "let",
+      "frequency": 555,
+      "meanings": {
+        "general": "〜させる、許す",
+        "it": "変数宣言のキーワード（let x = 1）"
+      },
+      "known": null
+    },
+    {
+      "rank": 175,
+      "word": "again",
+      "frequency": 554,
+      "meanings": {
+        "general": "再び、もう一度",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 176,
+      "word": "kind",
+      "frequency": 554,
+      "meanings": {
+        "general": "種類、親切な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 177,
+      "word": "keep",
+      "frequency": 551,
+      "meanings": {
+        "general": "保つ、保管する、続ける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 178,
+      "word": "hear",
+      "frequency": 546,
+      "meanings": {
+        "general": "聞く、聞こえる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 179,
+      "word": "system",
+      "frequency": 545,
+      "meanings": {
+        "general": "制度、体系、システム",
+        "it": "システム（system call, operating system）"
+      },
+      "known": null
+    },
+    {
+      "rank": 180,
+      "word": "every",
+      "frequency": 545,
+      "meanings": {
+        "general": "すべての、毎〜",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 181,
+      "word": "question",
+      "frequency": 542,
+      "meanings": {
+        "general": "質問、問題",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 182,
+      "word": "during",
+      "frequency": 540,
+      "meanings": {
+        "general": "〜の間に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 183,
+      "word": "always",
+      "frequency": 531,
+      "meanings": {
+        "general": "いつも、常に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 184,
+      "word": "big",
+      "frequency": 527,
+      "meanings": {
+        "general": "大きい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 185,
+      "word": "set",
+      "frequency": 526,
+      "meanings": {
+        "general": "設定する、置く、一式",
+        "it": "設定する（set a value）、集合データ構造（Set）"
+      },
+      "known": null
+    },
+    {
+      "rank": 186,
+      "word": "small",
+      "frequency": 525,
+      "meanings": {
+        "general": "小さい、少ない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 187,
+      "word": "study",
+      "frequency": 524,
+      "meanings": {
+        "general": "勉強する、研究する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 188,
+      "word": "follow",
+      "frequency": 521,
+      "meanings": {
+        "general": "従う、ついていく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 189,
+      "word": "begin",
+      "frequency": 518,
+      "meanings": {
+        "general": "始まる、始める",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 190,
+      "word": "important",
+      "frequency": 518,
+      "meanings": {
+        "general": "重要な、大切な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 191,
+      "word": "since",
+      "frequency": 515,
+      "meanings": {
+        "general": "〜以来、〜なので",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 192,
+      "word": "run",
+      "frequency": 510,
+      "meanings": {
+        "general": "走る、動かす、経営する",
+        "it": "実行する（run a script, npm run）"
+      },
+      "known": null
+    },
+    {
+      "rank": 193,
+      "word": "under",
+      "frequency": 509,
+      "meanings": {
+        "general": "〜の下に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 194,
+      "word": "turn",
+      "frequency": 509,
+      "meanings": {
+        "general": "回す、曲がる、順番",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 195,
+      "word": "few",
+      "frequency": 509,
+      "meanings": {
+        "general": "少しの、少数の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 196,
+      "word": "bring",
+      "frequency": 502,
+      "meanings": {
+        "general": "持ってくる、連れてくる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 197,
+      "word": "early",
+      "frequency": 499,
+      "meanings": {
+        "general": "早い、初期の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 198,
+      "word": "hand",
+      "frequency": 497,
+      "meanings": {
+        "general": "手、渡す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 199,
+      "word": "state",
+      "frequency": 494,
+      "meanings": {
+        "general": "状態、州、述べる",
+        "it": "状態管理（state management, useState）"
+      },
+      "known": null
+    },
+    {
+      "rank": 200,
+      "word": "move",
+      "frequency": 493,
+      "meanings": {
+        "general": "動く、移動する、引っ越す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 201,
+      "word": "money",
+      "frequency": 492,
+      "meanings": {
+        "general": "お金",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 202,
+      "word": "fact",
+      "frequency": 486,
+      "meanings": {
+        "general": "事実、実際",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 203,
+      "word": "however",
+      "frequency": 479,
+      "meanings": {
+        "general": "しかしながら、どんなに〜でも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 204,
+      "word": "area",
+      "frequency": 477,
+      "meanings": {
+        "general": "地域、分野、面積",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 205,
+      "word": "provide",
+      "frequency": 476,
+      "meanings": {
+        "general": "提供する、与える",
+        "it": "提供する（provide a service, Provider pattern）"
+      },
+      "known": null
+    },
+    {
+      "rank": 206,
+      "word": "name",
+      "frequency": 472,
+      "meanings": {
+        "general": "名前、名づける",
+        "it": "名前（variable name, file name, naming convention）"
+      },
+      "known": null
+    },
+    {
+      "rank": 207,
+      "word": "read",
+      "frequency": 471,
+      "meanings": {
+        "general": "読む",
+        "it": "読み込む（read a file）"
+      },
+      "known": null
+    },
+    {
+      "rank": 208,
+      "word": "friend",
+      "frequency": 468,
+      "meanings": {
+        "general": "友人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 209,
+      "word": "month",
+      "frequency": 468,
+      "meanings": {
+        "general": "月",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 210,
+      "word": "large",
+      "frequency": 464,
+      "meanings": {
+        "general": "大きい、大規模な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 211,
+      "word": "business",
+      "frequency": 464,
+      "meanings": {
+        "general": "ビジネス、事業",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 212,
+      "word": "without",
+      "frequency": 461,
+      "meanings": {
+        "general": "〜なしで",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 213,
+      "word": "information",
+      "frequency": 459,
+      "meanings": {
+        "general": "情報",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 214,
+      "word": "open",
+      "frequency": 459,
+      "meanings": {
+        "general": "開く、開いた",
+        "it": "開く（open a file / open a connection）"
+      },
+      "known": null
+    },
+    {
+      "rank": 215,
+      "word": "order",
+      "frequency": 456,
+      "meanings": {
+        "general": "順序、注文、命令",
+        "it": "順序（sort order）"
+      },
+      "known": null
+    },
+    {
+      "rank": 216,
+      "word": "government",
+      "frequency": 455,
+      "meanings": {
+        "general": "政府",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 217,
+      "word": "word",
+      "frequency": 455,
+      "meanings": {
+        "general": "言葉、単語",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 218,
+      "word": "issue",
+      "frequency": 453,
+      "meanings": {
+        "general": "問題、課題",
+        "it": "課題チケット（GitHub issue）"
+      },
+      "known": null
+    },
+    {
+      "rank": 219,
+      "word": "market",
+      "frequency": 450,
+      "meanings": {
+        "general": "市場",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 220,
+      "word": "pay",
+      "frequency": 447,
+      "meanings": {
+        "general": "支払う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 221,
+      "word": "build",
+      "frequency": 446,
+      "meanings": {
+        "general": "建てる、構築する",
+        "it": "ビルドする（build a project）"
+      },
+      "known": null
+    },
+    {
+      "rank": 222,
+      "word": "hold",
+      "frequency": 442,
+      "meanings": {
+        "general": "持つ、保持する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 223,
+      "word": "service",
+      "frequency": 440,
+      "meanings": {
+        "general": "サービス",
+        "it": "サービス（microservice, web service）"
+      },
+      "known": null
+    },
+    {
+      "rank": 224,
+      "word": "against",
+      "frequency": 436,
+      "meanings": {
+        "general": "〜に対して、〜に反して",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 225,
+      "word": "believe",
+      "frequency": 435,
+      "meanings": {
+        "general": "信じる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 226,
+      "word": "second",
+      "frequency": 433,
+      "meanings": {
+        "general": "2番目の、秒",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 227,
+      "word": "though",
+      "frequency": 430,
+      "meanings": {
+        "general": "〜だけれども",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 228,
+      "word": "yes",
+      "frequency": 430,
+      "meanings": {
+        "general": "はい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 229,
+      "word": "love",
+      "frequency": 427,
+      "meanings": {
+        "general": "愛、愛する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 230,
+      "word": "increase",
+      "frequency": 425,
+      "meanings": {
+        "general": "増加する、増加",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 231,
+      "word": "job",
+      "frequency": 425,
+      "meanings": {
+        "general": "仕事",
+        "it": "ジョブ（cron job, batch job）"
+      },
+      "known": null
+    },
+    {
+      "rank": 232,
+      "word": "plan",
+      "frequency": 425,
+      "meanings": {
+        "general": "計画、計画する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 233,
+      "word": "result",
+      "frequency": 424,
+      "meanings": {
+        "general": "結果",
+        "it": "結果（return result）"
+      },
+      "known": null
+    },
+    {
+      "rank": 234,
+      "word": "away",
+      "frequency": 424,
+      "meanings": {
+        "general": "離れて",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 235,
+      "word": "example",
+      "frequency": 420,
+      "meanings": {
+        "general": "例",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 236,
+      "word": "happen",
+      "frequency": 420,
+      "meanings": {
+        "general": "起こる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 237,
+      "word": "offer",
+      "frequency": 418,
+      "meanings": {
+        "general": "提供する、申し出",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 238,
+      "word": "young",
+      "frequency": 417,
+      "meanings": {
+        "general": "若い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 239,
+      "word": "close",
+      "frequency": 416,
+      "meanings": {
+        "general": "閉じる、近い",
+        "it": "閉じる（close a connection / close an issue）"
+      },
+      "known": null
+    },
+    {
+      "rank": 240,
+      "word": "program",
+      "frequency": 414,
+      "meanings": {
+        "general": "番組、計画",
+        "it": "プログラム（write a program）"
+      },
+      "known": null
+    },
+    {
+      "rank": 241,
+      "word": "lead",
+      "frequency": 410,
+      "meanings": {
+        "general": "導く、先頭",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 242,
+      "word": "buy",
+      "frequency": 405,
+      "meanings": {
+        "general": "買う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 243,
+      "word": "understand",
+      "frequency": 403,
+      "meanings": {
+        "general": "理解する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 244,
+      "word": "thank",
+      "frequency": 399,
+      "meanings": {
+        "general": "感謝する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 245,
+      "word": "far",
+      "frequency": 398,
+      "meanings": {
+        "general": "遠い、遠くに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 246,
+      "word": "today",
+      "frequency": 392,
+      "meanings": {
+        "general": "今日",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 247,
+      "word": "hour",
+      "frequency": 391,
+      "meanings": {
+        "general": "時間（1時間）",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 248,
+      "word": "student",
+      "frequency": 391,
+      "meanings": {
+        "general": "学生",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 249,
+      "word": "face",
+      "frequency": 390,
+      "meanings": {
+        "general": "顔、直面する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 250,
+      "word": "hope",
+      "frequency": 388,
+      "meanings": {
+        "general": "望む、希望",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 251,
+      "word": "idea",
+      "frequency": 387,
+      "meanings": {
+        "general": "考え、アイデア",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 252,
+      "word": "cost",
+      "frequency": 386,
+      "meanings": {
+        "general": "費用、かかる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 253,
+      "word": "less",
+      "frequency": 385,
+      "meanings": {
+        "general": "より少ない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 254,
+      "word": "room",
+      "frequency": 385,
+      "meanings": {
+        "general": "部屋、余地",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 255,
+      "word": "until",
+      "frequency": 383,
+      "meanings": {
+        "general": "〜まで",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 256,
+      "word": "reason",
+      "frequency": 383,
+      "meanings": {
+        "general": "理由",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 257,
+      "word": "form",
+      "frequency": 379,
+      "meanings": {
+        "general": "形式、書式、形成する",
+        "it": "フォーム（input form）"
+      },
+      "known": null
+    },
+    {
+      "rank": 258,
+      "word": "spend",
+      "frequency": 378,
+      "meanings": {
+        "general": "費やす、使う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 259,
+      "word": "head",
+      "frequency": 378,
+      "meanings": {
+        "general": "頭、先頭",
+        "it": "先頭（HEAD commit / head of a list）"
+      },
+      "known": null
+    },
+    {
+      "rank": 260,
+      "word": "car",
+      "frequency": 377,
+      "meanings": {
+        "general": "車",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 261,
+      "word": "learn",
+      "frequency": 375,
+      "meanings": {
+        "general": "学ぶ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 262,
+      "word": "level",
+      "frequency": 373,
+      "meanings": {
+        "general": "レベル、水準",
+        "it": "レベル（log level）"
+      },
+      "known": null
+    },
+    {
+      "rank": 263,
+      "word": "person",
+      "frequency": 368,
+      "meanings": {
+        "general": "人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 264,
+      "word": "experience",
+      "frequency": 365,
+      "meanings": {
+        "general": "経験、体験",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 265,
+      "word": "once",
+      "frequency": 365,
+      "meanings": {
+        "general": "一度、かつて",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 266,
+      "word": "member",
+      "frequency": 364,
+      "meanings": {
+        "general": "メンバー、会員",
+        "it": "メンバー（class member）"
+      },
+      "known": null
+    },
+    {
+      "rank": 267,
+      "word": "enough",
+      "frequency": 363,
+      "meanings": {
+        "general": "十分な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 268,
+      "word": "bad",
+      "frequency": 363,
+      "meanings": {
+        "general": "悪い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 269,
+      "word": "city",
+      "frequency": 362,
+      "meanings": {
+        "general": "都市",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 270,
+      "word": "night",
+      "frequency": 361,
+      "meanings": {
+        "general": "夜",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 271,
+      "word": "able",
+      "frequency": 361,
+      "meanings": {
+        "general": "〜できる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 272,
+      "word": "support",
+      "frequency": 359,
+      "meanings": {
+        "general": "支援する、対応する",
+        "it": "対応する（support a feature）"
+      },
+      "known": null
+    },
+    {
+      "rank": 273,
+      "word": "whether",
+      "frequency": 359,
+      "meanings": {
+        "general": "〜かどうか",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 274,
+      "word": "line",
+      "frequency": 358,
+      "meanings": {
+        "general": "行、線",
+        "it": "行（line of code）"
+      },
+      "known": null
+    },
+    {
+      "rank": 275,
+      "word": "present",
+      "frequency": 358,
+      "meanings": {
+        "general": "現在の、提示する、贈り物",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 276,
+      "word": "side",
+      "frequency": 356,
+      "meanings": {
+        "general": "側、面",
+        "it": "側（server-side / client-side）"
+      },
+      "known": null
+    },
+    {
+      "rank": 277,
+      "word": "quite",
+      "frequency": 354,
+      "meanings": {
+        "general": "かなり、まったく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 278,
+      "word": "although",
+      "frequency": 351,
+      "meanings": {
+        "general": "〜だけれども",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 279,
+      "word": "sure",
+      "frequency": 351,
+      "meanings": {
+        "general": "確かな、もちろん",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 280,
+      "word": "term",
+      "frequency": 350,
+      "meanings": {
+        "general": "用語、期間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 281,
+      "word": "least",
+      "frequency": 350,
+      "meanings": {
+        "general": "最も少ない、少なくとも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 282,
+      "word": "age",
+      "frequency": 349,
+      "meanings": {
+        "general": "年齢、時代",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 283,
+      "word": "low",
+      "frequency": 349,
+      "meanings": {
+        "general": "低い",
+        "it": "低い（low latency）"
+      },
+      "known": null
+    },
+    {
+      "rank": 284,
+      "word": "speak",
+      "frequency": 348,
+      "meanings": {
+        "general": "話す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 285,
+      "word": "within",
+      "frequency": 347,
+      "meanings": {
+        "general": "〜以内に、〜の中で",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 286,
+      "word": "process",
+      "frequency": 346,
+      "meanings": {
+        "general": "過程、処理する",
+        "it": "プロセス（OS process / process data）"
+      },
+      "known": null
+    },
+    {
+      "rank": 287,
+      "word": "public",
+      "frequency": 343,
+      "meanings": {
+        "general": "公共の、公開の",
+        "it": "公開の（public API / public key）"
+      },
+      "known": null
+    },
+    {
+      "rank": 288,
+      "word": "often",
+      "frequency": 341,
+      "meanings": {
+        "general": "よく、しばしば",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 289,
+      "word": "train",
+      "frequency": 338,
+      "meanings": {
+        "general": "電車、訓練する",
+        "it": "学習させる（train a model）"
+      },
+      "known": null
+    },
+    {
+      "rank": 290,
+      "word": "possible",
+      "frequency": 337,
+      "meanings": {
+        "general": "可能な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 291,
+      "word": "actually",
+      "frequency": 337,
+      "meanings": {
+        "general": "実際に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 292,
+      "word": "rather",
+      "frequency": 336,
+      "meanings": {
+        "general": "むしろ、かなり",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 293,
+      "word": "view",
+      "frequency": 336,
+      "meanings": {
+        "general": "眺め、見解、見る",
+        "it": "ビュー（view component / page view）"
+      },
+      "known": null
+    },
+    {
+      "rank": 294,
+      "word": "together",
+      "frequency": 334,
+      "meanings": {
+        "general": "一緒に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 295,
+      "word": "consider",
+      "frequency": 334,
+      "meanings": {
+        "general": "検討する、考慮する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 296,
+      "word": "price",
+      "frequency": 327,
+      "meanings": {
+        "general": "価格",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 297,
+      "word": "parent",
+      "frequency": 326,
+      "meanings": {
+        "general": "親",
+        "it": "親要素（parent element / parent class）"
+      },
+      "known": null
+    },
+    {
+      "rank": 298,
+      "word": "hard",
+      "frequency": 325,
+      "meanings": {
+        "general": "難しい、硬い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 299,
+      "word": "party",
+      "frequency": 322,
+      "meanings": {
+        "general": "パーティー、政党",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 300,
+      "word": "local",
+      "frequency": 321,
+      "meanings": {
+        "general": "地元の、地域の",
+        "it": "ローカルの（local variable / localhost）"
+      },
+      "known": null
+    },
+    {
+      "rank": 301,
+      "word": "control",
+      "frequency": 320,
+      "meanings": {
+        "general": "制御、管理する",
+        "it": "制御（version control / access control）"
+      },
+      "known": null
+    },
+    {
+      "rank": 302,
+      "word": "already",
+      "frequency": 318,
+      "meanings": {
+        "general": "すでに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 303,
+      "word": "concern",
+      "frequency": 317,
+      "meanings": {
+        "general": "懸念、関係する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 304,
+      "word": "product",
+      "frequency": 317,
+      "meanings": {
+        "general": "製品",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 305,
+      "word": "lose",
+      "frequency": 316,
+      "meanings": {
+        "general": "失う、負ける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 306,
+      "word": "story",
+      "frequency": 315,
+      "meanings": {
+        "general": "物語、話",
+        "it": "ストーリー（user story）"
+      },
+      "known": null
+    },
+    {
+      "rank": 307,
+      "word": "almost",
+      "frequency": 315,
+      "meanings": {
+        "general": "ほとんど",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 308,
+      "word": "continue",
+      "frequency": 314,
+      "meanings": {
+        "general": "続ける、続く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 309,
+      "word": "stand",
+      "frequency": 313,
+      "meanings": {
+        "general": "立つ、立場",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 310,
+      "word": "whole",
+      "frequency": 313,
+      "meanings": {
+        "general": "全体の、全部",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 311,
+      "word": "yet",
+      "frequency": 313,
+      "meanings": {
+        "general": "まだ、それでも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 312,
+      "word": "rate",
+      "frequency": 312,
+      "meanings": {
+        "general": "率、割合、評価する",
+        "it": "レート（rate limit / refresh rate）"
+      },
+      "known": null
+    },
+    {
+      "rank": 313,
+      "word": "care",
+      "frequency": 311,
+      "meanings": {
+        "general": "世話、気にかける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 314,
+      "word": "expect",
+      "frequency": 311,
+      "meanings": {
+        "general": "期待する、予想する",
+        "it": "期待する（expected value / expect in testing）"
+      },
+      "known": null
+    },
+    {
+      "rank": 315,
+      "word": "effect",
+      "frequency": 311,
+      "meanings": {
+        "general": "効果、影響",
+        "it": "副作用（side effect）"
+      },
+      "known": null
+    },
+    {
+      "rank": 316,
+      "word": "sort",
+      "frequency": 311,
+      "meanings": {
+        "general": "種類、分類する",
+        "it": "ソートする（sort an array）"
+      },
+      "known": null
+    },
+    {
+      "rank": 317,
+      "word": "ever",
+      "frequency": 311,
+      "meanings": {
+        "general": "今までに、かつて",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 318,
+      "word": "anything",
+      "frequency": 310,
+      "meanings": {
+        "general": "何でも、何か",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 319,
+      "word": "cause",
+      "frequency": 309,
+      "meanings": {
+        "general": "原因、引き起こす",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 320,
+      "word": "fall",
+      "frequency": 309,
+      "meanings": {
+        "general": "落ちる、秋",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 321,
+      "word": "deal",
+      "frequency": 309,
+      "meanings": {
+        "general": "扱う、取引",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 322,
+      "word": "water",
+      "frequency": 307,
+      "meanings": {
+        "general": "水",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 323,
+      "word": "send",
+      "frequency": 306,
+      "meanings": {
+        "general": "送る",
+        "it": "送信する（send a request）"
+      },
+      "known": null
+    },
+    {
+      "rank": 324,
+      "word": "allow",
+      "frequency": 305,
+      "meanings": {
+        "general": "許可する",
+        "it": "許可する（allow access）"
+      },
+      "known": null
+    },
+    {
+      "rank": 325,
+      "word": "soon",
+      "frequency": 304,
+      "meanings": {
+        "general": "すぐに、まもなく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 326,
+      "word": "watch",
+      "frequency": 302,
+      "meanings": {
+        "general": "見る、監視する、時計",
+        "it": "監視する（watch mode / file watcher）"
+      },
+      "known": null
+    },
+    {
+      "rank": 327,
+      "word": "base",
+      "frequency": 300,
+      "meanings": {
+        "general": "基礎、基地",
+        "it": "ベース（base class / database / base URL）"
+      },
+      "known": null
+    },
+    {
+      "rank": 328,
+      "word": "probably",
+      "frequency": 299,
+      "meanings": {
+        "general": "おそらく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 329,
+      "word": "suggest",
+      "frequency": 298,
+      "meanings": {
+        "general": "提案する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 330,
+      "word": "past",
+      "frequency": 297,
+      "meanings": {
+        "general": "過去の、過去",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 331,
+      "word": "power",
+      "frequency": 296,
+      "meanings": {
+        "general": "力、電力",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 332,
+      "word": "test",
+      "frequency": 296,
+      "meanings": {
+        "general": "テスト、試験",
+        "it": "テスト（unit test / test suite）"
+      },
+      "known": null
+    },
+    {
+      "rank": 333,
+      "word": "visit",
+      "frequency": 295,
+      "meanings": {
+        "general": "訪問する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 334,
+      "word": "center",
+      "frequency": 295,
+      "meanings": {
+        "general": "中心、センター",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 335,
+      "word": "grow",
+      "frequency": 294,
+      "meanings": {
+        "general": "成長する、育てる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 336,
+      "word": "nothing",
+      "frequency": 294,
+      "meanings": {
+        "general": "何もない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 337,
+      "word": "return",
+      "frequency": 294,
+      "meanings": {
+        "general": "戻る、返す",
+        "it": "返す（return a value）"
+      },
+      "known": null
+    },
+    {
+      "rank": 338,
+      "word": "mother",
+      "frequency": 293,
+      "meanings": {
+        "general": "母",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 339,
+      "word": "walk",
+      "frequency": 291,
+      "meanings": {
+        "general": "歩く",
+        "it": "走査する（walk a tree）"
+      },
+      "known": null
+    },
+    {
+      "rank": 340,
+      "word": "matter",
+      "frequency": 290,
+      "meanings": {
+        "general": "問題、重要である",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 341,
+      "word": "mind",
+      "frequency": 290,
+      "meanings": {
+        "general": "心、気にする",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 342,
+      "word": "value",
+      "frequency": 289,
+      "meanings": {
+        "general": "価値、値",
+        "it": "値（variable value / return value）"
+      },
+      "known": null
+    },
+    {
+      "rank": 343,
+      "word": "office",
+      "frequency": 288,
+      "meanings": {
+        "general": "事務所、オフィス",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 344,
+      "word": "record",
+      "frequency": 287,
+      "meanings": {
+        "general": "記録、記録する",
+        "it": "レコード（database record）"
+      },
+      "known": null
+    },
+    {
+      "rank": 345,
+      "word": "stay",
+      "frequency": 286,
+      "meanings": {
+        "general": "滞在する、とどまる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 346,
+      "word": "force",
+      "frequency": 286,
+      "meanings": {
+        "general": "力、強制する",
+        "it": "強制する（force push）"
+      },
+      "known": null
+    },
+    {
+      "rank": 347,
+      "word": "stop",
+      "frequency": 285,
+      "meanings": {
+        "general": "止まる、止める",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 348,
+      "word": "several",
+      "frequency": 285,
+      "meanings": {
+        "general": "いくつかの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 349,
+      "word": "light",
+      "frequency": 284,
+      "meanings": {
+        "general": "光、軽い",
+        "it": "軽量な（lightweight）"
+      },
+      "known": null
+    },
+    {
+      "rank": 350,
+      "word": "develop",
+      "frequency": 282,
+      "meanings": {
+        "general": "発展させる、開発する",
+        "it": "開発する（develop software）"
+      },
+      "known": null
+    },
+    {
+      "rank": 351,
+      "word": "remember",
+      "frequency": 282,
+      "meanings": {
+        "general": "覚えている、思い出す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 352,
+      "word": "bit",
+      "frequency": 281,
+      "meanings": {
+        "general": "少し、一片",
+        "it": "ビット（bit / 8 bits = 1 byte）"
+      },
+      "known": null
+    },
+    {
+      "rank": 353,
+      "word": "share",
+      "frequency": 281,
+      "meanings": {
+        "general": "共有する、分け前",
+        "it": "共有する（share a link / shared resource）"
+      },
+      "known": null
+    },
+    {
+      "rank": 354,
+      "word": "real",
+      "frequency": 280,
+      "meanings": {
+        "general": "本当の、現実の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 355,
+      "word": "answer",
+      "frequency": 279,
+      "meanings": {
+        "general": "答え、答える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 356,
+      "word": "sit",
+      "frequency": 278,
+      "meanings": {
+        "general": "座る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 357,
+      "word": "figure",
+      "frequency": 278,
+      "meanings": {
+        "general": "図、数字、人物",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 358,
+      "word": "letter",
+      "frequency": 277,
+      "meanings": {
+        "general": "手紙、文字",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 359,
+      "word": "decide",
+      "frequency": 276,
+      "meanings": {
+        "general": "決める",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 360,
+      "word": "language",
+      "frequency": 275,
+      "meanings": {
+        "general": "言語",
+        "it": "言語（programming language）"
+      },
+      "known": null
+    },
+    {
+      "rank": 361,
+      "word": "subject",
+      "frequency": 273,
+      "meanings": {
+        "general": "主題、科目、主語",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 362,
+      "word": "class",
+      "frequency": 272,
+      "meanings": {
+        "general": "クラス、授業、階級",
+        "it": "クラス（class in OOP）"
+      },
+      "known": null
+    },
+    {
+      "rank": 363,
+      "word": "development",
+      "frequency": 270,
+      "meanings": {
+        "general": "発展、開発",
+        "it": "開発（software development）"
+      },
+      "known": null
+    },
+    {
+      "rank": 364,
+      "word": "town",
+      "frequency": 269,
+      "meanings": {
+        "general": "町",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 365,
+      "word": "half",
+      "frequency": 269,
+      "meanings": {
+        "general": "半分",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 366,
+      "word": "minute",
+      "frequency": 268,
+      "meanings": {
+        "general": "分、微小な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 367,
+      "word": "food",
+      "frequency": 268,
+      "meanings": {
+        "general": "食べ物",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 368,
+      "word": "break",
+      "frequency": 268,
+      "meanings": {
+        "general": "壊す、休憩",
+        "it": "中断する（break statement / breaking change）"
+      },
+      "known": null
+    },
+    {
+      "rank": 369,
+      "word": "clear",
+      "frequency": 266,
+      "meanings": {
+        "general": "明確な、片付ける",
+        "it": "クリアする（clear cache / clear console）"
+      },
+      "known": null
+    },
+    {
+      "rank": 370,
+      "word": "future",
+      "frequency": 266,
+      "meanings": {
+        "general": "未来、将来の",
+        "it": "フューチャー（Future / Promise）"
+      },
+      "known": null
+    },
+    {
+      "rank": 371,
+      "word": "either",
+      "frequency": 266,
+      "meanings": {
+        "general": "どちらか、どちらも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 372,
+      "word": "ago",
+      "frequency": 265,
+      "meanings": {
+        "general": "〜前に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 373,
+      "word": "per",
+      "frequency": 265,
+      "meanings": {
+        "general": "〜につき",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 374,
+      "word": "remain",
+      "frequency": 265,
+      "meanings": {
+        "general": "残る、〜のままである",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 375,
+      "word": "top",
+      "frequency": 265,
+      "meanings": {
+        "general": "頂上、最上の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 376,
+      "word": "among",
+      "frequency": 265,
+      "meanings": {
+        "general": "〜の間で",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 377,
+      "word": "win",
+      "frequency": 264,
+      "meanings": {
+        "general": "勝つ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 378,
+      "word": "color",
+      "frequency": 263,
+      "meanings": {
+        "general": "色",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 379,
+      "word": "involve",
+      "frequency": 260,
+      "meanings": {
+        "general": "含む、関わる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 380,
+      "word": "reach",
+      "frequency": 260,
+      "meanings": {
+        "general": "到達する、届く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 381,
+      "word": "social",
+      "frequency": 260,
+      "meanings": {
+        "general": "社会的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 382,
+      "word": "period",
+      "frequency": 259,
+      "meanings": {
+        "general": "期間、ピリオド",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 383,
+      "word": "across",
+      "frequency": 258,
+      "meanings": {
+        "general": "〜を横切って、〜全体に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 384,
+      "word": "note",
+      "frequency": 258,
+      "meanings": {
+        "general": "メモ、注意する",
+        "it": "注記（Note: ...）"
+      },
+      "known": null
+    },
+    {
+      "rank": 385,
+      "word": "history",
+      "frequency": 258,
+      "meanings": {
+        "general": "歴史",
+        "it": "履歴（command history / browser history）"
+      },
+      "known": null
+    },
+    {
+      "rank": 386,
+      "word": "create",
+      "frequency": 258,
+      "meanings": {
+        "general": "作る、創造する",
+        "it": "作成する（create a file / create a branch）"
+      },
+      "known": null
+    },
+    {
+      "rank": 387,
+      "word": "drive",
+      "frequency": 258,
+      "meanings": {
+        "general": "運転する、駆り立てる",
+        "it": "ドライブ（hard drive）"
+      },
+      "known": null
+    },
+    {
+      "rank": 388,
+      "word": "along",
+      "frequency": 257,
+      "meanings": {
+        "general": "〜に沿って",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 389,
+      "word": "type",
+      "frequency": 257,
+      "meanings": {
+        "general": "種類、タイプする",
+        "it": "型（data type / type annotation）"
+      },
+      "known": null
+    },
+    {
+      "rank": 390,
+      "word": "sound",
+      "frequency": 256,
+      "meanings": {
+        "general": "音、〜に聞こえる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 391,
+      "word": "eye",
+      "frequency": 256,
+      "meanings": {
+        "general": "目",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 392,
+      "word": "music",
+      "frequency": 255,
+      "meanings": {
+        "general": "音楽",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 393,
+      "word": "game",
+      "frequency": 255,
+      "meanings": {
+        "general": "ゲーム、試合",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 394,
+      "word": "political",
+      "frequency": 255,
+      "meanings": {
+        "general": "政治的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 395,
+      "word": "free",
+      "frequency": 255,
+      "meanings": {
+        "general": "自由な、無料の",
+        "it": "解放する（free memory）"
+      },
+      "known": null
+    },
+    {
+      "rank": 396,
+      "word": "receive",
+      "frequency": 254,
+      "meanings": {
+        "general": "受け取る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 397,
+      "word": "moment",
+      "frequency": 254,
+      "meanings": {
+        "general": "瞬間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 398,
+      "word": "sale",
+      "frequency": 254,
+      "meanings": {
+        "general": "販売、セール",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 399,
+      "word": "policy",
+      "frequency": 253,
+      "meanings": {
+        "general": "方針、政策",
+        "it": "ポリシー（security policy / CORS policy）"
+      },
+      "known": null
+    },
+    {
+      "rank": 400,
+      "word": "further",
+      "frequency": 251,
+      "meanings": {
+        "general": "さらに、それ以上の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 401,
+      "word": "body",
+      "frequency": 250,
+      "meanings": {
+        "general": "体、本体",
+        "it": "ボディ（request body / response body）"
+      },
+      "known": null
+    },
+    {
+      "rank": 402,
+      "word": "require",
+      "frequency": 249,
+      "meanings": {
+        "general": "必要とする、要求する",
+        "it": "読み込む（require a module）"
+      },
+      "known": null
+    },
+    {
+      "rank": 403,
+      "word": "wait",
+      "frequency": 249,
+      "meanings": {
+        "general": "待つ",
+        "it": "待機する（await / wait for a promise）"
+      },
+      "known": null
+    },
+    {
+      "rank": 404,
+      "word": "general",
+      "frequency": 248,
+      "meanings": {
+        "general": "一般的な、全般の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 405,
+      "word": "appear",
+      "frequency": 248,
+      "meanings": {
+        "general": "現れる、〜に見える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 406,
+      "word": "toward",
+      "frequency": 248,
+      "meanings": {
+        "general": "〜に向かって",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 407,
+      "word": "team",
+      "frequency": 248,
+      "meanings": {
+        "general": "チーム",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 408,
+      "word": "easy",
+      "frequency": 248,
+      "meanings": {
+        "general": "簡単な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 409,
+      "word": "individual",
+      "frequency": 248,
+      "meanings": {
+        "general": "個人の、個人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 410,
+      "word": "full",
+      "frequency": 248,
+      "meanings": {
+        "general": "いっぱいの、完全な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 411,
+      "word": "black",
+      "frequency": 248,
+      "meanings": {
+        "general": "黒い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 412,
+      "word": "sense",
+      "frequency": 247,
+      "meanings": {
+        "general": "感覚、意味",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 413,
+      "word": "perhaps",
+      "frequency": 246,
+      "meanings": {
+        "general": "たぶん、おそらく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 414,
+      "word": "add",
+      "frequency": 245,
+      "meanings": {
+        "general": "加える、追加する",
+        "it": "追加する（git add / add a dependency）"
+      },
+      "known": null
+    },
+    {
+      "rank": 415,
+      "word": "rule",
+      "frequency": 245,
+      "meanings": {
+        "general": "規則、支配する",
+        "it": "ルール（linting rule / validation rule）"
+      },
+      "known": null
+    },
+    {
+      "rank": 416,
+      "word": "pass",
+      "frequency": 243,
+      "meanings": {
+        "general": "通る、渡す、合格する",
+        "it": "渡す（pass a parameter / pass a test）"
+      },
+      "known": null
+    },
+    {
+      "rank": 417,
+      "word": "produce",
+      "frequency": 243,
+      "meanings": {
+        "general": "生産する、生み出す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 418,
+      "word": "sell",
+      "frequency": 243,
+      "meanings": {
+        "general": "売る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 419,
+      "word": "short",
+      "frequency": 241,
+      "meanings": {
+        "general": "短い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 420,
+      "word": "agree",
+      "frequency": 240,
+      "meanings": {
+        "general": "同意する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 421,
+      "word": "law",
+      "frequency": 239,
+      "meanings": {
+        "general": "法律",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 422,
+      "word": "everything",
+      "frequency": 238,
+      "meanings": {
+        "general": "すべてのもの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 423,
+      "word": "research",
+      "frequency": 237,
+      "meanings": {
+        "general": "研究、調査する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 424,
+      "word": "cover",
+      "frequency": 236,
+      "meanings": {
+        "general": "覆う、カバーする",
+        "it": "カバレッジ（code coverage）"
+      },
+      "known": null
+    },
+    {
+      "rank": 425,
+      "word": "paper",
+      "frequency": 236,
+      "meanings": {
+        "general": "紙、論文",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 426,
+      "word": "position",
+      "frequency": 236,
+      "meanings": {
+        "general": "位置、地位",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 427,
+      "word": "near",
+      "frequency": 236,
+      "meanings": {
+        "general": "近い、近くに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 428,
+      "word": "human",
+      "frequency": 235,
+      "meanings": {
+        "general": "人間の、人間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 429,
+      "word": "computer",
+      "frequency": 235,
+      "meanings": {
+        "general": "コンピュータ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 430,
+      "word": "situation",
+      "frequency": 235,
+      "meanings": {
+        "general": "状況",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 431,
+      "word": "staff",
+      "frequency": 234,
+      "meanings": {
+        "general": "スタッフ、職員",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 432,
+      "word": "activity",
+      "frequency": 234,
+      "meanings": {
+        "general": "活動",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 433,
+      "word": "film",
+      "frequency": 232,
+      "meanings": {
+        "general": "映画、フィルム",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 434,
+      "word": "morning",
+      "frequency": 232,
+      "meanings": {
+        "general": "朝",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 435,
+      "word": "war",
+      "frequency": 231,
+      "meanings": {
+        "general": "戦争",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 436,
+      "word": "account",
+      "frequency": 231,
+      "meanings": {
+        "general": "口座、アカウント、説明",
+        "it": "アカウント（user account）"
+      },
+      "known": null
+    },
+    {
+      "rank": 437,
+      "word": "shop",
+      "frequency": 230,
+      "meanings": {
+        "general": "店",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 438,
+      "word": "major",
+      "frequency": 229,
+      "meanings": {
+        "general": "主要な、重大な",
+        "it": "メジャー（major version）"
+      },
+      "known": null
+    },
+    {
+      "rank": 439,
+      "word": "someone",
+      "frequency": 228,
+      "meanings": {
+        "general": "誰か",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 440,
+      "word": "above",
+      "frequency": 228,
+      "meanings": {
+        "general": "〜の上に、上記の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 441,
+      "word": "design",
+      "frequency": 228,
+      "meanings": {
+        "general": "設計、デザインする",
+        "it": "設計（system design / design pattern）"
+      },
+      "known": null
+    },
+    {
+      "rank": 442,
+      "word": "event",
+      "frequency": 228,
+      "meanings": {
+        "general": "出来事、行事",
+        "it": "イベント（click event / event listener）"
+      },
+      "known": null
+    },
+    {
+      "rank": 443,
+      "word": "special",
+      "frequency": 228,
+      "meanings": {
+        "general": "特別な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 444,
+      "word": "sometimes",
+      "frequency": 227,
+      "meanings": {
+        "general": "時々",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 445,
+      "word": "condition",
+      "frequency": 226,
+      "meanings": {
+        "general": "条件、状態",
+        "it": "条件（if condition / race condition）"
+      },
+      "known": null
+    },
+    {
+      "rank": 446,
+      "word": "carry",
+      "frequency": 226,
+      "meanings": {
+        "general": "運ぶ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 447,
+      "word": "choose",
+      "frequency": 225,
+      "meanings": {
+        "general": "選ぶ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 448,
+      "word": "father",
+      "frequency": 225,
+      "meanings": {
+        "general": "父",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 449,
+      "word": "decision",
+      "frequency": 224,
+      "meanings": {
+        "general": "決定",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 450,
+      "word": "table",
+      "frequency": 224,
+      "meanings": {
+        "general": "テーブル、表",
+        "it": "テーブル（database table / hash table）"
+      },
+      "known": null
+    },
+    {
+      "rank": 451,
+      "word": "certain",
+      "frequency": 223,
+      "meanings": {
+        "general": "確かな、特定の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 452,
+      "word": "forward",
+      "frequency": 223,
+      "meanings": {
+        "general": "前方へ、転送する",
+        "it": "転送する（port forwarding）"
+      },
+      "known": null
+    },
+    {
+      "rank": 453,
+      "word": "main",
+      "frequency": 223,
+      "meanings": {
+        "general": "主な、主要な",
+        "it": "メイン（main branch / main function）"
+      },
+      "known": null
+    },
+    {
+      "rank": 454,
+      "word": "die",
+      "frequency": 222,
+      "meanings": {
+        "general": "死ぬ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 455,
+      "word": "bear",
+      "frequency": 222,
+      "meanings": {
+        "general": "耐える、熊",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 456,
+      "word": "cut",
+      "frequency": 221,
+      "meanings": {
+        "general": "切る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 457,
+      "word": "describe",
+      "frequency": 220,
+      "meanings": {
+        "general": "説明する、描写する",
+        "it": "記述する（describe a test suite）"
+      },
+      "known": null
+    },
+    {
+      "rank": 458,
+      "word": "himself",
+      "frequency": 220,
+      "meanings": {
+        "general": "彼自身",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 459,
+      "word": "available",
+      "frequency": 220,
+      "meanings": {
+        "general": "利用可能な",
+        "it": "利用可能な（available resources）"
+      },
+      "known": null
+    },
+    {
+      "rank": 460,
+      "word": "especially",
+      "frequency": 220,
+      "meanings": {
+        "general": "特に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 461,
+      "word": "strong",
+      "frequency": 218,
+      "meanings": {
+        "general": "強い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 462,
+      "word": "rise",
+      "frequency": 218,
+      "meanings": {
+        "general": "上がる、上昇",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 463,
+      "word": "girl",
+      "frequency": 217,
+      "meanings": {
+        "general": "女の子",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 464,
+      "word": "maybe",
+      "frequency": 217,
+      "meanings": {
+        "general": "たぶん",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 465,
+      "word": "community",
+      "frequency": 217,
+      "meanings": {
+        "general": "コミュニティ、地域社会",
+        "it": "コミュニティ（open source community）"
+      },
+      "known": null
+    },
+    {
+      "rank": 466,
+      "word": "else",
+      "frequency": 216,
+      "meanings": {
+        "general": "他に、さもなければ",
+        "it": "else（if-else文）"
+      },
+      "known": null
+    },
+    {
+      "rank": 467,
+      "word": "particular",
+      "frequency": 215,
+      "meanings": {
+        "general": "特定の、特別な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 468,
+      "word": "role",
+      "frequency": 215,
+      "meanings": {
+        "general": "役割",
+        "it": "ロール（user role / IAM role）"
+      },
+      "known": null
+    },
+    {
+      "rank": 469,
+      "word": "join",
+      "frequency": 215,
+      "meanings": {
+        "general": "参加する、結合する",
+        "it": "結合する（join tables / join a string）"
+      },
+      "known": null
+    },
+    {
+      "rank": 470,
+      "word": "difficult",
+      "frequency": 215,
+      "meanings": {
+        "general": "難しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 471,
+      "word": "please",
+      "frequency": 213,
+      "meanings": {
+        "general": "どうぞ、喜ばせる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 472,
+      "word": "detail",
+      "frequency": 213,
+      "meanings": {
+        "general": "詳細",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 473,
+      "word": "difference",
+      "frequency": 212,
+      "meanings": {
+        "general": "違い、差",
+        "it": "差分（diff）"
+      },
+      "known": null
+    },
+    {
+      "rank": 474,
+      "word": "action",
+      "frequency": 210,
+      "meanings": {
+        "general": "行動、動作",
+        "it": "アクション（GitHub Actions / Redux action）"
+      },
+      "known": null
+    },
+    {
+      "rank": 475,
+      "word": "health",
+      "frequency": 209,
+      "meanings": {
+        "general": "健康",
+        "it": "ヘルス（health check）"
+      },
+      "known": null
+    },
+    {
+      "rank": 476,
+      "word": "eat",
+      "frequency": 209,
+      "meanings": {
+        "general": "食べる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 477,
+      "word": "step",
+      "frequency": 208,
+      "meanings": {
+        "general": "一歩、段階",
+        "it": "ステップ（workflow step / step-by-step）"
+      },
+      "known": null
+    },
+    {
+      "rank": 478,
+      "word": "TRUE",
+      "frequency": 208,
+      "meanings": {
+        "general": "本当の、真実",
+        "it": "真（boolean true）"
+      },
+      "known": null
+    },
+    {
+      "rank": 479,
+      "word": "phone",
+      "frequency": 207,
+      "meanings": {
+        "general": "電話",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 480,
+      "word": "themselves",
+      "frequency": 207,
+      "meanings": {
+        "general": "彼ら自身",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 481,
+      "word": "draw",
+      "frequency": 207,
+      "meanings": {
+        "general": "描く、引く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 482,
+      "word": "white",
+      "frequency": 206,
+      "meanings": {
+        "general": "白い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 483,
+      "word": "date",
+      "frequency": 205,
+      "meanings": {
+        "general": "日付、日時",
+        "it": "日付（Date object）"
+      },
+      "known": null
+    },
+    {
+      "rank": 484,
+      "word": "practice",
+      "frequency": 205,
+      "meanings": {
+        "general": "練習、実践",
+        "it": "プラクティス（best practice）"
+      },
+      "known": null
+    },
+    {
+      "rank": 485,
+      "word": "model",
+      "frequency": 205,
+      "meanings": {
+        "general": "模型、モデル",
+        "it": "モデル（data model / ML model）"
+      },
+      "known": null
+    },
+    {
+      "rank": 486,
+      "word": "raise",
+      "frequency": 205,
+      "meanings": {
+        "general": "上げる、育てる",
+        "it": "発生させる（raise an error / raise an exception）"
+      },
+      "known": null
+    },
+    {
+      "rank": 487,
+      "word": "customer",
+      "frequency": 205,
+      "meanings": {
+        "general": "顧客",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 488,
+      "word": "front",
+      "frequency": 203,
+      "meanings": {
+        "general": "前面、正面",
+        "it": "フロント（frontend）"
+      },
+      "known": null
+    },
+    {
+      "rank": 489,
+      "word": "explain",
+      "frequency": 202,
+      "meanings": {
+        "general": "説明する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 490,
+      "word": "door",
+      "frequency": 202,
+      "meanings": {
+        "general": "ドア",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 491,
+      "word": "outside",
+      "frequency": 200,
+      "meanings": {
+        "general": "外側、外の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 492,
+      "word": "behind",
+      "frequency": 200,
+      "meanings": {
+        "general": "〜の後ろに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 493,
+      "word": "economic",
+      "frequency": 199,
+      "meanings": {
+        "general": "経済の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 494,
+      "word": "site",
+      "frequency": 199,
+      "meanings": {
+        "general": "場所、用地",
+        "it": "サイト（website）"
+      },
+      "known": null
+    },
+    {
+      "rank": 495,
+      "word": "approach",
+      "frequency": 199,
+      "meanings": {
+        "general": "方法、接近する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 496,
+      "word": "teacher",
+      "frequency": 199,
+      "meanings": {
+        "general": "教師",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 497,
+      "word": "land",
+      "frequency": 197,
+      "meanings": {
+        "general": "土地、着陸する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 498,
+      "word": "charge",
+      "frequency": 197,
+      "meanings": {
+        "general": "料金、充電、担当する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 499,
+      "word": "finally",
+      "frequency": 197,
+      "meanings": {
+        "general": "ついに、最終的に",
+        "it": "finally（try-catch-finally）"
+      },
+      "known": null
+    },
+    {
+      "rank": 500,
+      "word": "sign",
+      "frequency": 197,
+      "meanings": {
+        "general": "署名、標識、兆候",
+        "it": "署名する（sign a commit）"
+      },
+      "known": null
+    },
+    {
+      "rank": 501,
+      "word": "claim",
+      "frequency": 196,
+      "meanings": {
+        "general": "主張する、請求する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 502,
+      "word": "relationship",
+      "frequency": 196,
+      "meanings": {
+        "general": "関係",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 503,
+      "word": "travel",
+      "frequency": 195,
+      "meanings": {
+        "general": "旅行する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 504,
+      "word": "enjoy",
+      "frequency": 195,
+      "meanings": {
+        "general": "楽しむ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 505,
+      "word": "death",
+      "frequency": 194,
+      "meanings": {
+        "general": "死",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 506,
+      "word": "nice",
+      "frequency": 193,
+      "meanings": {
+        "general": "よい、親切な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 507,
+      "word": "amount",
+      "frequency": 193,
+      "meanings": {
+        "general": "量、金額",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 508,
+      "word": "improve",
+      "frequency": 192,
+      "meanings": {
+        "general": "改善する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 509,
+      "word": "picture",
+      "frequency": 192,
+      "meanings": {
+        "general": "写真、絵",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 510,
+      "word": "boy",
+      "frequency": 192,
+      "meanings": {
+        "general": "少年",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 511,
+      "word": "regard",
+      "frequency": 191,
+      "meanings": {
+        "general": "〜とみなす、敬意",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 512,
+      "word": "organization",
+      "frequency": 191,
+      "meanings": {
+        "general": "組織",
+        "it": "組織（GitHub organization）"
+      },
+      "known": null
+    },
+    {
+      "rank": 513,
+      "word": "happy",
+      "frequency": 191,
+      "meanings": {
+        "general": "幸せな、嬉しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 514,
+      "word": "couple",
+      "frequency": 191,
+      "meanings": {
+        "general": "2つ、カップル",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 515,
+      "word": "act",
+      "frequency": 190,
+      "meanings": {
+        "general": "行動する、行為",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 516,
+      "word": "range",
+      "frequency": 190,
+      "meanings": {
+        "general": "範囲",
+        "it": "範囲（range of values / index range）"
+      },
+      "known": null
+    },
+    {
+      "rank": 517,
+      "word": "quality",
+      "frequency": 190,
+      "meanings": {
+        "general": "品質",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 518,
+      "word": "project",
+      "frequency": 190,
+      "meanings": {
+        "general": "プロジェクト、計画",
+        "it": "プロジェクト（project directory）"
+      },
+      "known": null
+    },
+    {
+      "rank": 519,
+      "word": "round",
+      "frequency": 189,
+      "meanings": {
+        "general": "丸い、一周",
+        "it": "丸める（round a number）"
+      },
+      "known": null
+    },
+    {
+      "rank": 520,
+      "word": "opportunity",
+      "frequency": 189,
+      "meanings": {
+        "general": "機会",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 521,
+      "word": "road",
+      "frequency": 189,
+      "meanings": {
+        "general": "道路",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 522,
+      "word": "accord",
+      "frequency": 188,
+      "meanings": {
+        "general": "一致、合意",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 523,
+      "word": "list",
+      "frequency": 187,
+      "meanings": {
+        "general": "リスト、一覧表",
+        "it": "リスト（linked list / list items）"
+      },
+      "known": null
+    },
+    {
+      "rank": 524,
+      "word": "wish",
+      "frequency": 187,
+      "meanings": {
+        "general": "望む、願い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 525,
+      "word": "therefore",
+      "frequency": 187,
+      "meanings": {
+        "general": "したがって",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 526,
+      "word": "wear",
+      "frequency": 187,
+      "meanings": {
+        "general": "着る、身につける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 527,
+      "word": "fund",
+      "frequency": 187,
+      "meanings": {
+        "general": "資金、基金",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 528,
+      "word": "rest",
+      "frequency": 186,
+      "meanings": {
+        "general": "休息、残り",
+        "it": "REST（REST API）"
+      },
+      "known": null
+    },
+    {
+      "rank": 529,
+      "word": "kid",
+      "frequency": 186,
+      "meanings": {
+        "general": "子供",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 530,
+      "word": "industry",
+      "frequency": 185,
+      "meanings": {
+        "general": "産業、業界",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 531,
+      "word": "education",
+      "frequency": 185,
+      "meanings": {
+        "general": "教育",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 532,
+      "word": "measure",
+      "frequency": 185,
+      "meanings": {
+        "general": "測定する、対策",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 533,
+      "word": "kill",
+      "frequency": 184,
+      "meanings": {
+        "general": "殺す",
+        "it": "終了させる（kill a process）"
+      },
+      "known": null
+    },
+    {
+      "rank": 534,
+      "word": "serve",
+      "frequency": 184,
+      "meanings": {
+        "general": "仕える、提供する",
+        "it": "配信する（serve static files）"
+      },
+      "known": null
+    },
+    {
+      "rank": 535,
+      "word": "likely",
+      "frequency": 183,
+      "meanings": {
+        "general": "〜しそうな、おそらく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 536,
+      "word": "certainly",
+      "frequency": 182,
+      "meanings": {
+        "general": "確かに、もちろん",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 537,
+      "word": "national",
+      "frequency": 181,
+      "meanings": {
+        "general": "国の、国家の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 538,
+      "word": "itself",
+      "frequency": 181,
+      "meanings": {
+        "general": "それ自体",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 539,
+      "word": "teach",
+      "frequency": 181,
+      "meanings": {
+        "general": "教える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 540,
+      "word": "field",
+      "frequency": 181,
+      "meanings": {
+        "general": "分野、野原",
+        "it": "フィールド（input field / database field）"
+      },
+      "known": null
+    },
+    {
+      "rank": 541,
+      "word": "security",
+      "frequency": 180,
+      "meanings": {
+        "general": "安全、保障",
+        "it": "セキュリティ（security vulnerability）"
+      },
+      "known": null
+    },
+    {
+      "rank": 542,
+      "word": "air",
+      "frequency": 179,
+      "meanings": {
+        "general": "空気",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 543,
+      "word": "benefit",
+      "frequency": 179,
+      "meanings": {
+        "general": "利益、恩恵",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 544,
+      "word": "trade",
+      "frequency": 179,
+      "meanings": {
+        "general": "貿易、取引",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 545,
+      "word": "risk",
+      "frequency": 179,
+      "meanings": {
+        "general": "リスク、危険",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 546,
+      "word": "news",
+      "frequency": 178,
+      "meanings": {
+        "general": "ニュース",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 547,
+      "word": "standard",
+      "frequency": 178,
+      "meanings": {
+        "general": "標準、基準",
+        "it": "標準（coding standard / web standard）"
+      },
+      "known": null
+    },
+    {
+      "rank": 548,
+      "word": "vote",
+      "frequency": 177,
+      "meanings": {
+        "general": "投票する、票",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 549,
+      "word": "percent",
+      "frequency": 177,
+      "meanings": {
+        "general": "パーセント",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 550,
+      "word": "focus",
+      "frequency": 177,
+      "meanings": {
+        "general": "焦点、集中する",
+        "it": "フォーカス（focus an element）"
+      },
+      "known": null
+    },
+    {
+      "rank": 551,
+      "word": "stage",
+      "frequency": 177,
+      "meanings": {
+        "general": "段階、舞台",
+        "it": "ステージング（staging area / stage changes）"
+      },
+      "known": null
+    },
+    {
+      "rank": 552,
+      "word": "space",
+      "frequency": 176,
+      "meanings": {
+        "general": "空間、宇宙、スペース",
+        "it": "スペース（whitespace / disk space）"
+      },
+      "known": null
+    },
+    {
+      "rank": 553,
+      "word": "instead",
+      "frequency": 176,
+      "meanings": {
+        "general": "代わりに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 554,
+      "word": "realize",
+      "frequency": 176,
+      "meanings": {
+        "general": "気づく、実現する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 555,
+      "word": "usually",
+      "frequency": 175,
+      "meanings": {
+        "general": "普通は、たいてい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 556,
+      "word": "data",
+      "frequency": 174,
+      "meanings": {
+        "general": "データ、資料",
+        "it": "データ（data structure / data type）"
+      },
+      "known": null
+    },
+    {
+      "rank": 557,
+      "word": "single",
+      "frequency": 174,
+      "meanings": {
+        "general": "単一の、独身の",
+        "it": "単一の（single responsibility）"
+      },
+      "known": null
+    },
+    {
+      "rank": 558,
+      "word": "address",
+      "frequency": 173,
+      "meanings": {
+        "general": "住所、演説する、取り組む",
+        "it": "アドレス（IP address / memory address）"
+      },
+      "known": null
+    },
+    {
+      "rank": 559,
+      "word": "performance",
+      "frequency": 172,
+      "meanings": {
+        "general": "成績、性能、演技",
+        "it": "パフォーマンス（performance optimization）"
+      },
+      "known": null
+    },
+    {
+      "rank": 560,
+      "word": "chance",
+      "frequency": 172,
+      "meanings": {
+        "general": "機会、可能性",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 561,
+      "word": "accept",
+      "frequency": 172,
+      "meanings": {
+        "general": "受け入れる",
+        "it": "受け入れる（accept a request / Accept header）"
+      },
+      "known": null
+    },
+    {
+      "rank": 562,
+      "word": "society",
+      "frequency": 172,
+      "meanings": {
+        "general": "社会",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 563,
+      "word": "technology",
+      "frequency": 172,
+      "meanings": {
+        "general": "技術、テクノロジー",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 564,
+      "word": "mention",
+      "frequency": 172,
+      "meanings": {
+        "general": "言及する",
+        "it": "メンション（@mention）"
+      },
+      "known": null
+    },
+    {
+      "rank": 565,
+      "word": "choice",
+      "frequency": 171,
+      "meanings": {
+        "general": "選択",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 566,
+      "word": "save",
+      "frequency": 171,
+      "meanings": {
+        "general": "保存する、節約する",
+        "it": "保存する（save a file）"
+      },
+      "known": null
+    },
+    {
+      "rank": 567,
+      "word": "common",
+      "frequency": 170,
+      "meanings": {
+        "general": "共通の、一般的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 568,
+      "word": "culture",
+      "frequency": 170,
+      "meanings": {
+        "general": "文化",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 569,
+      "word": "total",
+      "frequency": 169,
+      "meanings": {
+        "general": "合計の、合計",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 570,
+      "word": "demand",
+      "frequency": 169,
+      "meanings": {
+        "general": "要求する、需要",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 571,
+      "word": "material",
+      "frequency": 168,
+      "meanings": {
+        "general": "材料、素材",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 572,
+      "word": "limit",
+      "frequency": 168,
+      "meanings": {
+        "general": "制限、限界",
+        "it": "制限（rate limit / character limit）"
+      },
+      "known": null
+    },
+    {
+      "rank": 573,
+      "word": "listen",
+      "frequency": 168,
+      "meanings": {
+        "general": "聞く",
+        "it": "待ち受ける（listen on a port）"
+      },
+      "known": null
+    },
+    {
+      "rank": 574,
+      "word": "due",
+      "frequency": 167,
+      "meanings": {
+        "general": "〜が原因で、期限の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 575,
+      "word": "wrong",
+      "frequency": 167,
+      "meanings": {
+        "general": "間違った",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 576,
+      "word": "foot",
+      "frequency": 167,
+      "meanings": {
+        "general": "足、フィート",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 577,
+      "word": "effort",
+      "frequency": 167,
+      "meanings": {
+        "general": "努力",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 578,
+      "word": "attention",
+      "frequency": 166,
+      "meanings": {
+        "general": "注意、注目",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 579,
+      "word": "upon",
+      "frequency": 166,
+      "meanings": {
+        "general": "〜の上に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 580,
+      "word": "check",
+      "frequency": 166,
+      "meanings": {
+        "general": "確認する、チェック",
+        "it": "チェックする（check out a branch / health check）"
+      },
+      "known": null
+    },
+    {
+      "rank": 581,
+      "word": "complete",
+      "frequency": 166,
+      "meanings": {
+        "general": "完全な、完了する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 582,
+      "word": "lie",
+      "frequency": 166,
+      "meanings": {
+        "general": "嘘をつく、横たわる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 583,
+      "word": "pick",
+      "frequency": 166,
+      "meanings": {
+        "general": "選ぶ、拾う",
+        "it": "選ぶ（cherry-pick）"
+      },
+      "known": null
+    },
+    {
+      "rank": 584,
+      "word": "reduce",
+      "frequency": 165,
+      "meanings": {
+        "general": "減らす",
+        "it": "畳み込む（Array.reduce）"
+      },
+      "known": null
+    },
+    {
+      "rank": 585,
+      "word": "personal",
+      "frequency": 165,
+      "meanings": {
+        "general": "個人の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 586,
+      "word": "ground",
+      "frequency": 165,
+      "meanings": {
+        "general": "地面、根拠",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 587,
+      "word": "animal",
+      "frequency": 165,
+      "meanings": {
+        "general": "動物",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 588,
+      "word": "arrive",
+      "frequency": 165,
+      "meanings": {
+        "general": "到着する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 589,
+      "word": "patient",
+      "frequency": 165,
+      "meanings": {
+        "general": "患者、忍耐強い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 590,
+      "word": "current",
+      "frequency": 164,
+      "meanings": {
+        "general": "現在の、流れ",
+        "it": "現在の（current version / current directory）"
+      },
+      "known": null
+    },
+    {
+      "rank": 591,
+      "word": "century",
+      "frequency": 163,
+      "meanings": {
+        "general": "世紀",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 592,
+      "word": "evidence",
+      "frequency": 163,
+      "meanings": {
+        "general": "証拠",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 593,
+      "word": "exist",
+      "frequency": 163,
+      "meanings": {
+        "general": "存在する",
+        "it": "存在する（file exists）"
+      },
+      "known": null
+    },
+    {
+      "rank": 594,
+      "word": "similar",
+      "frequency": 163,
+      "meanings": {
+        "general": "似ている",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 595,
+      "word": "fight",
+      "frequency": 163,
+      "meanings": {
+        "general": "戦う、戦い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 596,
+      "word": "leader",
+      "frequency": 163,
+      "meanings": {
+        "general": "リーダー、指導者",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 597,
+      "word": "fine",
+      "frequency": 162,
+      "meanings": {
+        "general": "すばらしい、罰金、細かい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 598,
+      "word": "street",
+      "frequency": 162,
+      "meanings": {
+        "general": "通り、道",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 599,
+      "word": "former",
+      "frequency": 162,
+      "meanings": {
+        "general": "前の、かつての",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 600,
+      "word": "contact",
+      "frequency": 162,
+      "meanings": {
+        "general": "連絡、接触する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 601,
+      "word": "particularly",
+      "frequency": 162,
+      "meanings": {
+        "general": "特に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 602,
+      "word": "wife",
+      "frequency": 161,
+      "meanings": {
+        "general": "妻",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 603,
+      "word": "sport",
+      "frequency": 161,
+      "meanings": {
+        "general": "スポーツ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 604,
+      "word": "prepare",
+      "frequency": 160,
+      "meanings": {
+        "general": "準備する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 605,
+      "word": "discuss",
+      "frequency": 160,
+      "meanings": {
+        "general": "議論する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 606,
+      "word": "response",
+      "frequency": 159,
+      "meanings": {
+        "general": "応答、反応",
+        "it": "レスポンス（HTTP response）"
+      },
+      "known": null
+    },
+    {
+      "rank": 607,
+      "word": "voice",
+      "frequency": 159,
+      "meanings": {
+        "general": "声",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 608,
+      "word": "piece",
+      "frequency": 159,
+      "meanings": {
+        "general": "一片、作品",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 609,
+      "word": "finish",
+      "frequency": 158,
+      "meanings": {
+        "general": "終える、完成する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 610,
+      "word": "suppose",
+      "frequency": 157,
+      "meanings": {
+        "general": "〜と思う、〜と仮定する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 611,
+      "word": "apply",
+      "frequency": 157,
+      "meanings": {
+        "general": "応募する、適用する",
+        "it": "適用する（apply changes / apply a patch）"
+      },
+      "known": null
+    },
+    {
+      "rank": 612,
+      "word": "president",
+      "frequency": 157,
+      "meanings": {
+        "general": "大統領、社長",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 613,
+      "word": "fire",
+      "frequency": 157,
+      "meanings": {
+        "general": "火、解雇する",
+        "it": "発火する（fire an event）"
+      },
+      "known": null
+    },
+    {
+      "rank": 614,
+      "word": "compare",
+      "frequency": 157,
+      "meanings": {
+        "general": "比較する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 615,
+      "word": "court",
+      "frequency": 156,
+      "meanings": {
+        "general": "裁判所、コート",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 616,
+      "word": "police",
+      "frequency": 156,
+      "meanings": {
+        "general": "警察",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 617,
+      "word": "store",
+      "frequency": 156,
+      "meanings": {
+        "general": "店、保管する",
+        "it": "保存する（store data / data store）"
+      },
+      "known": null
+    },
+    {
+      "rank": 618,
+      "word": "poor",
+      "frequency": 156,
+      "meanings": {
+        "general": "貧しい、下手な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 619,
+      "word": "knowledge",
+      "frequency": 155,
+      "meanings": {
+        "general": "知識",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 620,
+      "word": "laugh",
+      "frequency": 155,
+      "meanings": {
+        "general": "笑う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 621,
+      "word": "arm",
+      "frequency": 155,
+      "meanings": {
+        "general": "腕",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 622,
+      "word": "heart",
+      "frequency": 155,
+      "meanings": {
+        "general": "心臓、心",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 623,
+      "word": "source",
+      "frequency": 155,
+      "meanings": {
+        "general": "源、情報源",
+        "it": "ソース（source code / open source）"
+      },
+      "known": null
+    },
+    {
+      "rank": 624,
+      "word": "employee",
+      "frequency": 154,
+      "meanings": {
+        "general": "従業員",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 625,
+      "word": "manage",
+      "frequency": 154,
+      "meanings": {
+        "general": "管理する、何とかする",
+        "it": "管理する（manage dependencies）"
+      },
+      "known": null
+    },
+    {
+      "rank": 626,
+      "word": "simply",
+      "frequency": 153,
+      "meanings": {
+        "general": "単に、簡単に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 627,
+      "word": "bank",
+      "frequency": 153,
+      "meanings": {
+        "general": "銀行",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 628,
+      "word": "firm",
+      "frequency": 153,
+      "meanings": {
+        "general": "会社、堅い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 629,
+      "word": "cell",
+      "frequency": 153,
+      "meanings": {
+        "general": "細胞、セル",
+        "it": "セル（table cell / spreadsheet cell）"
+      },
+      "known": null
+    },
+    {
+      "rank": 630,
+      "word": "article",
+      "frequency": 152,
+      "meanings": {
+        "general": "記事、冠詞",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 631,
+      "word": "fast",
+      "frequency": 151,
+      "meanings": {
+        "general": "速い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 632,
+      "word": "attack",
+      "frequency": 151,
+      "meanings": {
+        "general": "攻撃する、攻撃",
+        "it": "攻撃（XSS attack / DDoS attack）"
+      },
+      "known": null
+    },
+    {
+      "rank": 633,
+      "word": "foreign",
+      "frequency": 151,
+      "meanings": {
+        "general": "外国の",
+        "it": "外部の（foreign key）"
+      },
+      "known": null
+    },
+    {
+      "rank": 634,
+      "word": "surprise",
+      "frequency": 151,
+      "meanings": {
+        "general": "驚き、驚かす",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 635,
+      "word": "feature",
+      "frequency": 150,
+      "meanings": {
+        "general": "特徴、機能",
+        "it": "機能（feature branch / feature flag）"
+      },
+      "known": null
+    },
+    {
+      "rank": 636,
+      "word": "factor",
+      "frequency": 150,
+      "meanings": {
+        "general": "要因、因数",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 637,
+      "word": "pretty",
+      "frequency": 150,
+      "meanings": {
+        "general": "かわいい、かなり",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 638,
+      "word": "recently",
+      "frequency": 150,
+      "meanings": {
+        "general": "最近",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 639,
+      "word": "affect",
+      "frequency": 150,
+      "meanings": {
+        "general": "影響する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 640,
+      "word": "drop",
+      "frequency": 150,
+      "meanings": {
+        "general": "落とす、落ちる",
+        "it": "削除する（drop a table / drop a database）"
+      },
+      "known": null
+    },
+    {
+      "rank": 641,
+      "word": "recent",
+      "frequency": 149,
+      "meanings": {
+        "general": "最近の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 642,
+      "word": "relate",
+      "frequency": 149,
+      "meanings": {
+        "general": "関連づける、関係する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 643,
+      "word": "official",
+      "frequency": 149,
+      "meanings": {
+        "general": "公式の、役人",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 644,
+      "word": "financial",
+      "frequency": 149,
+      "meanings": {
+        "general": "金融の、財政の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 645,
+      "word": "miss",
+      "frequency": 149,
+      "meanings": {
+        "general": "逃す、〜がいなくて寂しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 646,
+      "word": "art",
+      "frequency": 149,
+      "meanings": {
+        "general": "芸術",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 647,
+      "word": "campaign",
+      "frequency": 148,
+      "meanings": {
+        "general": "キャンペーン、運動",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 648,
+      "word": "private",
+      "frequency": 148,
+      "meanings": {
+        "general": "私的な、非公開の",
+        "it": "プライベートの（private key / private method）"
+      },
+      "known": null
+    },
+    {
+      "rank": 649,
+      "word": "pause",
+      "frequency": 148,
+      "meanings": {
+        "general": "一時停止する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 650,
+      "word": "everyone",
+      "frequency": 148,
+      "meanings": {
+        "general": "全員",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 651,
+      "word": "forget",
+      "frequency": 147,
+      "meanings": {
+        "general": "忘れる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 652,
+      "word": "page",
+      "frequency": 147,
+      "meanings": {
+        "general": "ページ",
+        "it": "ページ（web page / pagination）"
+      },
+      "known": null
+    },
+    {
+      "rank": 653,
+      "word": "worry",
+      "frequency": 147,
+      "meanings": {
+        "general": "心配する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 654,
+      "word": "summer",
+      "frequency": 147,
+      "meanings": {
+        "general": "夏",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 655,
+      "word": "drink",
+      "frequency": 147,
+      "meanings": {
+        "general": "飲む、飲み物",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 656,
+      "word": "opinion",
+      "frequency": 147,
+      "meanings": {
+        "general": "意見",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 657,
+      "word": "park",
+      "frequency": 146,
+      "meanings": {
+        "general": "公園、駐車する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 658,
+      "word": "represent",
+      "frequency": 146,
+      "meanings": {
+        "general": "表す、代表する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 659,
+      "word": "key",
+      "frequency": 146,
+      "meanings": {
+        "general": "鍵、重要な",
+        "it": "キー（API key / primary key / key-value）"
+      },
+      "known": null
+    },
+    {
+      "rank": 660,
+      "word": "inside",
+      "frequency": 145,
+      "meanings": {
+        "general": "内部に、内側",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 661,
+      "word": "manager",
+      "frequency": 145,
+      "meanings": {
+        "general": "管理者、マネージャー",
+        "it": "マネージャー（package manager）"
+      },
+      "known": null
+    },
+    {
+      "rank": 662,
+      "word": "international",
+      "frequency": 144,
+      "meanings": {
+        "general": "国際的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 663,
+      "word": "contain",
+      "frequency": 144,
+      "meanings": {
+        "general": "含む",
+        "it": "含む（container）"
+      },
+      "known": null
+    },
+    {
+      "rank": 664,
+      "word": "notice",
+      "frequency": 143,
+      "meanings": {
+        "general": "気づく、通知",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 665,
+      "word": "wonder",
+      "frequency": 143,
+      "meanings": {
+        "general": "不思議に思う、驚き",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 666,
+      "word": "nature",
+      "frequency": 143,
+      "meanings": {
+        "general": "自然、性質",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 667,
+      "word": "structure",
+      "frequency": 143,
+      "meanings": {
+        "general": "構造",
+        "it": "構造（data structure / project structure）"
+      },
+      "known": null
+    },
+    {
+      "rank": 668,
+      "word": "section",
+      "frequency": 142,
+      "meanings": {
+        "general": "部分、セクション",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 669,
+      "word": "myself",
+      "frequency": 142,
+      "meanings": {
+        "general": "私自身",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 670,
+      "word": "exactly",
+      "frequency": 142,
+      "meanings": {
+        "general": "正確に、まさに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 671,
+      "word": "plant",
+      "frequency": 142,
+      "meanings": {
+        "general": "植物、工場、植える",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 672,
+      "word": "paint",
+      "frequency": 142,
+      "meanings": {
+        "general": "塗る、ペンキ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 673,
+      "word": "worker",
+      "frequency": 141,
+      "meanings": {
+        "general": "労働者",
+        "it": "ワーカー（web worker / service worker）"
+      },
+      "known": null
+    },
+    {
+      "rank": 674,
+      "word": "press",
+      "frequency": 141,
+      "meanings": {
+        "general": "押す、報道",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 675,
+      "word": "whatever",
+      "frequency": 141,
+      "meanings": {
+        "general": "何でも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 676,
+      "word": "necessary",
+      "frequency": 141,
+      "meanings": {
+        "general": "必要な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 677,
+      "word": "region",
+      "frequency": 141,
+      "meanings": {
+        "general": "地域",
+        "it": "リージョン（cloud region）"
+      },
+      "known": null
+    },
+    {
+      "rank": 678,
+      "word": "growth",
+      "frequency": 140,
+      "meanings": {
+        "general": "成長",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 679,
+      "word": "evening",
+      "frequency": 140,
+      "meanings": {
+        "general": "夕方、夜",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 680,
+      "word": "influence",
+      "frequency": 140,
+      "meanings": {
+        "general": "影響、影響する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 681,
+      "word": "respect",
+      "frequency": 140,
+      "meanings": {
+        "general": "尊敬、敬意",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 682,
+      "word": "various",
+      "frequency": 140,
+      "meanings": {
+        "general": "さまざまな",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 683,
+      "word": "catch",
+      "frequency": 140,
+      "meanings": {
+        "general": "捕まえる",
+        "it": "捕捉する（try-catch / catch an error）"
+      },
+      "known": null
+    },
+    {
+      "rank": 684,
+      "word": "thus",
+      "frequency": 139,
+      "meanings": {
+        "general": "このように、したがって",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 685,
+      "word": "skill",
+      "frequency": 139,
+      "meanings": {
+        "general": "技能、スキル",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 686,
+      "word": "attempt",
+      "frequency": 139,
+      "meanings": {
+        "general": "試みる、試み",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 687,
+      "word": "son",
+      "frequency": 139,
+      "meanings": {
+        "general": "息子",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 688,
+      "word": "simple",
+      "frequency": 138,
+      "meanings": {
+        "general": "簡単な、単純な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 689,
+      "word": "medium",
+      "frequency": 138,
+      "meanings": {
+        "general": "中間の、媒体",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 690,
+      "word": "average",
+      "frequency": 138,
+      "meanings": {
+        "general": "平均の、平均",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 691,
+      "word": "stock",
+      "frequency": 138,
+      "meanings": {
+        "general": "在庫、株",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 692,
+      "word": "management",
+      "frequency": 138,
+      "meanings": {
+        "general": "管理、経営",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 693,
+      "word": "character",
+      "frequency": 138,
+      "meanings": {
+        "general": "性格、登場人物、文字",
+        "it": "文字（character encoding / special character）"
+      },
+      "known": null
+    },
+    {
+      "rank": 694,
+      "word": "bed",
+      "frequency": 137,
+      "meanings": {
+        "general": "ベッド",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 695,
+      "word": "hit",
+      "frequency": 137,
+      "meanings": {
+        "general": "打つ、当たる",
+        "it": "ヒット（cache hit）"
+      },
+      "known": null
+    },
+    {
+      "rank": 696,
+      "word": "establish",
+      "frequency": 137,
+      "meanings": {
+        "general": "設立する、確立する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 697,
+      "word": "indeed",
+      "frequency": 137,
+      "meanings": {
+        "general": "確かに、実際に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 698,
+      "word": "final",
+      "frequency": 137,
+      "meanings": {
+        "general": "最後の、最終の",
+        "it": "final（final class / final variable）"
+      },
+      "known": null
+    },
+    {
+      "rank": 699,
+      "word": "economy",
+      "frequency": 137,
+      "meanings": {
+        "general": "経済",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 700,
+      "word": "fit",
+      "frequency": 137,
+      "meanings": {
+        "general": "合う、適した",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 701,
+      "word": "guy",
+      "frequency": 136,
+      "meanings": {
+        "general": "男、やつ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 702,
+      "word": "function",
+      "frequency": 135,
+      "meanings": {
+        "general": "機能、関数",
+        "it": "関数（function definition）"
+      },
+      "known": null
+    },
+    {
+      "rank": 703,
+      "word": "yesterday",
+      "frequency": 135,
+      "meanings": {
+        "general": "昨日",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 704,
+      "word": "image",
+      "frequency": 135,
+      "meanings": {
+        "general": "画像、イメージ",
+        "it": "イメージ（Docker image / image file）"
+      },
+      "known": null
+    },
+    {
+      "rank": 705,
+      "word": "size",
+      "frequency": 135,
+      "meanings": {
+        "general": "大きさ、サイズ",
+        "it": "サイズ（file size / font size）"
+      },
+      "known": null
+    },
+    {
+      "rank": 706,
+      "word": "behavior",
+      "frequency": 135,
+      "meanings": {
+        "general": "行動、振る舞い",
+        "it": "振る舞い（component behavior / undefined behavior）"
+      },
+      "known": null
+    },
+    {
+      "rank": 707,
+      "word": "addition",
+      "frequency": 135,
+      "meanings": {
+        "general": "追加、足し算",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 708,
+      "word": "determine",
+      "frequency": 134,
+      "meanings": {
+        "general": "決定する、判断する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 709,
+      "word": "station",
+      "frequency": 134,
+      "meanings": {
+        "general": "駅、局",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 710,
+      "word": "population",
+      "frequency": 134,
+      "meanings": {
+        "general": "人口",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 711,
+      "word": "fail",
+      "frequency": 134,
+      "meanings": {
+        "general": "失敗する",
+        "it": "失敗する（test fail / build fail）"
+      },
+      "known": null
+    },
+    {
+      "rank": 712,
+      "word": "environment",
+      "frequency": 134,
+      "meanings": {
+        "general": "環境",
+        "it": "環境（development environment / environment variable）"
+      },
+      "known": null
+    },
+    {
+      "rank": 713,
+      "word": "production",
+      "frequency": 133,
+      "meanings": {
+        "general": "生産、製作",
+        "it": "本番環境（production environment）"
+      },
+      "known": null
+    },
+    {
+      "rank": 714,
+      "word": "contract",
+      "frequency": 133,
+      "meanings": {
+        "general": "契約",
+        "it": "コントラクト（smart contract / API contract）"
+      },
+      "known": null
+    },
+    {
+      "rank": 715,
+      "word": "player",
+      "frequency": 132,
+      "meanings": {
+        "general": "選手、プレイヤー",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 716,
+      "word": "comment",
+      "frequency": 132,
+      "meanings": {
+        "general": "コメント、論評",
+        "it": "コメント（code comment / PR comment）"
+      },
+      "known": null
+    },
+    {
+      "rank": 717,
+      "word": "enter",
+      "frequency": 132,
+      "meanings": {
+        "general": "入る、入力する",
+        "it": "入力する（enter a command）"
+      },
+      "known": null
+    },
+    {
+      "rank": 718,
+      "word": "occur",
+      "frequency": 132,
+      "meanings": {
+        "general": "起こる、発生する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 719,
+      "word": "alone",
+      "frequency": 132,
+      "meanings": {
+        "general": "一人で、単独の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 720,
+      "word": "significant",
+      "frequency": 131,
+      "meanings": {
+        "general": "重大な、重要な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 721,
+      "word": "drug",
+      "frequency": 131,
+      "meanings": {
+        "general": "薬、麻薬",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 722,
+      "word": "wall",
+      "frequency": 131,
+      "meanings": {
+        "general": "壁",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 723,
+      "word": "series",
+      "frequency": 131,
+      "meanings": {
+        "general": "シリーズ、連続",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 724,
+      "word": "direct",
+      "frequency": 131,
+      "meanings": {
+        "general": "直接の、指示する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 725,
+      "word": "success",
+      "frequency": 130,
+      "meanings": {
+        "general": "成功",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 726,
+      "word": "tomorrow",
+      "frequency": 130,
+      "meanings": {
+        "general": "明日",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 727,
+      "word": "director",
+      "frequency": 130,
+      "meanings": {
+        "general": "監督、取締役",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 728,
+      "word": "clearly",
+      "frequency": 130,
+      "meanings": {
+        "general": "明確に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 729,
+      "word": "lack",
+      "frequency": 129,
+      "meanings": {
+        "general": "不足、欠如",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 730,
+      "word": "review",
+      "frequency": 129,
+      "meanings": {
+        "general": "批評、復習する",
+        "it": "レビュー（code review / PR review）"
+      },
+      "known": null
+    },
+    {
+      "rank": 731,
+      "word": "depend",
+      "frequency": 129,
+      "meanings": {
+        "general": "依存する、〜次第である",
+        "it": "依存する（depend on a library）"
+      },
+      "known": null
+    },
+    {
+      "rank": 732,
+      "word": "race",
+      "frequency": 129,
+      "meanings": {
+        "general": "競争、人種",
+        "it": "競合（race condition）"
+      },
+      "known": null
+    },
+    {
+      "rank": 733,
+      "word": "recognize",
+      "frequency": 129,
+      "meanings": {
+        "general": "認識する、見分ける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 734,
+      "word": "window",
+      "frequency": 129,
+      "meanings": {
+        "general": "窓",
+        "it": "ウィンドウ（browser window / window object）"
+      },
+      "known": null
+    },
+    {
+      "rank": 735,
+      "word": "purpose",
+      "frequency": 128,
+      "meanings": {
+        "general": "目的",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 736,
+      "word": "department",
+      "frequency": 128,
+      "meanings": {
+        "general": "部門、学部",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 737,
+      "word": "gain",
+      "frequency": 128,
+      "meanings": {
+        "general": "得る、利益",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 738,
+      "word": "tree",
+      "frequency": 128,
+      "meanings": {
+        "general": "木",
+        "it": "ツリー（directory tree / DOM tree）"
+      },
+      "known": null
+    },
+    {
+      "rank": 739,
+      "word": "college",
+      "frequency": 128,
+      "meanings": {
+        "general": "大学",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 740,
+      "word": "argue",
+      "frequency": 128,
+      "meanings": {
+        "general": "議論する、主張する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 741,
+      "word": "board",
+      "frequency": 128,
+      "meanings": {
+        "general": "板、委員会",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 742,
+      "word": "holiday",
+      "frequency": 127,
+      "meanings": {
+        "general": "休日、祝日",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 743,
+      "word": "mark",
+      "frequency": 127,
+      "meanings": {
+        "general": "印、点数",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 744,
+      "word": "church",
+      "frequency": 127,
+      "meanings": {
+        "general": "教会",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 745,
+      "word": "machine",
+      "frequency": 126,
+      "meanings": {
+        "general": "機械",
+        "it": "マシン（virtual machine / machine learning）"
+      },
+      "known": null
+    },
+    {
+      "rank": 746,
+      "word": "achieve",
+      "frequency": 126,
+      "meanings": {
+        "general": "達成する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 747,
+      "word": "item",
+      "frequency": 126,
+      "meanings": {
+        "general": "項目、品物",
+        "it": "項目（list item / menu item）"
+      },
+      "known": null
+    },
+    {
+      "rank": 748,
+      "word": "prove",
+      "frequency": 126,
+      "meanings": {
+        "general": "証明する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 749,
+      "word": "cent",
+      "frequency": 126,
+      "meanings": {
+        "general": "セント",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 750,
+      "word": "season",
+      "frequency": 126,
+      "meanings": {
+        "general": "季節、シーズン",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 751,
+      "word": "floor",
+      "frequency": 126,
+      "meanings": {
+        "general": "床、階",
+        "it": "切り捨て（Math.floor）"
+      },
+      "known": null
+    },
+    {
+      "rank": 752,
+      "word": "stuff",
+      "frequency": 126,
+      "meanings": {
+        "general": "もの、こと",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 753,
+      "word": "wide",
+      "frequency": 126,
+      "meanings": {
+        "general": "広い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 754,
+      "word": "anyone",
+      "frequency": 126,
+      "meanings": {
+        "general": "誰でも",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 755,
+      "word": "method",
+      "frequency": 126,
+      "meanings": {
+        "general": "方法",
+        "it": "メソッド（class method / HTTP method）"
+      },
+      "known": null
+    },
+    {
+      "rank": 756,
+      "word": "analysis",
+      "frequency": 126,
+      "meanings": {
+        "general": "分析",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 757,
+      "word": "election",
+      "frequency": 126,
+      "meanings": {
+        "general": "選挙",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 758,
+      "word": "military",
+      "frequency": 126,
+      "meanings": {
+        "general": "軍の、軍隊",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 759,
+      "word": "hotel",
+      "frequency": 126,
+      "meanings": {
+        "general": "ホテル",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 760,
+      "word": "club",
+      "frequency": 126,
+      "meanings": {
+        "general": "クラブ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 761,
+      "word": "below",
+      "frequency": 126,
+      "meanings": {
+        "general": "〜の下に、以下に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 762,
+      "word": "movie",
+      "frequency": 126,
+      "meanings": {
+        "general": "映画",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 763,
+      "word": "doctor",
+      "frequency": 125,
+      "meanings": {
+        "general": "医者",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 764,
+      "word": "discussion",
+      "frequency": 125,
+      "meanings": {
+        "general": "議論",
+        "it": "ディスカッション（GitHub Discussions）"
+      },
+      "known": null
+    },
+    {
+      "rank": 765,
+      "word": "sorry",
+      "frequency": 125,
+      "meanings": {
+        "general": "すみません、残念な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 766,
+      "word": "challenge",
+      "frequency": 125,
+      "meanings": {
+        "general": "挑戦、課題",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 767,
+      "word": "nation",
+      "frequency": 125,
+      "meanings": {
+        "general": "国家、国民",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 768,
+      "word": "nearly",
+      "frequency": 125,
+      "meanings": {
+        "general": "ほぼ、ほとんど",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 769,
+      "word": "statement",
+      "frequency": 125,
+      "meanings": {
+        "general": "声明、発言",
+        "it": "文（if statement / SQL statement）"
+      },
+      "known": null
+    },
+    {
+      "rank": 770,
+      "word": "link",
+      "frequency": 124,
+      "meanings": {
+        "general": "つなぐ、リンク",
+        "it": "リンク（hyperlink / symbolic link）"
+      },
+      "known": null
+    },
+    {
+      "rank": 771,
+      "word": "despite",
+      "frequency": 124,
+      "meanings": {
+        "general": "〜にもかかわらず",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 772,
+      "word": "introduce",
+      "frequency": 124,
+      "meanings": {
+        "general": "紹介する、導入する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 773,
+      "word": "advantage",
+      "frequency": 124,
+      "meanings": {
+        "general": "利点、有利",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 774,
+      "word": "ready",
+      "frequency": 124,
+      "meanings": {
+        "general": "準備ができた",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 775,
+      "word": "marry",
+      "frequency": 124,
+      "meanings": {
+        "general": "結婚する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 776,
+      "word": "strike",
+      "frequency": 124,
+      "meanings": {
+        "general": "打つ、ストライキ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 777,
+      "word": "mile",
+      "frequency": 124,
+      "meanings": {
+        "general": "マイル",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 778,
+      "word": "seek",
+      "frequency": 123,
+      "meanings": {
+        "general": "探す、求める",
+        "it": "シークする（seek in a file）"
+      },
+      "known": null
+    },
+    {
+      "rank": 779,
+      "word": "ability",
+      "frequency": 123,
+      "meanings": {
+        "general": "能力",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 780,
+      "word": "unit",
+      "frequency": 123,
+      "meanings": {
+        "general": "単位、部門",
+        "it": "ユニット（unit test）"
+      },
+      "known": null
+    },
+    {
+      "rank": 781,
+      "word": "card",
+      "frequency": 123,
+      "meanings": {
+        "general": "カード",
+        "it": "カード（UI card component）"
+      },
+      "known": null
+    },
+    {
+      "rank": 782,
+      "word": "hospital",
+      "frequency": 123,
+      "meanings": {
+        "general": "病院",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 783,
+      "word": "quickly",
+      "frequency": 122,
+      "meanings": {
+        "general": "素早く",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 784,
+      "word": "interview",
+      "frequency": 122,
+      "meanings": {
+        "general": "面接、インタビュー",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 785,
+      "word": "agreement",
+      "frequency": 122,
+      "meanings": {
+        "general": "合意、契約",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 786,
+      "word": "release",
+      "frequency": 122,
+      "meanings": {
+        "general": "解放する、発表する",
+        "it": "リリースする（release a version）"
+      },
+      "known": null
+    },
+    {
+      "rank": 787,
+      "word": "tax",
+      "frequency": 122,
+      "meanings": {
+        "general": "税金",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 788,
+      "word": "solution",
+      "frequency": 122,
+      "meanings": {
+        "general": "解決、溶液",
+        "it": "解決策（solution / workaround）"
+      },
+      "known": null
+    },
+    {
+      "rank": 789,
+      "word": "capital",
+      "frequency": 121,
+      "meanings": {
+        "general": "首都、資本",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 790,
+      "word": "popular",
+      "frequency": 121,
+      "meanings": {
+        "general": "人気のある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 791,
+      "word": "specific",
+      "frequency": 121,
+      "meanings": {
+        "general": "具体的な、特定の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 792,
+      "word": "beautiful",
+      "frequency": 121,
+      "meanings": {
+        "general": "美しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 793,
+      "word": "fear",
+      "frequency": 121,
+      "meanings": {
+        "general": "恐れ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 794,
+      "word": "aim",
+      "frequency": 121,
+      "meanings": {
+        "general": "目標、狙う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 795,
+      "word": "television",
+      "frequency": 120,
+      "meanings": {
+        "general": "テレビ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 796,
+      "word": "serious",
+      "frequency": 120,
+      "meanings": {
+        "general": "深刻な、真剣な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 797,
+      "word": "target",
+      "frequency": 120,
+      "meanings": {
+        "general": "目標、対象",
+        "it": "ターゲット（build target / event.target）"
+      },
+      "known": null
+    },
+    {
+      "rank": 798,
+      "word": "degree",
+      "frequency": 120,
+      "meanings": {
+        "general": "程度、学位、度",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 799,
+      "word": "pull",
+      "frequency": 120,
+      "meanings": {
+        "general": "引く",
+        "it": "プル（git pull / pull request）"
+      },
+      "known": null
+    },
+    {
+      "rank": 800,
+      "word": "red",
+      "frequency": 119,
+      "meanings": {
+        "general": "赤い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 801,
+      "word": "husband",
+      "frequency": 119,
+      "meanings": {
+        "general": "夫",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 802,
+      "word": "access",
+      "frequency": 119,
+      "meanings": {
+        "general": "アクセス、利用する",
+        "it": "アクセス（access control / access token）"
+      },
+      "known": null
+    },
+    {
+      "rank": 803,
+      "word": "movement",
+      "frequency": 119,
+      "meanings": {
+        "general": "動き、運動",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 804,
+      "word": "treat",
+      "frequency": 119,
+      "meanings": {
+        "general": "扱う、ごちそうする",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 805,
+      "word": "identify",
+      "frequency": 118,
+      "meanings": {
+        "general": "特定する、識別する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 806,
+      "word": "loss",
+      "frequency": 118,
+      "meanings": {
+        "general": "損失、喪失",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 807,
+      "word": "shall",
+      "frequency": 118,
+      "meanings": {
+        "general": "〜するものとする",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 808,
+      "word": "modern",
+      "frequency": 117,
+      "meanings": {
+        "general": "現代の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 809,
+      "word": "pressure",
+      "frequency": 117,
+      "meanings": {
+        "general": "圧力、プレッシャー",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 810,
+      "word": "bus",
+      "frequency": 117,
+      "meanings": {
+        "general": "バス",
+        "it": "バス（event bus / message bus）"
+      },
+      "known": null
+    },
+    {
+      "rank": 811,
+      "word": "treatment",
+      "frequency": 117,
+      "meanings": {
+        "general": "治療、扱い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 812,
+      "word": "conference",
+      "frequency": 117,
+      "meanings": {
+        "general": "会議",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 813,
+      "word": "yourself",
+      "frequency": 117,
+      "meanings": {
+        "general": "あなた自身",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 814,
+      "word": "supply",
+      "frequency": 116,
+      "meanings": {
+        "general": "供給する、供給",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 815,
+      "word": "village",
+      "frequency": 116,
+      "meanings": {
+        "general": "村",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 816,
+      "word": "worth",
+      "frequency": 116,
+      "meanings": {
+        "general": "〜の価値がある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 817,
+      "word": "natural",
+      "frequency": 116,
+      "meanings": {
+        "general": "自然な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 818,
+      "word": "express",
+      "frequency": 116,
+      "meanings": {
+        "general": "表現する、急行の",
+        "it": "Express（Express.js フレームワーク）"
+      },
+      "known": null
+    },
+    {
+      "rank": 819,
+      "word": "indicate",
+      "frequency": 116,
+      "meanings": {
+        "general": "示す、指し示す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 820,
+      "word": "attend",
+      "frequency": 116,
+      "meanings": {
+        "general": "出席する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 821,
+      "word": "brother",
+      "frequency": 116,
+      "meanings": {
+        "general": "兄弟",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 822,
+      "word": "investment",
+      "frequency": 116,
+      "meanings": {
+        "general": "投資",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 823,
+      "word": "score",
+      "frequency": 115,
+      "meanings": {
+        "general": "点数、得点する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 824,
+      "word": "organize",
+      "frequency": 115,
+      "meanings": {
+        "general": "組織する、整理する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 825,
+      "word": "trip",
+      "frequency": 115,
+      "meanings": {
+        "general": "旅行",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 826,
+      "word": "beyond",
+      "frequency": 115,
+      "meanings": {
+        "general": "〜を超えて",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 827,
+      "word": "sleep",
+      "frequency": 115,
+      "meanings": {
+        "general": "眠る、睡眠",
+        "it": "スリープ（sleep / thread.sleep）"
+      },
+      "known": null
+    },
+    {
+      "rank": 828,
+      "word": "fish",
+      "frequency": 115,
+      "meanings": {
+        "general": "魚",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 829,
+      "word": "promise",
+      "frequency": 115,
+      "meanings": {
+        "general": "約束する、約束",
+        "it": "プロミス（Promise / async Promise）"
+      },
+      "known": null
+    },
+    {
+      "rank": 830,
+      "word": "potential",
+      "frequency": 115,
+      "meanings": {
+        "general": "潜在的な、可能性",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 831,
+      "word": "energy",
+      "frequency": 115,
+      "meanings": {
+        "general": "エネルギー",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 832,
+      "word": "trouble",
+      "frequency": 115,
+      "meanings": {
+        "general": "問題、困難",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 833,
+      "word": "relation",
+      "frequency": 114,
+      "meanings": {
+        "general": "関係",
+        "it": "リレーション（database relation）"
+      },
+      "known": null
+    },
+    {
+      "rank": 834,
+      "word": "touch",
+      "frequency": 114,
+      "meanings": {
+        "general": "触れる、感動させる",
+        "it": "タッチ（touch event / touch コマンド）"
+      },
+      "known": null
+    },
+    {
+      "rank": 835,
+      "word": "file",
+      "frequency": 114,
+      "meanings": {
+        "general": "ファイル、書類",
+        "it": "ファイル（file system / file path）"
+      },
+      "known": null
+    },
+    {
+      "rank": 836,
+      "word": "middle",
+      "frequency": 114,
+      "meanings": {
+        "general": "中間、真ん中",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 837,
+      "word": "bar",
+      "frequency": 114,
+      "meanings": {
+        "general": "棒、バー",
+        "it": "バー（toolbar / sidebar / progress bar）"
+      },
+      "known": null
+    },
+    {
+      "rank": 838,
+      "word": "suffer",
+      "frequency": 113,
+      "meanings": {
+        "general": "苦しむ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 839,
+      "word": "strategy",
+      "frequency": 113,
+      "meanings": {
+        "general": "戦略",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 840,
+      "word": "deep",
+      "frequency": 113,
+      "meanings": {
+        "general": "深い",
+        "it": "深い（deep copy / deep learning）"
+      },
+      "known": null
+    },
+    {
+      "rank": 841,
+      "word": "except",
+      "frequency": 113,
+      "meanings": {
+        "general": "〜を除いて",
+        "it": "例外処理（except in Python）"
+      },
+      "known": null
+    },
+    {
+      "rank": 842,
+      "word": "clean",
+      "frequency": 113,
+      "meanings": {
+        "general": "きれいな、掃除する",
+        "it": "クリーンにする（clean build / clean code）"
+      },
+      "known": null
+    },
+    {
+      "rank": 843,
+      "word": "tend",
+      "frequency": 113,
+      "meanings": {
+        "general": "〜する傾向がある",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 844,
+      "word": "advance",
+      "frequency": 113,
+      "meanings": {
+        "general": "前進する、進歩",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 845,
+      "word": "fill",
+      "frequency": 113,
+      "meanings": {
+        "general": "満たす、埋める",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 846,
+      "word": "star",
+      "frequency": 113,
+      "meanings": {
+        "general": "星、スター",
+        "it": "スター（GitHub star）"
+      },
+      "known": null
+    },
+    {
+      "rank": 847,
+      "word": "network",
+      "frequency": 112,
+      "meanings": {
+        "general": "ネットワーク、網",
+        "it": "ネットワーク（network request / neural network）"
+      },
+      "known": null
+    },
+    {
+      "rank": 848,
+      "word": "generally",
+      "frequency": 112,
+      "meanings": {
+        "general": "一般的に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 849,
+      "word": "operation",
+      "frequency": 112,
+      "meanings": {
+        "general": "操作、手術",
+        "it": "操作（CRUD operation）"
+      },
+      "known": null
+    },
+    {
+      "rank": 850,
+      "word": "match",
+      "frequency": 111,
+      "meanings": {
+        "general": "試合、一致する",
+        "it": "マッチする（pattern match / regex match）"
+      },
+      "known": null
+    },
+    {
+      "rank": 851,
+      "word": "avoid",
+      "frequency": 111,
+      "meanings": {
+        "general": "避ける",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 852,
+      "word": "seat",
+      "frequency": 111,
+      "meanings": {
+        "general": "席、座席",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 853,
+      "word": "throw",
+      "frequency": 111,
+      "meanings": {
+        "general": "投げる",
+        "it": "投げる（throw an error / throw an exception）"
+      },
+      "known": null
+    },
+    {
+      "rank": 854,
+      "word": "task",
+      "frequency": 111,
+      "meanings": {
+        "general": "仕事、課題",
+        "it": "タスク（task runner / async task）"
+      },
+      "known": null
+    },
+    {
+      "rank": 855,
+      "word": "normal",
+      "frequency": 110,
+      "meanings": {
+        "general": "普通の、正常な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 856,
+      "word": "goal",
+      "frequency": 110,
+      "meanings": {
+        "general": "目標、ゴール",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 857,
+      "word": "associate",
+      "frequency": 110,
+      "meanings": {
+        "general": "関連づける、仲間",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 858,
+      "word": "blue",
+      "frequency": 110,
+      "meanings": {
+        "general": "青い",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 859,
+      "word": "positive",
+      "frequency": 110,
+      "meanings": {
+        "general": "肯定的な、正の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 860,
+      "word": "option",
+      "frequency": 110,
+      "meanings": {
+        "general": "選択肢",
+        "it": "オプション（command option / configuration option）"
+      },
+      "known": null
+    },
+    {
+      "rank": 861,
+      "word": "box",
+      "frequency": 109,
+      "meanings": {
+        "general": "箱",
+        "it": "ボックス（checkbox / text box）"
+      },
+      "known": null
+    },
+    {
+      "rank": 862,
+      "word": "huge",
+      "frequency": 109,
+      "meanings": {
+        "general": "巨大な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 863,
+      "word": "message",
+      "frequency": 109,
+      "meanings": {
+        "general": "メッセージ",
+        "it": "メッセージ（error message / commit message）"
+      },
+      "known": null
+    },
+    {
+      "rank": 864,
+      "word": "instance",
+      "frequency": 109,
+      "meanings": {
+        "general": "例、場合",
+        "it": "インスタンス（class instance）"
+      },
+      "known": null
+    },
+    {
+      "rank": 865,
+      "word": "style",
+      "frequency": 109,
+      "meanings": {
+        "general": "様式、スタイル",
+        "it": "スタイル（CSS style）"
+      },
+      "known": null
+    },
+    {
+      "rank": 866,
+      "word": "refer",
+      "frequency": 109,
+      "meanings": {
+        "general": "参照する、言及する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 867,
+      "word": "cold",
+      "frequency": 109,
+      "meanings": {
+        "general": "寒い、冷たい",
+        "it": "コールド（cold start）"
+      },
+      "known": null
+    },
+    {
+      "rank": 868,
+      "word": "push",
+      "frequency": 109,
+      "meanings": {
+        "general": "押す",
+        "it": "プッシュ（git push / push notification）"
+      },
+      "known": null
+    },
+    {
+      "rank": 869,
+      "word": "quarter",
+      "frequency": 109,
+      "meanings": {
+        "general": "4分の1、四半期",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 870,
+      "word": "assume",
+      "frequency": 108,
+      "meanings": {
+        "general": "仮定する、推測する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 871,
+      "word": "baby",
+      "frequency": 108,
+      "meanings": {
+        "general": "赤ちゃん",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 872,
+      "word": "successful",
+      "frequency": 108,
+      "meanings": {
+        "general": "成功した",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 873,
+      "word": "sing",
+      "frequency": 108,
+      "meanings": {
+        "general": "歌う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 874,
+      "word": "doubt",
+      "frequency": 108,
+      "meanings": {
+        "general": "疑い、疑う",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 875,
+      "word": "competition",
+      "frequency": 108,
+      "meanings": {
+        "general": "競争、大会",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 876,
+      "word": "theory",
+      "frequency": 108,
+      "meanings": {
+        "general": "理論",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 877,
+      "word": "propose",
+      "frequency": 107,
+      "meanings": {
+        "general": "提案する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 878,
+      "word": "reference",
+      "frequency": 107,
+      "meanings": {
+        "general": "参照、参考",
+        "it": "参照（reference type / pass by reference）"
+      },
+      "known": null
+    },
+    {
+      "rank": 879,
+      "word": "argument",
+      "frequency": 107,
+      "meanings": {
+        "general": "議論、主張",
+        "it": "引数（function argument）"
+      },
+      "known": null
+    },
+    {
+      "rank": 880,
+      "word": "adult",
+      "frequency": 107,
+      "meanings": {
+        "general": "大人、成人の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 881,
+      "word": "fly",
+      "frequency": 107,
+      "meanings": {
+        "general": "飛ぶ、ハエ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 882,
+      "word": "document",
+      "frequency": 107,
+      "meanings": {
+        "general": "文書、書類",
+        "it": "ドキュメント（document object / documentation）"
+      },
+      "known": null
+    },
+    {
+      "rank": 883,
+      "word": "pattern",
+      "frequency": 107,
+      "meanings": {
+        "general": "模様、パターン",
+        "it": "パターン（design pattern / regex pattern）"
+      },
+      "known": null
+    },
+    {
+      "rank": 884,
+      "word": "application",
+      "frequency": 107,
+      "meanings": {
+        "general": "応用、申請",
+        "it": "アプリケーション（web application）"
+      },
+      "known": null
+    },
+    {
+      "rank": 885,
+      "word": "hot",
+      "frequency": 107,
+      "meanings": {
+        "general": "熱い、暑い",
+        "it": "ホット（hot reload / hot fix）"
+      },
+      "known": null
+    },
+    {
+      "rank": 886,
+      "word": "obviously",
+      "frequency": 107,
+      "meanings": {
+        "general": "明らかに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 887,
+      "word": "unclear",
+      "frequency": 106,
+      "meanings": {
+        "general": "不明確な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 888,
+      "word": "bill",
+      "frequency": 106,
+      "meanings": {
+        "general": "請求書、法案、紙幣",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 889,
+      "word": "search",
+      "frequency": 106,
+      "meanings": {
+        "general": "探す、検索する",
+        "it": "検索する（search query / binary search）"
+      },
+      "known": null
+    },
+    {
+      "rank": 890,
+      "word": "separate",
+      "frequency": 106,
+      "meanings": {
+        "general": "分ける、別々の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 891,
+      "word": "central",
+      "frequency": 106,
+      "meanings": {
+        "general": "中心の、中央の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 892,
+      "word": "career",
+      "frequency": 106,
+      "meanings": {
+        "general": "経歴、職業",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 893,
+      "word": "anyway",
+      "frequency": 106,
+      "meanings": {
+        "general": "とにかく",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 894,
+      "word": "speech",
+      "frequency": 106,
+      "meanings": {
+        "general": "スピーチ、演説",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 895,
+      "word": "dog",
+      "frequency": 106,
+      "meanings": {
+        "general": "犬",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 896,
+      "word": "officer",
+      "frequency": 106,
+      "meanings": {
+        "general": "役員、警察官",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 897,
+      "word": "throughout",
+      "frequency": 106,
+      "meanings": {
+        "general": "〜の間中、全体にわたって",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 898,
+      "word": "oil",
+      "frequency": 105,
+      "meanings": {
+        "general": "油、石油",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 899,
+      "word": "dress",
+      "frequency": 105,
+      "meanings": {
+        "general": "ドレス、服を着る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 900,
+      "word": "profit",
+      "frequency": 105,
+      "meanings": {
+        "general": "利益",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 901,
+      "word": "guess",
+      "frequency": 105,
+      "meanings": {
+        "general": "推測する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 902,
+      "word": "fun",
+      "frequency": 105,
+      "meanings": {
+        "general": "楽しみ、楽しい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 903,
+      "word": "protect",
+      "frequency": 105,
+      "meanings": {
+        "general": "保護する",
+        "it": "保護する（protected branch）"
+      },
+      "known": null
+    },
+    {
+      "rank": 904,
+      "word": "resource",
+      "frequency": 105,
+      "meanings": {
+        "general": "資源、リソース",
+        "it": "リソース（API resource / cloud resource）"
+      },
+      "known": null
+    },
+    {
+      "rank": 905,
+      "word": "science",
+      "frequency": 104,
+      "meanings": {
+        "general": "科学",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 906,
+      "word": "disease",
+      "frequency": 104,
+      "meanings": {
+        "general": "病気",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 907,
+      "word": "balance",
+      "frequency": 104,
+      "meanings": {
+        "general": "バランス、残高",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 908,
+      "word": "damage",
+      "frequency": 104,
+      "meanings": {
+        "general": "損害、損傷する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 909,
+      "word": "basis",
+      "frequency": 104,
+      "meanings": {
+        "general": "基礎、根拠",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 910,
+      "word": "author",
+      "frequency": 104,
+      "meanings": {
+        "general": "著者、作者",
+        "it": "著者（commit author）"
+      },
+      "known": null
+    },
+    {
+      "rank": 911,
+      "word": "basic",
+      "frequency": 104,
+      "meanings": {
+        "general": "基本的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 912,
+      "word": "encourage",
+      "frequency": 104,
+      "meanings": {
+        "general": "励ます、促す",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 913,
+      "word": "hair",
+      "frequency": 104,
+      "meanings": {
+        "general": "髪",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 914,
+      "word": "male",
+      "frequency": 103,
+      "meanings": {
+        "general": "男性の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 915,
+      "word": "operate",
+      "frequency": 103,
+      "meanings": {
+        "general": "操作する、運営する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 916,
+      "word": "reflect",
+      "frequency": 103,
+      "meanings": {
+        "general": "反映する、反射する",
+        "it": "リフレクション（reflection API）"
+      },
+      "known": null
+    },
+    {
+      "rank": 917,
+      "word": "exercise",
+      "frequency": 103,
+      "meanings": {
+        "general": "運動、練習",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 918,
+      "word": "useful",
+      "frequency": 103,
+      "meanings": {
+        "general": "役に立つ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 919,
+      "word": "restaurant",
+      "frequency": 103,
+      "meanings": {
+        "general": "レストラン",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 920,
+      "word": "income",
+      "frequency": 103,
+      "meanings": {
+        "general": "収入",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 921,
+      "word": "property",
+      "frequency": 103,
+      "meanings": {
+        "general": "財産、性質",
+        "it": "プロパティ（CSS property / object property）"
+      },
+      "known": null
+    },
+    {
+      "rank": 922,
+      "word": "previous",
+      "frequency": 103,
+      "meanings": {
+        "general": "前の、以前の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 923,
+      "word": "dark",
+      "frequency": 103,
+      "meanings": {
+        "general": "暗い",
+        "it": "ダーク（dark mode / dark theme）"
+      },
+      "known": null
+    },
+    {
+      "rank": 924,
+      "word": "imagine",
+      "frequency": 102,
+      "meanings": {
+        "general": "想像する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 925,
+      "word": "okay",
+      "frequency": 102,
+      "meanings": {
+        "general": "大丈夫、よい",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 926,
+      "word": "earn",
+      "frequency": 102,
+      "meanings": {
+        "general": "稼ぐ、得る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 927,
+      "word": "daughter",
+      "frequency": 102,
+      "meanings": {
+        "general": "娘",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 928,
+      "word": "post",
+      "frequency": 102,
+      "meanings": {
+        "general": "郵便、投稿する、柱",
+        "it": "POST（HTTP POSTメソッド）"
+      },
+      "known": null
+    },
+    {
+      "rank": 929,
+      "word": "newspaper",
+      "frequency": 102,
+      "meanings": {
+        "general": "新聞",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 930,
+      "word": "define",
+      "frequency": 101,
+      "meanings": {
+        "general": "定義する",
+        "it": "定義する（define a function / define a variable）"
+      },
+      "known": null
+    },
+    {
+      "rank": 931,
+      "word": "conclusion",
+      "frequency": 101,
+      "meanings": {
+        "general": "結論",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 932,
+      "word": "clock",
+      "frequency": 101,
+      "meanings": {
+        "general": "時計",
+        "it": "クロック（clock speed / system clock）"
+      },
+      "known": null
+    },
+    {
+      "rank": 933,
+      "word": "everybody",
+      "frequency": 101,
+      "meanings": {
+        "general": "全員",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 934,
+      "word": "weekend",
+      "frequency": 101,
+      "meanings": {
+        "general": "週末",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 935,
+      "word": "perform",
+      "frequency": 101,
+      "meanings": {
+        "general": "実行する、演じる",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 936,
+      "word": "professional",
+      "frequency": 101,
+      "meanings": {
+        "general": "専門的な、プロの",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 937,
+      "word": "mine",
+      "frequency": 101,
+      "meanings": {
+        "general": "私のもの、鉱山",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 938,
+      "word": "debate",
+      "frequency": 101,
+      "meanings": {
+        "general": "討論、議論する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 939,
+      "word": "memory",
+      "frequency": 101,
+      "meanings": {
+        "general": "記憶、思い出",
+        "it": "メモリ（memory allocation / memory leak）"
+      },
+      "known": null
+    },
+    {
+      "rank": 940,
+      "word": "green",
+      "frequency": 101,
+      "meanings": {
+        "general": "緑の",
+        "it": "グリーン（green build / CI green）"
+      },
+      "known": null
+    },
+    {
+      "rank": 941,
+      "word": "song",
+      "frequency": 101,
+      "meanings": {
+        "general": "歌",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 942,
+      "word": "object",
+      "frequency": 100,
+      "meanings": {
+        "general": "物体、対象、反対する",
+        "it": "オブジェクト（object in OOP / JSON object）"
+      },
+      "known": null
+    },
+    {
+      "rank": 943,
+      "word": "maintain",
+      "frequency": 100,
+      "meanings": {
+        "general": "維持する",
+        "it": "メンテナンスする（maintain a project）"
+      },
+      "known": null
+    },
+    {
+      "rank": 944,
+      "word": "credit",
+      "frequency": 100,
+      "meanings": {
+        "general": "信用、クレジット",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 945,
+      "word": "ring",
+      "frequency": 100,
+      "meanings": {
+        "general": "指輪、鳴る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 946,
+      "word": "discover",
+      "frequency": 99,
+      "meanings": {
+        "general": "発見する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 947,
+      "word": "dead",
+      "frequency": 99,
+      "meanings": {
+        "general": "死んだ",
+        "it": "デッド（dead code / deadlock）"
+      },
+      "known": null
+    },
+    {
+      "rank": 948,
+      "word": "afternoon",
+      "frequency": 99,
+      "meanings": {
+        "general": "午後",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 949,
+      "word": "prefer",
+      "frequency": 99,
+      "meanings": {
+        "general": "〜を好む",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 950,
+      "word": "extend",
+      "frequency": 99,
+      "meanings": {
+        "general": "拡張する、延ばす",
+        "it": "拡張する（extend a class / extend an interface）"
+      },
+      "known": null
+    },
+    {
+      "rank": 951,
+      "word": "possibility",
+      "frequency": 99,
+      "meanings": {
+        "general": "可能性",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 952,
+      "word": "direction",
+      "frequency": 99,
+      "meanings": {
+        "general": "方向、指示",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 953,
+      "word": "facility",
+      "frequency": 99,
+      "meanings": {
+        "general": "施設、設備",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 954,
+      "word": "variety",
+      "frequency": 98,
+      "meanings": {
+        "general": "多様性、種類",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 955,
+      "word": "daily",
+      "frequency": 98,
+      "meanings": {
+        "general": "毎日の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 956,
+      "word": "clothes",
+      "frequency": 98,
+      "meanings": {
+        "general": "衣服",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 957,
+      "word": "screen",
+      "frequency": 98,
+      "meanings": {
+        "general": "画面、スクリーン",
+        "it": "画面（screen size / screen reader）"
+      },
+      "known": null
+    },
+    {
+      "rank": 958,
+      "word": "track",
+      "frequency": 98,
+      "meanings": {
+        "general": "跡、追跡する",
+        "it": "追跡する（track changes / git track）"
+      },
+      "known": null
+    },
+    {
+      "rank": 959,
+      "word": "dance",
+      "frequency": 97,
+      "meanings": {
+        "general": "踊る、ダンス",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 960,
+      "word": "completely",
+      "frequency": 97,
+      "meanings": {
+        "general": "完全に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 961,
+      "word": "female",
+      "frequency": 97,
+      "meanings": {
+        "general": "女性の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 962,
+      "word": "responsibility",
+      "frequency": 97,
+      "meanings": {
+        "general": "責任",
+        "it": "責任（single responsibility principle）"
+      },
+      "known": null
+    },
+    {
+      "rank": 963,
+      "word": "original",
+      "frequency": 96,
+      "meanings": {
+        "general": "元の、独創的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 964,
+      "word": "sister",
+      "frequency": 96,
+      "meanings": {
+        "general": "姉妹",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 965,
+      "word": "rock",
+      "frequency": 96,
+      "meanings": {
+        "general": "岩",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 966,
+      "word": "dream",
+      "frequency": 96,
+      "meanings": {
+        "general": "夢、夢を見る",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 967,
+      "word": "nor",
+      "frequency": 96,
+      "meanings": {
+        "general": "〜もまた…ない",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 968,
+      "word": "university",
+      "frequency": 96,
+      "meanings": {
+        "general": "大学",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 969,
+      "word": "easily",
+      "frequency": 96,
+      "meanings": {
+        "general": "簡単に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 970,
+      "word": "agency",
+      "frequency": 96,
+      "meanings": {
+        "general": "代理店、機関",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 971,
+      "word": "dollar",
+      "frequency": 96,
+      "meanings": {
+        "general": "ドル",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 972,
+      "word": "garden",
+      "frequency": 95,
+      "meanings": {
+        "general": "庭",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 973,
+      "word": "fix",
+      "frequency": 95,
+      "meanings": {
+        "general": "修理する、修正する",
+        "it": "修正する（fix a bug / hotfix）"
+      },
+      "known": null
+    },
+    {
+      "rank": 974,
+      "word": "ahead",
+      "frequency": 95,
+      "meanings": {
+        "general": "前方に、先に",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 975,
+      "word": "cross",
+      "frequency": 95,
+      "meanings": {
+        "general": "横切る、十字",
+        "it": "クロス（cross-browser / cross-platform）"
+      },
+      "known": null
+    },
+    {
+      "rank": 976,
+      "word": "yeah",
+      "frequency": 95,
+      "meanings": {
+        "general": "うん、ああ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 977,
+      "word": "candidate",
+      "frequency": 94,
+      "meanings": {
+        "general": "候補者",
+        "it": "候補（release candidate）"
+      },
+      "known": null
+    },
+    {
+      "rank": 978,
+      "word": "weight",
+      "frequency": 94,
+      "meanings": {
+        "general": "重さ、重要性",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 979,
+      "word": "legal",
+      "frequency": 94,
+      "meanings": {
+        "general": "法的な、合法の",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 980,
+      "word": "proposal",
+      "frequency": 94,
+      "meanings": {
+        "general": "提案",
+        "it": "提案（TC39 proposal）"
+      },
+      "known": null
+    },
+    {
+      "rank": 981,
+      "word": "version",
+      "frequency": 94,
+      "meanings": {
+        "general": "版、バージョン",
+        "it": "バージョン（version control / version number）"
+      },
+      "known": null
+    },
+    {
+      "rank": 982,
+      "word": "conversation",
+      "frequency": 93,
+      "meanings": {
+        "general": "会話",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 983,
+      "word": "somebody",
+      "frequency": 93,
+      "meanings": {
+        "general": "誰か",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 984,
+      "word": "pound",
+      "frequency": 93,
+      "meanings": {
+        "general": "ポンド",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 985,
+      "word": "magazine",
+      "frequency": 93,
+      "meanings": {
+        "general": "雑誌",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 986,
+      "word": "shape",
+      "frequency": 93,
+      "meanings": {
+        "general": "形",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 987,
+      "word": "sea",
+      "frequency": 93,
+      "meanings": {
+        "general": "海",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 988,
+      "word": "immediately",
+      "frequency": 93,
+      "meanings": {
+        "general": "すぐに、直ちに",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 989,
+      "word": "welcome",
+      "frequency": 93,
+      "meanings": {
+        "general": "歓迎する、ようこそ",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 990,
+      "word": "smile",
+      "frequency": 93,
+      "meanings": {
+        "general": "微笑む、微笑み",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 991,
+      "word": "communication",
+      "frequency": 93,
+      "meanings": {
+        "general": "コミュニケーション、通信",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 992,
+      "word": "agent",
+      "frequency": 92,
+      "meanings": {
+        "general": "代理人、エージェント",
+        "it": "エージェント（user agent / AI agent）"
+      },
+      "known": null
+    },
+    {
+      "rank": 993,
+      "word": "traditional",
+      "frequency": 92,
+      "meanings": {
+        "general": "伝統的な",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 994,
+      "word": "replace",
+      "frequency": 92,
+      "meanings": {
+        "general": "置き換える",
+        "it": "置換する（find and replace / String.replace）"
+      },
+      "known": null
+    },
+    {
+      "rank": 995,
+      "word": "judge",
+      "frequency": 92,
+      "meanings": {
+        "general": "裁判官、判断する",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 996,
+      "word": "herself",
+      "frequency": 92,
+      "meanings": {
+        "general": "彼女自身",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 997,
+      "word": "suddenly",
+      "frequency": 92,
+      "meanings": {
+        "general": "突然",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 998,
+      "word": "generation",
+      "frequency": 92,
+      "meanings": {
+        "general": "世代、生成",
+        "it": "生成（code generation）"
+      },
+      "known": null
+    },
+    {
+      "rank": 999,
+      "word": "estimate",
+      "frequency": 92,
+      "meanings": {
+        "general": "見積もる、推定",
+        "it": null
+      },
+      "known": null
+    },
+    {
+      "rank": 1000,
+      "word": "favorite",
+      "frequency": 92,
+      "meanings": {
+        "general": "お気に入りの",
+        "it": null
+      },
+      "known": null
+    }
+  ]
+}

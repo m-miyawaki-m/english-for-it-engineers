@@ -7,6 +7,7 @@ const emit = defineEmits(['navigate'])
 
 const pages = [
   { id: 'vocabulary', label: '語彙一覧' },
+  { id: 'ngsl-checklist', label: 'NGSL基礎語彙' },
   { id: 'reading', label: '長文読解' },
   { id: 'english-grammar', label: '英文法ガイド' },
   { id: 'grammar', label: '文法解説（技術英語）' },

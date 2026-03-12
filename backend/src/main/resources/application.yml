@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:sqlite:study.db
+    driver-class-name: org.sqlite.JDBC
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+app:
+  docs-base-path: ../docs/curriculum

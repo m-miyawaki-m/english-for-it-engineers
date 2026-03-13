@@ -94,18 +94,18 @@
             <span class="detail-label">IT</span>
             <span class="word-meaning-it">{{ word.meaningIt }}</span>
           </div>
-          <template v-if="getRelated(word.word)">
-            <div v-if="getRelated(word.word).synonyms" class="detail-row">
+          <template v-if="getRelated(word)">
+            <div v-if="getRelated(word).synonyms?.length" class="detail-row">
               <span class="detail-label">同義</span>
-              <span class="related-val">{{ getRelated(word.word).synonyms.join(', ') }}</span>
+              <span class="related-val">{{ getRelated(word).synonyms.join(', ') }}</span>
             </div>
-            <div v-if="getRelated(word.word).antonyms" class="detail-row">
+            <div v-if="getRelated(word).antonyms?.length" class="detail-row">
               <span class="detail-label">対義</span>
-              <span class="related-val">{{ getRelated(word.word).antonyms.join(', ') }}</span>
+              <span class="related-val">{{ getRelated(word).antonyms.join(', ') }}</span>
             </div>
-            <div v-if="getRelated(word.word).derivatives" class="detail-row">
+            <div v-if="getRelated(word).derivatives?.length" class="detail-row">
               <span class="detail-label">派生</span>
-              <span class="related-val">{{ getRelated(word.word).derivatives.join(', ') }}</span>
+              <span class="related-val">{{ getRelated(word).derivatives.join(', ') }}</span>
             </div>
           </template>
         </div>
@@ -133,32 +133,27 @@ const page = ref(0)
 const size = 100
 const totalElements = ref(0)
 
-// モックデータ: 関連語（DB実装後に差し替え）
-const mockRelated = {
-  change: { derivatives: ['changeable', 'unchanged'], synonyms: ['modify', 'alter'], antonyms: ['keep', 'maintain'] },
-  use: { derivatives: ['usage', 'useful', 'usable'], synonyms: ['utilize', 'employ'], antonyms: ['discard'] },
-  make: { derivatives: ['maker', 'making'], synonyms: ['create', 'build', 'produce'], antonyms: ['destroy'] },
-  work: { derivatives: ['worker', 'working', 'workable'], synonyms: ['function', 'operate'], antonyms: ['fail', 'break'] },
-  take: { derivatives: ['taking', 'taken'], synonyms: ['grab', 'acquire'], antonyms: ['give', 'release'] },
-  help: { derivatives: ['helper', 'helpful', 'helpless'], synonyms: ['assist', 'support'], antonyms: ['hinder'] },
-  start: { derivatives: ['starter', 'starting'], synonyms: ['begin', 'initiate'], antonyms: ['stop', 'end'] },
-  call: { derivatives: ['caller', 'callback'], synonyms: ['invoke', 'execute'], antonyms: null },
-  move: { derivatives: ['movement', 'movable'], synonyms: ['shift', 'transfer'], antonyms: ['stay', 'remain'] },
-  set: { derivatives: ['setting', 'setup'], synonyms: ['configure', 'assign'], antonyms: ['unset', 'clear'] },
-  run: { derivatives: ['runner', 'runtime', 'running'], synonyms: ['execute', 'launch'], antonyms: ['stop', 'halt'] },
-  find: { derivatives: ['finder', 'finding'], synonyms: ['search', 'locate'], antonyms: ['lose', 'hide'] },
-  show: { derivatives: ['showing', 'shown'], synonyms: ['display', 'render'], antonyms: ['hide', 'conceal'] },
-  write: { derivatives: ['writer', 'writing', 'writable'], synonyms: ['compose', 'author'], antonyms: ['read'] },
-  read: { derivatives: ['reader', 'readable', 'reading'], synonyms: ['parse', 'interpret'], antonyms: ['write'] },
-  build: { derivatives: ['builder', 'building', 'built'], synonyms: ['construct', 'compile'], antonyms: ['demolish'] },
-  add: { derivatives: ['addition', 'additional'], synonyms: ['append', 'insert'], antonyms: ['remove', 'delete'] },
-  create: { derivatives: ['creation', 'creator', 'creative'], synonyms: ['make', 'generate'], antonyms: ['destroy', 'delete'] },
-  open: { derivatives: ['opener', 'opening'], synonyms: ['launch', 'access'], antonyms: ['close', 'shut'] },
-  close: { derivatives: ['closure', 'closing', 'closed'], synonyms: ['shut', 'terminate'], antonyms: ['open'] },
-}
+// 関連語キャッシュ (word_id -> { synonyms, antonyms, derivatives })
+const relationsCache = ref({})
 
 function getRelated(word) {
-  return mockRelated[word.toLowerCase()] || null
+  const rel = relationsCache.value[word.id]
+  if (!rel) return null
+  const hasData = (rel.synonyms && rel.synonyms.length) ||
+                  (rel.antonyms && rel.antonyms.length) ||
+                  (rel.derivatives && rel.derivatives.length)
+  return hasData ? rel : null
+}
+
+async function fetchRelations(wordList) {
+  if (!wordList.length) return
+  const ids = wordList.map(w => w.id)
+  try {
+    const res = await wordApi.getRelationsBatch(ids)
+    relationsCache.value = { ...relationsCache.value, ...res.data }
+  } catch (e) {
+    // silently ignore - relations are supplementary
+  }
 }
 
 const filters = reactive({
@@ -195,6 +190,7 @@ async function fetchWords() {
   const res = await wordApi.getWords(params)
   words.value = res.data.content
   totalElements.value = res.data.totalElements
+  fetchRelations(res.data.content)
 }
 
 function onSearchInput() {
@@ -301,7 +297,7 @@ fetchWords()
   padding: 8px 12px;
   background: #2a2a4a;
   border-radius: 4px;
-  height: 96px;
+  height: 160px;
   overflow: hidden;
 }
 

@@ -16,6 +16,12 @@ export const wordApi = {
   },
   getStats() {
     return api.get('/words/stats')
+  },
+  getRelations(id) {
+    return api.get(`/words/${id}/relations`)
+  },
+  getRelationsBatch(wordIds) {
+    return api.get('/words/relations', { params: { wordIds: wordIds.join(',') } })
   }
 }
 

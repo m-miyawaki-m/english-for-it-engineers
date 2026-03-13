@@ -6,6 +6,7 @@ public class Word {
     private String meaningGeneral;
     private String meaningIt;
     private String partOfSpeech;
+    private String pronunciationIpa;
     private String domain;
     private String source;
     private Integer level;
@@ -30,6 +31,9 @@ public class Word {
 
     public String getPartOfSpeech() { return partOfSpeech; }
     public void setPartOfSpeech(String partOfSpeech) { this.partOfSpeech = partOfSpeech; }
+
+    public String getPronunciationIpa() { return pronunciationIpa; }
+    public void setPronunciationIpa(String pronunciationIpa) { this.pronunciationIpa = pronunciationIpa; }
 
     public String getDomain() { return domain; }
     public void setDomain(String domain) { this.domain = domain; }

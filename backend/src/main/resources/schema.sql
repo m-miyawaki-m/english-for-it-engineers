@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS words (
     meaning_general TEXT,
     meaning_it TEXT,
     part_of_speech TEXT,
+    pronunciation_ipa TEXT,
     domain TEXT,
     source TEXT,
     level INTEGER NOT NULL DEFAULT 1,
@@ -22,3 +23,13 @@ CREATE TABLE IF NOT EXISTS grammar_topics (
     doc_path TEXT NOT NULL,
     completed INTEGER DEFAULT 0
 );
+
+CREATE TABLE IF NOT EXISTS word_relations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    word_id INTEGER NOT NULL,
+    related_word TEXT NOT NULL,
+    relation_type TEXT NOT NULL CHECK(relation_type IN ('derivative', 'synonym', 'antonym')),
+    FOREIGN KEY (word_id) REFERENCES words(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_word_relations_word_id ON word_relations(word_id);

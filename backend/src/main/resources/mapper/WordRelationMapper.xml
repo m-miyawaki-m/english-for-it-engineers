@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.studyenglish.mapper.WordRelationMapper">
+
+    <select id="findByWordId" resultType="com.studyenglish.model.WordRelation">
+        SELECT id, word_id, related_word, relation_type
+        FROM word_relations
+        WHERE word_id = #{wordId}
+        ORDER BY relation_type, related_word
+    </select>
+
+    <select id="findByWordIds" resultType="com.studyenglish.model.WordRelation">
+        SELECT id, word_id, related_word, relation_type
+        FROM word_relations
+        WHERE word_id IN
+        <foreach item="id" collection="wordIds" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+        ORDER BY word_id, relation_type, related_word
+    </select>
+
+</mapper>

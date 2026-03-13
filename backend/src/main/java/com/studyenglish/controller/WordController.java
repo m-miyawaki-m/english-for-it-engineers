@@ -2,11 +2,13 @@ package com.studyenglish.controller;
 
 import com.studyenglish.model.PageResponse;
 import com.studyenglish.model.Word;
+import com.studyenglish.model.WordRelationsResponse;
 import com.studyenglish.model.WordStatsResponse;
 import com.studyenglish.service.WordService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Map;
 
 @RestController
@@ -56,6 +58,17 @@ public class WordController {
         }
         wordService.updateKnown(id, known);
         return ResponseEntity.ok().build();
+    }
+
+    @GetMapping("/{id}/relations")
+    public WordRelationsResponse getRelations(@PathVariable int id) {
+        return wordService.getRelations(id);
+    }
+
+    @GetMapping("/relations")
+    public Map<Integer, WordRelationsResponse> getRelationsBatch(
+            @RequestParam List<Integer> wordIds) {
+        return wordService.getRelationsBatch(wordIds);
     }
 
     @GetMapping("/stats")

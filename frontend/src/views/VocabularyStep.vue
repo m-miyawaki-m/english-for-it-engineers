@@ -1,5 +1,16 @@
 <template>
   <div class="vocabulary-page">
+    <!-- 検索窓 -->
+    <div class="search-bar">
+      <input
+        v-model="searchKeyword"
+        type="text"
+        placeholder="単語を検索..."
+        class="search-input"
+        @input="onSearchInput"
+      />
+    </div>
+
     <!-- フィルタバー -->
     <div class="filter-bar">
       <div class="filter-group">
@@ -38,9 +49,26 @@
     <div class="word-list">
       <div v-for="word in words" :key="word.id" class="word-row">
         <div class="word-info">
+          <button class="reveal-btn" @click="toggleReveal(word.id)">
+            {{ revealedWords.has(word.id) ? '隠す' : '意味' }}
+          </button>
           <span class="word-text">{{ word.word }}</span>
-          <span class="word-meaning">{{ word.meaningGeneral }}</span>
-          <span v-if="word.meaningIt" class="word-meaning-it">{{ word.meaningIt }}</span>
+          <span v-if="word.partOfSpeech" class="word-pos">{{ word.partOfSpeech }}</span>
+          <div v-if="revealedWords.has(word.id)" class="word-details">
+            <div class="word-meaning">{{ word.meaningGeneral }}</div>
+            <div v-if="word.meaningIt" class="word-meaning-it">IT: {{ word.meaningIt }}</div>
+            <div v-if="getRelated(word.word)" class="word-related">
+              <div v-if="getRelated(word.word).derivatives" class="related-group">
+                派生: {{ getRelated(word.word).derivatives.join(', ') }}
+              </div>
+              <div v-if="getRelated(word.word).synonyms" class="related-group">
+                同義: {{ getRelated(word.word).synonyms.join(', ') }}
+              </div>
+              <div v-if="getRelated(word.word).antonyms" class="related-group">
+                対義: {{ getRelated(word.word).antonyms.join(', ') }}
+              </div>
+            </div>
+          </div>
         </div>
         <div class="word-actions">
           <button
@@ -73,9 +101,40 @@ import { ref, reactive, watch } from 'vue'
 import { wordApi } from '../api/client'
 
 const words = ref([])
+const revealedWords = ref(new Set())
+const searchKeyword = ref('')
+let searchTimer = null
 const page = ref(0)
 const size = 100
 const totalElements = ref(0)
+
+// モックデータ: 関連語（DB実装後に差し替え）
+const mockRelated = {
+  change: { derivatives: ['changeable', 'unchanged'], synonyms: ['modify', 'alter'], antonyms: ['keep', 'maintain'] },
+  use: { derivatives: ['usage', 'useful', 'usable'], synonyms: ['utilize', 'employ'], antonyms: ['discard'] },
+  make: { derivatives: ['maker', 'making'], synonyms: ['create', 'build', 'produce'], antonyms: ['destroy'] },
+  work: { derivatives: ['worker', 'working', 'workable'], synonyms: ['function', 'operate'], antonyms: ['fail', 'break'] },
+  take: { derivatives: ['taking', 'taken'], synonyms: ['grab', 'acquire'], antonyms: ['give', 'release'] },
+  help: { derivatives: ['helper', 'helpful', 'helpless'], synonyms: ['assist', 'support'], antonyms: ['hinder'] },
+  start: { derivatives: ['starter', 'starting'], synonyms: ['begin', 'initiate'], antonyms: ['stop', 'end'] },
+  call: { derivatives: ['caller', 'callback'], synonyms: ['invoke', 'execute'], antonyms: null },
+  move: { derivatives: ['movement', 'movable'], synonyms: ['shift', 'transfer'], antonyms: ['stay', 'remain'] },
+  set: { derivatives: ['setting', 'setup'], synonyms: ['configure', 'assign'], antonyms: ['unset', 'clear'] },
+  run: { derivatives: ['runner', 'runtime', 'running'], synonyms: ['execute', 'launch'], antonyms: ['stop', 'halt'] },
+  find: { derivatives: ['finder', 'finding'], synonyms: ['search', 'locate'], antonyms: ['lose', 'hide'] },
+  show: { derivatives: ['showing', 'shown'], synonyms: ['display', 'render'], antonyms: ['hide', 'conceal'] },
+  write: { derivatives: ['writer', 'writing', 'writable'], synonyms: ['compose', 'author'], antonyms: ['read'] },
+  read: { derivatives: ['reader', 'readable', 'reading'], synonyms: ['parse', 'interpret'], antonyms: ['write'] },
+  build: { derivatives: ['builder', 'building', 'built'], synonyms: ['construct', 'compile'], antonyms: ['demolish'] },
+  add: { derivatives: ['addition', 'additional'], synonyms: ['append', 'insert'], antonyms: ['remove', 'delete'] },
+  create: { derivatives: ['creation', 'creator', 'creative'], synonyms: ['make', 'generate'], antonyms: ['destroy', 'delete'] },
+  open: { derivatives: ['opener', 'opening'], synonyms: ['launch', 'access'], antonyms: ['close', 'shut'] },
+  close: { derivatives: ['closure', 'closing', 'closed'], synonyms: ['shut', 'terminate'], antonyms: ['open'] },
+}
+
+function getRelated(word) {
+  return mockRelated[word.toLowerCase()] || null
+}
 
 const filters = reactive({
   known: null,
@@ -107,9 +166,28 @@ async function fetchWords() {
   if (filters.known !== null) params.known = filters.known
   if (filters.level !== null) params.level = filters.level
   if (filters.source !== null) params.source = filters.source
+  if (searchKeyword.value.trim()) params.keyword = searchKeyword.value.trim()
   const res = await wordApi.getWords(params)
   words.value = res.data.content
   totalElements.value = res.data.totalElements
+}
+
+function onSearchInput() {
+  clearTimeout(searchTimer)
+  searchTimer = setTimeout(() => {
+    page.value = 0
+    fetchWords()
+  }, 300)
+}
+
+function toggleReveal(wordId) {
+  const next = new Set(revealedWords.value)
+  if (next.has(wordId)) {
+    next.delete(wordId)
+  } else {
+    next.add(wordId)
+  }
+  revealedWords.value = next
 }
 
 async function setKnown(word, value) {
@@ -128,6 +206,24 @@ fetchWords()
 </script>
 
 <style scoped>
+.search-bar {
+  margin-bottom: 12px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 12px;
+  background: #2a2a4a;
+  color: #fff;
+  border: 1px solid #3a3a5a;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+.search-input:focus { border-color: #64b5f6; }
+.search-input::placeholder { color: #666; }
+
 .filter-bar {
   display: flex;
   gap: 12px;
@@ -154,8 +250,8 @@ fetchWords()
 .filter-btn.active { background: #81c784; color: #1a1a2e; }
 
 .word-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 4px;
 }
 
@@ -173,11 +269,48 @@ fetchWords()
   align-items: baseline;
   gap: 8px;
   flex-wrap: wrap;
+  min-width: 0;
 }
 
 .word-text { font-weight: bold; color: #fff; }
+.word-pos { color: #888; font-size: 11px; background: #1a1a2e; padding: 1px 6px; border-radius: 3px; }
+
+.word-details {
+  width: 100%;
+  padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .word-meaning { color: #aaa; font-size: 14px; }
 .word-meaning-it { color: #64b5f6; font-size: 13px; }
+
+.word-related {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.related-group {
+  color: #888;
+  font-size: 12px;
+}
+
+.reveal-btn {
+  padding: 2px 8px;
+  background: #3a3a5a;
+  color: #aaa;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 11px;
+  flex-shrink: 0;
+  width: 72px;
+  text-align: center;
+}
+.reveal-btn:hover { color: #fff; }
 
 .word-actions { display: flex; gap: 4px; }
 

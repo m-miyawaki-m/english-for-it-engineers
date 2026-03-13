@@ -17,6 +17,9 @@
             <if test="known != null">
                 AND known = #{known}
             </if>
+            <if test="keyword != null and keyword != ''">
+                AND word LIKE '%' || #{keyword} || '%'
+            </if>
         </where>
     </sql>
 

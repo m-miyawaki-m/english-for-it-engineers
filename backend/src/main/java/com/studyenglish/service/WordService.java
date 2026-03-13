@@ -20,10 +20,10 @@ public class WordService {
         this.wordMapper = wordMapper;
     }
 
-    public PageResponse<Word> getWords(Integer level, String source, Integer known, int page, int size) {
+    public PageResponse<Word> getWords(Integer level, String source, Integer known, String keyword, int page, int size) {
         int offset = page * size;
-        List<Word> words = wordMapper.findAll(level, source, known, offset, size);
-        int total = wordMapper.countAll(level, source, known);
+        List<Word> words = wordMapper.findAll(level, source, known, keyword, offset, size);
+        int total = wordMapper.countAll(level, source, known, keyword);
         return new PageResponse<>(words, page, size, total);
     }
 

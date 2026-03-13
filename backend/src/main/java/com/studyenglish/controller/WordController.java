@@ -24,9 +24,10 @@ public class WordController {
             @RequestParam(required = false) Integer level,
             @RequestParam(required = false) String source,
             @RequestParam(required = false) Integer known,
+            @RequestParam(required = false) String keyword,
             @RequestParam(defaultValue = "0") int page,
             @RequestParam(defaultValue = "100") int size) {
-        return wordService.getWords(level, source, known, page, size);
+        return wordService.getWords(level, source, known, keyword, page, size);
     }
 
     @GetMapping("/{id}")

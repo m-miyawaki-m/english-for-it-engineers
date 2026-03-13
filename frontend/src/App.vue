@@ -4,6 +4,9 @@
       <router-link to="/" class="nav-item" :class="{ active: $route.name === 'dashboard' }">
         Dashboard
       </router-link>
+      <router-link to="/curriculum" class="nav-item" :class="{ active: $route.name === 'curriculum' }">
+        カリキュラム
+      </router-link>
       <router-link to="/vocabulary" class="nav-item" :class="{ active: $route.name === 'vocabulary' }">
         単語
       </router-link>
